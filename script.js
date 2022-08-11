@@ -11,6 +11,7 @@ console.log(formatarData(data));
 let diaAtual = new Date();
 let dataPassada = new Date(1981, 05, 01);
 let dataEmMilissegundos = Math.abs(diaAtual.getTime() - dataPassada.getTime());
+
 let diasDeDiferenca = Math.ceil(dataEmMilissegundos / (1000 * 60 * 60 * 24));
 console.log(`A diferença de dias é: ' ${diasDeDiferenca}`);
 
