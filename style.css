@@ -14,17 +14,12 @@ h2 {
 }
 
 h3, h4 {
-    
+    color: rgb(0, 16, 42);
     line-height: 0em;
 }
 
-/* p  {
-    text-align: center;
-}
-
-p { font-size: 14px; line-height: 1.6em; } */
-
 section {
+    color: rgb(0, 16, 42);
     background: white;
     border-radius: 10px;
     padding: 15px;
