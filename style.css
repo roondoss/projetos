@@ -13,6 +13,11 @@ h2 {
     text-align: center;    	
 }
 
+h3, h4 {
+    
+    line-height: 0em;
+}
+
 /* p  {
     text-align: center;
 }
