@@ -8,6 +8,26 @@ header {
     text-align: center;
 }
 
+.pLinks {
+    display: flex;
+    align-items: center; /*centraliza horizontalmente*/
+    justify-content: center; /*cetraliza verticalmente*/
+}
+
+.iLogo {
+    max-width:30px;
+    max-height:30px;
+    width: auto;
+    height: auto;
+}
+
+.iLogoFull {
+    max-width:20px;
+    max-height:20px;
+    width: auto;
+    height: auto;
+}
+
 h2 {
     color: rgb(0, 16, 42);
     text-align: center;    	
@@ -32,4 +52,16 @@ footer {
     color: white;
     text-align: center;
     font-style: italic;
+}
+
+.pLogoRoda {
+    align-items: center; /*centraliza horizontalmente*/
+    justify-content: center; /*cetraliza verticalmente*/
+}
+
+.iLogoRoda {
+    max-width:100px;
+    max-height:100px;
+    width: auto;
+    height: auto;
 }
