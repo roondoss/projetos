@@ -8,10 +8,26 @@ header {
     text-align: center;
 }
 
-a:link, a:visited, a:active {  /* FORMATANDO OS LINKS */
+.linkCabecalho:link, .linkCabecalho:visited, .linkCabecalho:active {  /* FORMATANDO OS LINKS */
     text-decoration:none;
 	font-size:20px;
-	color:#8B929E;
+	color:#000;
+}
+
+.linkCorpo:link, .linkCorpo:visited, .linkCorpo:active {  /* FORMATANDO OS LINKS */
+    text-decoration:none;
+	font-size:20px;
+	color:#000;
+}
+
+.linkRodape:link, .linkRodape:visited, .linkRodape:active {  /* FORMATANDO OS LINKS */
+    text-decoration:none;
+	font-size:20px;
+	color:#fff;
+}
+
+a:hover {
+    font-weight: bold;
 }
 
 a.pLinkRoda:link, a.pLinkRoda:visited, a.pLinkRoda:active {  /* FORMATANDO OS LINKS */
@@ -24,6 +40,10 @@ a.pLinkRoda:link, a.pLinkRoda:visited, a.pLinkRoda:active {  /* FORMATANDO OS LI
     display: flex;
     align-items: center; /*centraliza horizontalmente*/
     justify-content: center; /*cetraliza verticalmente*/
+}
+
+.pLinkRoda {
+    color: #fff;
 }
 
 .iLogo {
