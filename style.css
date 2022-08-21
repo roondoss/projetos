@@ -28,6 +28,7 @@ header {
 
 a:hover {
     font-weight: bold;
+    
 }
 
 a.pLinkRoda:link, a.pLinkRoda:visited, a.pLinkRoda:active {  /* FORMATANDO OS LINKS */
