@@ -8,10 +8,16 @@ header {
     text-align: center;
 }
 
-a:link, a:visited, a:active {
+a:link, a:visited, a:active {  /* FORMATANDO OS LINKS */
     text-decoration:none;
 	font-size:20px;
-	color:#000;
+	color:#8B929E;
+}
+
+a.pLinkRoda:link, a.pLinkRoda:visited, a.pLinkRoda:active {  /* FORMATANDO OS LINKS */
+    text-decoration:none;
+	font-size:20px;
+	color:#fff;
 }
 
 .pLinks {
