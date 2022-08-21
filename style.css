@@ -40,6 +40,10 @@ a.pLinkRoda:link, a.pLinkRoda:visited, a.pLinkRoda:active {  /* FORMATANDO OS LI
     height: auto;
 }
 
+.lHr {
+    border-radius: "8px";
+}
+
 h2 {
     color: rgb(0, 16, 42);
     text-align: center;    	
