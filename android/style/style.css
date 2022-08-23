@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Roboto Mono Light';
+    src: url("fonts/Roboto\ Mono\ Light.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'Roboto Mono Regular';
+    src: url("fonts/Roboto\ Mono\ Regular.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'Roboto Mono Medium';
+    src: url("fonts/Roboto\ Mono\ Medium.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'Roboto Mono Bold';
+    src: url("fonts/Roboto\ Mono\ Bold.ttf") format('truetype');
+}
+
+body {
+    background: #eff1ff;
+    margin: 0px;
+    font-family: Roboto Mono Medium, Arial, Helvetica, sans-serif;
+}
+
+header {
+    color: #10234A;
+    text-align: center;
+}
+nav {
+    background-color: rgb(210, 210, 210);
+    margin: 0px;
+    padding: 4px;
+    box-shadow: 1px 2px 4px #10234aa4;
+}
+nav > a {
+    text-decoration: none;
+    color: #2973b8;
+    font-weight: normal;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+nav > a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+h1 {
+    color: #10234A;
+    font-family: Roboto Mono Bold, Arial, Helvetica, sans-serif;
+    text-shadow: 5px 5px 10px #10234a62;
+}
+
+h2 {
+    color: #2973b8;
+    font-family: Roboto Mono Medium, Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    color: #2973b8;
+    font-family: Roboto Mono Regular, Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: rgb(100, 100, 100);
+}
+
+main {
+    background: white;
+    border-radius: 10px 80px 10px 10px;
+    padding: 16px;
+    width: auto;
+    margin: 32px;
+    box-shadow: 5px 5px 10px #10234aa4;
+}
+
+footer {
+    color: rgb(96, 96, 98);
+    background-color: rgb(210, 210, 210);
+    border-radius: 0px;
+    width: auto;
+    margin: 0px;
+    padding: 8px;
+    text-align: center;
+    font-style: normal;
+}
+footer > p {
+    margin: 0px;
+}
+
+.pLogoRoda {
+    align-items: center;
+    /*centraliza horizontalmente*/
+    justify-content: center;
+    /*cetraliza verticalmente*/
+}
+
+.iLogoRoda {
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+}
