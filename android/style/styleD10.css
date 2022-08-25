@@ -205,3 +205,18 @@ footer a:hover {
     text-decoration: double;
     color: var(--cor1);
 }
+
+.pRoda {
+    align-items: center;
+    /*centraliza horizontalmente*/
+    justify-content: center;
+    /*cetraliza verticalmente*/
+}
+
+.imgRoda {
+    /* ajusta tamanho das imagens */
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+}

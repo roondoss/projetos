@@ -28,3 +28,18 @@ footer {
     text-align: center;
     font-style: italic;
 }
+
+.pRoda {
+    align-items: center;
+    /*centraliza horizontalmente*/
+    justify-content: center;
+    /*cetraliza verticalmente*/
+}
+
+.imgRoda {
+    /* ajusta tamanho das imagens */
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+}
