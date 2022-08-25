@@ -12,17 +12,17 @@ function carregar() {
     if (hora >= 0 && hora < 12) {
         var pDia = "Manha"
         // Bom dia
-        img.src = 'assets/manha.png'
+        img.src = 'img/manha.png'
         document.body.style.background = '#486B53'
     } else if (hora >= 12 && hora < 18) {
         pDia = "Tarde"
         // Boa tarde
-        img.src = 'assets/tarde.png'
+        img.src = 'img/tarde.png'
         document.body.style.background = '#A64835'
     } else {
         pDia = "Noite"
         // Boa noite
-        img.src = 'assets/noite.png'
+        img.src = 'img/noite.png'
         document.body.style.background = '#3B458B'
     }
 }
