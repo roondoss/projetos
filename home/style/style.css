@@ -7,9 +7,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 
 :root {
-    --fonte00: Verdana, Geneva, Tahoma, sans-serif;
-    --fonte01: 'Inconsolata', monospace; 
-    --fonte02: 'Sriracha', cursive;
+    --font00: Verdana, Geneva, Tahoma, sans-serif;
+    --font01: 'Inconsolata', monospace; 
+    --font02: 'Sriracha', cursive;
     
     --cor0: #D5D9E5;
     --cor1: #979EAC;
@@ -17,6 +17,9 @@
     --cor3: #2973b8;
     --cor4: #1D428A;
     --cor5: #10234A;
+    /* COR RODAPÉ */
+    --cor6: #CDCCCC;
+    --cor7: #606063;
 }
 
 * {
@@ -26,6 +29,9 @@
 
 html, body {
     background: var(--cor0);
+    align-items: center;
+    align-content: center;
+    align-self: center;
 }
 
 a {
@@ -48,7 +54,7 @@ header {
 
 header > h1 {
     font-size: 8vw;  /* 6% MUDA O TAMANHO DE ACORDO COM A LARURA DA JANELA */
-    font-family: var(--fonte01);
+    font-family: var(--font01);
     font-variant: small-caps;
     color: var(--cor5);
     padding: 16px;
@@ -56,7 +62,7 @@ header > h1 {
 
 header > p {
     color: var(--cor4);
-    font-family: var(--fonte02);
+    font-family: var(--font02);
     font-size: 1.2em;
     padding-bottom: 20px;
 }
@@ -70,7 +76,7 @@ nav {
 nav > a {
     text-decoration: none;
     color: var(--cor4);
-    font-family: var(--fonte01);
+    font-family: var(--font01);
     font-weight: bold;
     transition-duration: 1s;
     margin-right: 20px;
@@ -84,6 +90,14 @@ nav > a:hover {
 
 }
 
+nav > a::after {
+    content: '\00a0\2198';
+}
+
+nav > a::before {
+    content: '\2714\00a0';
+}
+
 /*______________________________________________________________________________________________________*/
 
         /* CORPO */
@@ -91,33 +105,92 @@ nav > a:hover {
 main {
     background-color: white;
     border-radius: 10px 40px 10px 10px;
+    text-align: center;
+    max-width: 800px;
     padding: 16px;
-    width: auto;
-    min-height: 53vh;
     margin: 32px;
     box-shadow: 5px 5px 10px #10234aa4;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {
     color: var(--cor5);
-    font-family: var(--fonte01);
-    font-weight: 3em;
-    text-shadow: 5px 5px 10px #02040827;
+    font-family: var(--font01);
 }
 
 h2 {
     color: var(--cor4);
-    font-family: var(--fonte01)
+    font-family: var(--font01)
 }
 
 h3 {
     color: var(--cor3);
-    font-family: var(--fonte01)
+    font-family: var(--font01)
 }
 
 p {
-    color: rgb(100, 100, 100);
-    font-family: var(--fonte02)
+    color: var(--cor2);
+    font-family: var(--font02)
+}
+
+main > p > a {
+    text-decoration: none;
+    color: var(--cor2);
+    font-family: var(--font02);
+    font-weight: bold;
+}
+
+main > p > a:hover {
+    text-decoration: underline;
+    background-color: var(--cor0);
+    font-weight: bold;
+    border-radius: 4px;
+
+}
+
+main > p > a::after {
+    content: '\00a0\1f517';
+}
+
+main ul {
+    color: var(--cor2);
+    font-family: var(--font02);
+    text-align: left;
+    list-style-type: '\2714\00a0\00a0';
+    list-style-position: inside;
+    columns: 2;
+}
+
+
+#container {
+    position: relative;
+    border-radius: 10px;
+    background-color: white;
+    height: 480px;
+    
+}
+
+#conteudo h3 {
+    padding-bottom: 8px;
+}
+
+#conteudo {
+    position: absolute;
+    
+    /* POSICIONA A CAIXA */
+    left: 50%;
+    top: 50%;
+
+    /* CONSIDERA O CENTRO DA CAIXA */
+    transform: translate(-50%, -50%);
+
+    height: auto;
+    width: auto;
+}
+
+#conteudo h2 {
+    
 }
 
 /*______________________________________________________________________________________________________*/
@@ -125,8 +198,8 @@ p {
           /* RODAPÉ */
 
 footer {
-    color: rgb(96, 96, 98);
-    background-color: rgb(210, 210, 210);
+    color: var(--cor7);
+    background-color: var(--cor6);
     border-radius: 0px;
     width: auto;
     margin: 0px;
@@ -136,19 +209,23 @@ footer {
     font-family: var(--fonte02) 
 }
 footer > p {
+    font-family: var(--font02);
     margin: 0px;
 }
 
-footer > a {
+#fp01 > a {
     text-decoration: none;
-    color: #2973b8;
-    font-weight: normal;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
 }
-footer > a:hover {
+
+#fp01 > a:hover {
     text-decoration: underline;
     font-weight: bold;
+}
+
+#fp01 > a::after {
+    content: '\00a0\2197';
 }
 
 #fp01 {
