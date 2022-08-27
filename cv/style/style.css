@@ -1,124 +1,202 @@
+@charset "UTF-8";
 
-
-/*
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
-font-family: 'Roboto', sans-serif;
-*/
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
-
-
-
-body {
-    background: rgb(0, 16, 42);
-    font: normal 15pt Arial
-}
-
-header {
-    color: white;
-    text-align: center;
-}
-
-.linkCabecalho:link, .linkCabecalho:visited, .linkCabecalho:active {  /* FORMATANDO OS LINKS */
-    text-decoration:none;
-	font-size:20px;
-	color:#000;
-}
-
-.linkCorpo:link, .linkCorpo:visited, .linkCorpo:active {  /* FORMATANDO OS LINKS */
-    text-decoration:none;
-	font-size:20px;
-	color:#000;
-}
-
-.linkRodape:link, .linkRodape:visited, .linkRodape:active {  /* FORMATANDO OS LINKS */
-    text-decoration:none;
-	font-size:20px;
-	color:#fff;
-}
-
-a:hover {
-    font-weight: bold;
+:root {
+    --font0: Verdana, Geneva, Tahoma, sans-serif;
+    --font1: 'Roboto', sans-serif;
+    --font2: 'Sriracha', cursive;
     
+    --cor0: #D5D9E5;
+    --cor1: #979EAC;
+    --cor2: #606062;
+    --cor3: #2973b8;
+    --cor4: #1D428A;
+    --cor5: #10234A;
+    /* COR RODAPÉ */
+    --cor6: #CDCCCC;
+    --cor7: #606063;
+}
+/*--CORPO----------------------------------------------------------------------------------------------------*/
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
-a.pLinkRoda:link, a.pLinkRoda:visited, a.pLinkRoda:active {  /* FORMATANDO OS LINKS */
-    text-decoration:none;
-	font-size:20px;
-	color:#fff;
+html, body {
+    background: var(--cor0);
+    font-family: var(--font1);
+    color: var(--cor5);
 }
 
-.pLinks {
-    display: flex;
-    align-items: center; /*centraliza horizontalmente*/
-    justify-content: center; /*cetraliza verticalmente*/
-}
+/*--TÍTULOS----------------------------------------------------------------------------------------------------*/
 
-.pLinkRoda {
-    color: #fff;
-}
-
-.iLogo {
-    max-width:30px;
-    max-height:30px;
-    width: auto;
-    height: auto;
-}
-
-.iLogoFull {
-    max-width:20px;
-    max-height:20px;
-    width: auto;
-    height: auto;
-}
-
-.lHr {
-    border-radius: "8px";
+h1 {
+    font-weight: bolder;
+    color: var(--cor5);
 }
 
 h2 {
-    color: rgb(0, 16, 42);
-    text-align: center;    	
+    font-weight: normal;
+    color: var(--cor4);
+    padding: 4px 0px 16px 0px;
 }
 
-h3, h4 {
-    color: rgb(0, 16, 42);
-    line-height: 0em;
+h3 {
+    font-weight: normal;
+    color: var(--cor3);
 }
 
-section {
-    color: rgb(0, 16, 42);
-    background: white;
-    border-radius: 10px;
-    padding: 15px;
-    max-width: 1000px;
-    margin: auto;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 363);
-}
+/*--LINKS----------------------------------------------------------------------------------------------------*/
 
-section a {
+a {
+    color: var(--cor2);
     text-decoration: none;
-    color:rgb(0, 16, 42)
+    font-weight: normal;
 }
 
-.resumoPro {
-    text-align: justify;
-    text-indent: 40px;
+a:hover {
+    
+    font-weight: bold;
 }
+
+/*--HEADER----------------------------------------------------------------------------------------------------*/
+
+header {
+    text-align: center;
+    padding-top: 32px;
+}
+
+/*--MAIN----------------------------------------------------------------------------------------------------*/
+
+main {
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    max-width: 800px;
+    min-height: 53vh;
+    margin: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 32px;
+
+    box-shadow: 5px 5px 10px var(--cor5);
+}
+
+p {
+    text-indent: 16px;
+    padding-bottom: 16px;
+    padding-top: 2px;
+}
+
+hr {
+    background-color: var(--cor0);
+    border-radius: 8px;
+    padding: 4px;
+    margin: 32px 0px 8px 0px;
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+
+#contato {
+    text-align: center;
+    
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+
+#objetivos {
+    text-align: center;
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+
+#resumo {
+    text-align: justify;
+}
+
+#resumo > h2 {
+    text-align: center;
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+
+#historico > h2 {
+    text-align: center;
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+
+#graduacao > h2 {
+    text-align: center;
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+
+#tecnico > h2 {
+    text-align: center;
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+
+#certificacoes > a {
+    color: var(--cor2);
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#certificacoes a:hover {
+    
+    font-weight: bold;
+}
+
+#certificacoes a::after {
+    content: '\00a0\2197';
+}
+/*
+#certificacoes a::before {
+    content: '\2714\00a0';
+}
+*/
+#certificacoes > h2 {
+    text-align: center;
+}
+
+#certificacoes > ul {
+    list-style-type: '\2714\00a0\00a0';
+    list-style-position: inside;
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+
+#complementares > h2 {
+    text-align: center;
+}
+
+#complementares > ul {
+    list-style-type: '\2714\00a0\00a0';
+    list-style-position: inside;
+}
+
+/*--FOOTER----------------------------------------------------------------------------------------------------*/
 
 footer {
-    color: white;
     text-align: center;
-    font-style: normal;
+    font-weight: lighter;
+    margin: 32px;
 }
 
-.pLogoRoda {
-    align-items: center; /*centraliza horizontalmente*/
-    justify-content: center; /*cetraliza verticalmente*/
+#fLink {
+    padding: 0px;
+    margin: 0px;
 }
 
-.iLogoRoda {
-    max-width:100px;
-    max-height:100px;
-    width: auto;
-    height: auto;
+#fPrint {
+    padding: 0px;
+    margin: 0px;
+}
+
+#fBy {
+    padding: 32px 0px 0px 0px;
+    margin: 0px;
 }
