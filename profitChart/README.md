@@ -1,9 +1,9 @@
 
-# Repositório - Ronaldo Onório  * [CONTATO](https://contate.me/roondoss)
+# Repositório - Ronaldo Onório
 
-* [CONTATO](https://contate.me/roondoss)
+* [contato](https://contate.me/roondoss)
 
-Indicadores ProfitChart
+## Indicadores ProfitChart
 
 <img align="right" src="img/html250.png" width="200">
 
