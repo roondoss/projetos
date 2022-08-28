@@ -2,28 +2,28 @@
 
 Indicadores ProfitChart
 
-<img align="right" src="img/mascote-html5.png" width="200">
+<img align="right" src="img/html250.png" width="200">
 
 ## Primeiro Indicador
 
-Baseado na análise de variação **Análise de Variação**
+Editando **Análise de Variação**
 
 
-* [Acesse os PDFs das aulas clicando aqui](https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf)
-* [Código disponível para os exercícios](https://github.com/gustavoguanabara/html-css/tree/master/exercicios)
-* [Execute os exercícios aqui](https://gustavoguanabara.github.io/html-css/exercicios/)
-* [Resolva os desafios de HTML aqui](https://github.com/gustavoguanabara/html-css/tree/master/desafios)
+* [Acesse os PDFs das aulas clicando aqui](#)
 
-<img align="right" src="img/mascote-javascript.png" width="200">
+
+
+<img align="right" src="img/css250.png" width="200">
 
 ## Segundo Indicador
 
-Baseado na análise de variação **Análise de Variação**
+Editando **Análise de Variação**
 
-* [Acesse os PDFs das aulas clicando aqui](https://github.com/gustavoguanabara/javascript/tree/master/aulas-pdf)
-* [Código disponível para os exercícios](https://github.com/gustavoguanabara/javascript/tree/master/exercicios)
-* [Execute os exercícios aqui](https://gustavoguanabara.github.io/javascript/exercicios/)
-* [Resolva os desafios de programação JS aqui](https://github.com/gustavoguanabara/javascript/tree/master/desafios)
+* [Acesse os PDFs das aulas clicando aqui](#)
+
+
+<img align="right" src="img/java250.png" width="200">
+
 
 ## Vídeos
 
