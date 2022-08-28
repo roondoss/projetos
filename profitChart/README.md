@@ -1,5 +1,5 @@
 
-# Repositório - Ronaldo Onório
+# Ronaldo Onório
 
 * [contato](https://contate.me/roondoss)
 
