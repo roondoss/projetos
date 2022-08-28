@@ -9,20 +9,13 @@ Indicadores ProfitChart
 
 ## Primeiro Indicador
 
-**Análise de Variação** do Ajuste do dia anterior
+**Análise de Variação do Ajuste**
 
 
-* [Acesse os PDFs das aulas clicando aqui](#)
-* [Acesse os PDFs das aulas clicando aqui](#)
-* [Acesse os PDFs das aulas clicando aqui](#)
-* [Acesse os PDFs das aulas clicando aqui](#)
-* [Acesse os PDFs das aulas clicando aqui](#)
-* [Acesse os PDFs das aulas clicando aqui](#)
-* [Acesse os PDFs das aulas clicando aqui](#)
-* [Acesse os PDFs das aulas clicando aqui](#)
-* [Acesse os PDFs das aulas clicando aqui](#)
-* [Acesse os PDFs das aulas clicando aqui](#)
-* [Acesse os PDFs das aulas clicando aqui](#)
+* [Análise de Variação - 0.5% e 1%](#)
+* [Análise de Variação - 1.5% e 2%](#)
+* [Análise de Variação - 2.5% e 3%](#)
+
 
 
 
@@ -30,36 +23,24 @@ Indicadores ProfitChart
 
 ## Segundo Indicador
 
-Editando **Análise de Variação**
+**Análise de Variação do Fechamento**
 
-* [Acesse os PDFs das aulas clicando aqui](#)
-* [Acesse os PDFs das aulas clicando aqui](#)
-* [Acesse os PDFs das aulas clicando aqui](#)
-* [Acesse os PDFs das aulas clicando aqui](#)
-* [Acesse os PDFs das aulas clicando aqui](#)
-* [Acesse os PDFs das aulas clicando aqui](#)
-* [Acesse os PDFs das aulas clicando aqui](#)
-* [Acesse os PDFs das aulas clicando aqui](#)
-* [Acesse os PDFs das aulas clicando aqui](#)
-* [Acesse os PDFs das aulas clicando aqui](#)
-* [Acesse os PDFs das aulas clicando aqui](#)
-* [Acesse os PDFs das aulas clicando aqui](#)
+* [Análise de Variação - 0.5% e 1%](#)
+* [Análise de Variação - 1.5% e 2%](#)
+* [Análise de Variação - 2.5% e 3%](#)
 
 <img align="right" src="img/java250.png" width="200">
 
 
+## Segundo Indicador
 
-* [Acesse os PDFs das aulas clicando aqui](#)
-* [Acesse os PDFs das aulas clicando aqui](#)
-* [Acesse os PDFs das aulas clicando aqui](#)
-* [Acesse os PDFs das aulas clicando aqui](#)
-* [Acesse os PDFs das aulas clicando aqui](#)
-* [Acesse os PDFs das aulas clicando aqui](#)
-* [Acesse os PDFs das aulas clicando aqui](#)
-* [Acesse os PDFs das aulas clicando aqui](#)
-* [Acesse os PDFs das aulas clicando aqui](#)
-* [Acesse os PDFs das aulas clicando aqui](#)
-* [Acesse os PDFs das aulas clicando aqui](#)
+**Média da Análise do Ajuste e Fechamento**
+
+* [Média Ajuste e Fechamento - 0.5% e 1%](#)
+* [Média Ajuste e Fechamento - 1.5% e 2%](#)
+* [Média Ajuste e Fechamento - 2.5% e 3%](#)
+
+
 
 
 ## Vídeos
