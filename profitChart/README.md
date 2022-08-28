@@ -1,4 +1,7 @@
-# Repositório público - Ronaldo Onório
+
+# Repositório - Ronaldo Onório  * [CONTATO](https://contate.me/roondoss)
+
+* [CONTATO](https://contate.me/roondoss)
 
 Indicadores ProfitChart
 
@@ -6,7 +9,7 @@ Indicadores ProfitChart
 
 ## Primeiro Indicador
 
-Editando **Análise de Variação**
+**Análise de Variação** do Ajuste do dia anterior
 
 
 * [Acesse os PDFs das aulas clicando aqui](#)
