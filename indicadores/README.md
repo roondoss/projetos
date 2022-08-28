@@ -2,7 +2,7 @@
 
 Indicadores ProfitChart
 
-<img align="right" src="images/mascote-html5.png" width="200">
+<img align="right" src="img/mascote-html5.png" width="200">
 
 ## Primeiro Indicador
 
