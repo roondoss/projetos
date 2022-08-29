@@ -5,32 +5,33 @@
 
 ## Indicadores ProfitChart
 
-<img align="right" src="img/nelogica.png" width="200">
 
 ## Primeiro Indicador
 
 **Análise de Variação do Ajuste**
 
 
-* [Análise de Variação - 0.5% e 1%](#)
-* [Análise de Variação - 1.5% e 2%](#)
-* [Análise de Variação - 2.5% e 3%](#)
+* [Análise de Variação - 0.5% e 1%](./assets/ANV_AJST_RDS_01.psf)
+* [Análise de Variação - 1.5% e 2%](./assets/ANV_AJST_RDS_02.psf)
+* [Análise de Variação - 2.5% e 3%](./assets/ANV_AJST_RDS_03.psf)
 
 ## Segundo Indicador
 
+<img align="right" src="img/nelogica.png" width="200">
+
 **Análise de Variação do Fechamento**
 
-* [Análise de Variação - 0.5% e 1%](#)
-* [Análise de Variação - 1.5% e 2%](#)
-* [Análise de Variação - 2.5% e 3%](#)
+* [Análise de Variação - 0.5% e 1%](./assets/ANV_FCH_RDS_01.psf)
+* [Análise de Variação - 1.5% e 2%](./assets/ANV_FCH_RDS_02.psf)
+* [Análise de Variação - 2.5% e 3%](./assets/ANV_FCH_RDS_03.psf)
 
 ## Segundo Indicador
 
 **Média da Análise do Ajuste e Fechamento**
 
-* [Média Ajuste e Fechamento - 0.5% e 1%](#)
-* [Média Ajuste e Fechamento - 1.5% e 2%](#)
-* [Média Ajuste e Fechamento - 2.5% e 3%](#)
+* [Média Ajuste e Fechamento - 0.5% e 1%](./assets/MANV_AF_RDS_01.psf)
+* [Média Ajuste e Fechamento - 1.5% e 2%](./assets/MANV_AF_RDS_02.psf)
+* [Média Ajuste e Fechamento - 2.5% e 3%](./assets/MANV_AF_RDS_03.psf)
 
 
 

@@ -1,0 +1,7 @@
+8001 Agendamento Direto
+8002 CS_Receptivo
+8003 F1.1 - AtendRecep
+8007 TeleMedicina
+8008 Suporte SOC
+8010 Comercial
+8012 F1.2 - Transbordo

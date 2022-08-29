@@ -1,0 +1,16 @@
+﻿;;JTPR-0321;;;;;;;;
+Tipo: Relatório de chamadas;;;;;;;;;;
+Chamadas atendidas: De 01/03/2021 10:08:00 Para 31/03/2021 11:08:00;;;;;;;;;;
+ID da chamada: Ramais no intervalo '3100-3149';;;;;;;;;;
+Destino: Qualquer número;;;;;;;;;;
+Duração da chamada;ID da chamada;;Destino;Status;Tocando;Falando;Totais;Custo;Razão;Play
+04/03/2021 15:34;11979797332:jt p (3104);;2,61196E+12;Atendida;00:00:08;00:01:23;00:01:31;1,38;Terminado por 11979797332:jt p (3104);
+10/03/2021 09:30;Restricted:jt p (3104);;2,61196E+12;Atendida;00:00:10;00:00:40;00:00:50;0,67;Terminado por Restricted:jt p (3104);
+18/03/2021 11:49;13996602080:jt p (3104);;2,61196E+12;Atendida;00:00:08;00:00:45;00:00:53;0,75;Terminado por 13996602080:jt p (3104);
+18/03/2021 15:31;2733571400:jt p (3104);;2,61196E+12;Atendida;00:00:18;00:00:17;00:00:35;0,28;Terminado por 2733571400:jt p (3104);
+19/03/2021 10:40;11979797332:jt p (3104);;2,61196E+12;Atendida;00:00:17;00:04:08;00:04:25;4,13;Terminado por 02611958931047;
+19/03/2021 15:51;11957053155:jt p (3104);;2,61196E+12;Atendida;00:00:16;00:01:38;00:01:54;1,63;Terminado por 11957053155:jt p (3104);
+22/03/2021 11:02;13974117634:jt p (3104);;2,61196E+12;Atendida;00:00:15;00:00:18;00:00:33;0,3;Terminado por 02611958931047;
+24/03/2021 10:14;73999534212:jt p (3104);;2,61196E+12;Atendida;00:00:08;00:02:58;00:03:06;2,97;Terminado por 73999534212:jt p (3104);
+Totais:;;;Chamadas - 8;;00:01:40;00:12:07;00:13:47;12,11;;
+;;3CX Ltd.;;;;;;;;

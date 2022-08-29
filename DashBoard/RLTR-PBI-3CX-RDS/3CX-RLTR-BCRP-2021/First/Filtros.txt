@@ -1,0 +1,8 @@
+Recepção
+Ligações totais de entrada, atendidas, não atendidas,
+transferidas com sucesso, tempo médido de espera para ser atendido, tempo medido falando
+Se der o ramal mais transferido.
+
+e para transbordo
+Ligações totais de entrada, atendidas, não atendidas, transferidas com sucesso,tempo médido de espera para ser atendido, tempo medido falando
+Se der o ramal mais transferido
