@@ -1,0 +1,87 @@
+
+/* CONFIGURAÇÃO PADRÃO DO DOCUMENTO */
+
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+:root {
+    --font00: Verdana, Geneva, Tahoma, sans-serif;
+    --font01: 'Inconsolata', monospace; 
+    --font02: 'Sriracha', cursive;
+    
+    --cor0: #D5D9E5;
+    --cor1: #979EAC;
+    --cor2: #606062;
+    --cor3: #2973b8;
+    --cor4: #1D428A;
+    --cor5: #10234A;
+}
+
+/*______________________________________________________________________________________________________*/
+
+* {                    /* APLICA A TODOS OS ELEMENTOS DO DOCUMENTO */
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    }
+
+main {
+    background-image: url('../img/fundo-madeira.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+/*______________________________________________________________________________________________________*/
+
+main {     /* CORPO */
+    position: relative;
+    height: 100vh;
+    
+}
+
+section#telefone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 627px;
+    width: 311px;
+    background-image: url('../img/frame-iphone.png');
+}
+
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 267px;
+    height: 472px;
+}
+
+section#redes-sociais {
+    text-align: right;
+}
+
+section#redes-sociais img {
+    width: 50px;
+    margin: 16px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px black;
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid white;
+    transform: translate(-4px, -4px);
+    box-shadow: 5px 5px 10px black;
+    transition: transform 0.4s, border 0.2s;
+}
