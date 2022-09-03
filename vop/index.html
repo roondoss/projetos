@@ -62,6 +62,17 @@
     padding: 10px;
     width: 200px;    
     }
+    
+    /*
+    #navbarTop {
+      background-color: gray;
+      border: 0px;
+    }
+
+    #navbarLateral {
+      background-color: darkgray;
+    }
+    */
 
     h1 {
       text-align: center;
@@ -98,7 +109,7 @@
 <div>
   <img src="img/capa.jpg" alt="">
 </div>
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse" id="navbarTop">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -106,7 +117,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="https://roondoss.github.io/projetos/vop/img/panoramica.jpg">VOP</a>
+      <a class="navbar-brand" href="https://roondoss.github.io/projetos/vop/img/panoramica.jpg" target="_blank">VOP</a>
       </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
@@ -123,7 +134,7 @@
   
 <div class="container-fluid text-center">    
   <div class="row content">
-    <div class="col-sm-2 sidenav">
+    <div class="col-sm-2 sidenav" id="navbarLateral">
       <p id="linkl"><a href="reservas.html">Reservas</a></p>
       <p id="linkl"><a href="aluguel.html">Aluguel</a></p>
       <p id="linkl"><a href="venda.html">Venda</a></p>
@@ -139,7 +150,7 @@
         <img id="construcao" src="img/code.png" alt="Código">
       </p>
     </div>
-    <div class="col-sm-2 sidenav">
+    <div class="col-sm-2 sidenav" id="navbarLateral">
       <div class="well">
         <p id="linkR"><a href="academia.html">Academia</a></p>
       </div>
