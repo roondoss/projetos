@@ -119,7 +119,7 @@ nav.navbar-transparente {
 }
 
 #recursos p {
-    color: white;
+    color: #2b2e33;
 }
 
 #recursos h3 {
@@ -131,9 +131,10 @@ nav.navbar-transparente {
 }
 
 .rotacionar {
-    transform: rotate(30deg);
-    -ms-transform: rotate(30deg); /* IE 9 */
-    -webkit-transform: rotate(30deg); /* chrome, safari, opera */
+    
+    transform: rotate(0deg);
+    -ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* chrome, safari, opera */
     padding-left: 30px;
 }
 
