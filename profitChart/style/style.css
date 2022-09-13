@@ -130,12 +130,15 @@ nav.navbar-transparente {
     padding: 10px 0px;
 }
 
+.imgPlanilha {
+    padding-top: 32px;
+}
+
 .rotacionar {
-    
     transform: rotate(0deg);
     -ms-transform: rotate(0deg); /* IE 9 */
     -webkit-transform: rotate(0deg); /* chrome, safari, opera */
-    padding-left: 30px;
+    border: 2px;
 }
 
 .gradiente {
