@@ -21,8 +21,8 @@
 
   <!-- Estilo customizado -->
   <link rel="stylesheet" type="text/css" href="style/style.css">
-  <link rel="icon" href="img/logo1.png">
-  <title>Indicadores </></title>
+  <link rel="icon" href="img/logo.png">
+  <title>&nbsp&nbsp Investimentos</title>
 </head>
 
 <body>
@@ -40,24 +40,19 @@
         <div class="collapse navbar-collapse" id="nav-principal">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a href="#" class="nav-link">Premium</a>
+              <a href="../home/index.html" target="_blank" class="nav-link">Projetos</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Ajuda</a>
+              <a href="https://github.com/roondoss" target="_blank" class="nav-link">Repositório</a>
             </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">Baixar</a>
-            </li>
-
-
+            
             <li class="nav-item divisor"></li>
-
-
+            
             <li class="nav-item">
-              <a href="#" class="nav-link">Inscrever-se</a>
+              <a href="../cv/index.html" target="_blank" class="nav-link">Curriculo</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Entrar</a>
+              <a href="https://www.linkedin.com/in/ronaldoonorio/" target="_blank" class="nav-link">Linkedin</a>
             </li>
 
           </ul>
@@ -77,14 +72,14 @@
 
               <div class="carousel-item active">
                 <h1>Planilhas</h1>
-                <a href="#" class="btn btn-lg btn-custom btn-roxo"><i class="fas fa-chart-line"></i>&nbsp&nbsp Ações</a>
-                <a href="#" class="btn btn-lg btn-custom btn-branco"><i class="fas fa-chart-line"></i>&nbsp&nbsp
+                <a href="#acoes" class="btn btn-lg btn-custom btn-roxo"><i class="fas fa-chart-line"></i>&nbsp&nbsp Ações</a>
+                <a href="#opcoes" class="btn btn-lg btn-custom btn-branco"><i class="fas fa-chart-line"></i>&nbsp&nbsp
                   Opções</a>
               </div>
 
               <div class="carousel-item">
                 <h1>Indicadores</h1>
-                <a href="#" class="btn btn-lg btn-custom btn-branco">
+                <a href="#ind" class="btn btn-lg btn-custom btn-branco">
                   <i class="fas fa-chart-line"></i>&nbsp&nbsp Análise de Variação </a>
               </div>
             </div>
@@ -128,7 +123,7 @@
         </div>
         <div class="col-md-6">
           <!-- Segunda Coluna -->
-          <h2> Análise de Variação</h2>
+          <h2 id="ind"> Análise de Variação</h2>
 
           <h3>Fechamento</h3>
 
@@ -154,24 +149,24 @@
         <div class="col-md-4">
 
           <h2>Planilhas</h2>
-          <h3>Ações</h3>
+          <h3 id="acoes">Ações</h3>
           <p>Desenvolvida para gerenciar seus investimentos em Ações. Possui varias informações, valor de
             de entrada, quantidade de cotas, parciais e alvo. alimentação manual apenas no valor de entrada
             e quantidade de cotas, as demais informações são todas automáticas, inclusive Darf e patrimonio.
           </p>
 
-          <h3>Opções</h3>
-          <p>Possui as mesmas caracteristicas da planilha de Ações, a diferença é que possui o tipo de 
-            Opção (CALL OU PUT) e datas de vencimento.
+          <h3 id="opcoes">Opções</h3>
+          <p>Possui as mesmas caracteristicas da planilha de Ações, a diferença é que possui o tipo de
+            Opção (CALL ou PUT) e datas de vencimento.
           </p>
 
-          
+
 
         </div>
         <div class="col-md-8 rotacionar">
-          
-          <img class="pimgPlanilha" src="img/planilha.png" alt="planilha">
-                              
+
+          <img class="imgplanilha" src="img/planilha.png" alt="planilha">
+
         </div>
       </div>
     </div>
@@ -183,43 +178,53 @@
     <div class="container">
       <div class="row">
         <div class="col-md-2">
-          <img src="imagens/spotify.svg" width="100">
+          <h4 class="espacoRoda">Planilhas</h4>
+          <ul class="navbar-nav">
+            <p>Ações</p>
+            <li><a href="https://docs.google.com/spreadsheets/d/1saIO1TPXh8HCXtMR1WcsKrp2dkbmdHwlGDpK7hoXoDE/edit?usp=sharing" target="_blank">Basico</a></li>
+            <li><a href="https://docs.google.com/spreadsheets/d/1hhSInpvTKrGYja8wkICwPIGONKCQEp5IN4bWgUkfzBk/edit?usp=sharing" target="_blank">Intermediário</a></li>
+            <li><a href="https://docs.google.com/spreadsheets/d/1NwMDZ0pP5Am4s-8_zhYZJH6QulwotkmWNFcd3eS-z-s/edit?usp=sharing" target="_blank">Avançado</a></li>
+          </ul>
         </div>
         <div class="col-md-2">
           <h4 class="espacoRoda">Planilhas</h4>
           <ul class="navbar-nav">
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Empregos</a></li>
-            <li><a href="#">Imprensa</a></li>
-            <li><a href="#">Novidades</a></li>
+            <p>Opções</p>
+            <li><a href="https://docs.google.com/spreadsheets/d/1pRmbIrqNbQ5lM-frvAxXVf5HhrZG983v9DXw803u-ac/edit?usp=sharing" target="_blank">Intemediário</a></li>
+            <li><a href="https://docs.google.com/spreadsheets/d/1M843swlfzqQJXhdv2r6Gn619Hg1VtiGLLhvy0oZA2pE/edit?usp=sharing" target="_blank">Avançado</a></li>
           </ul>
         </div>
         <div class="col-md-2">
           <h4 class="espacoRoda">Indicadores</h4>
           <ul class="navbar-nav">
-            <li><a href="#">Artistas</a></li>
-            <li><a href="#">Desenvolvedores</a></li>
-            <li><a href="#">Marcas</a></li>
+            <p>Fechamento</p>
+            <li><a href="assets/ANV_FCH_RDS_01.psf" target="_blank">0.5% e 1%</a></li>
+            <li><a href="assets/ANV_FCH_RDS_02.psf" target="_blank">1.5% e 2%</a></li>
+            <li><a href="assets/ANV_FCH_RDS_03.psf" target="_blank">2.5% e 3%</a></li>
+            <p>Ajuste</p>
+            <li><a href="assets/ANV_AJST_RDS_01.psf" target="_blank">0.5 % e 1%</a></li>
+            <li><a href="assets/ANV_AJST_RDS_02.psf" target="_blank">1.5% e 2%</a></li>
+            <li><a href="assets/ANV_AJST_RDS_03.psf" target="_blank">2.5% e 3%</a></li>
           </ul>
         </div>
         <div class="col-md-2">
-          <h4 class="espacoRoda">Contatos</h4>
+          <h4 class="espacoRoda">Média</h4>
           <ul class="navbar-nav">
-            <li><a href="#">Projetos</a></li>
-            <li><a href="#">Repositório</a></li>
-            <li><a href="#">LinkeDin</a></li>
+            <li><a href="assets/MANV_AF_RDS_01.psf" target="_blank">0.5 % e 1%</a></li>
+            <li><a href="assets/MANV_AF_RDS_02.psf" target="_blank">1.5% e 2%</a></li>
+            <li><a href="assets/MANV_AF_RDS_03.psf" target="_blank">2.5% e 3%</a></li>
           </ul>
         </div>
         <div class="col-md-4">
-          <ul>
-            <li><img src="imagens/instagram.png" width="32"></li>
-            <li><img src="imagens/twitter.png" width="32"></li>
-            <li><img src="imagens/facebook.png" width="32"></li>
+          <ul  id="contato">
+            <li><a href="https://contate.me/roondoss" target="_blank"><img src="img/zap.png" width="80"></a></li>
           </ul>
         </div>
       </div>
     </div>
   </footer>
+
+  <div class="gradiente2"> Powered: by Ronaldo Onório </div>
 
   <!-- JavaScript (Opcional) -->
   <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->

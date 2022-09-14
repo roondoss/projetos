@@ -115,7 +115,7 @@ nav.navbar-transparente {
 }
 
 #recursos h2 {
-    color: #2b2e33;
+    color: #2c9cd7;
 }
 
 #recursos p {
@@ -130,8 +130,8 @@ nav.navbar-transparente {
     padding: 10px 0px;
 }
 
-.imgPlanilha {
-    padding-top: 32px;
+.imgplanilha {
+    padding-top: 50px;
 }
 
 .rotacionar {
@@ -149,7 +149,25 @@ nav.navbar-transparente {
               rgba(19,199,121,1) 50%,
               rgba(1,172,245,1) 76%,
               rgba(0,120,218,1) 97%,
-              rgba(0,120,218,1) 100%);;
+              rgba(0,120,218,1) 100%);
+}
+
+.gradiente2 {
+    background: #2b2e33;
+    text-align: center;
+    color: white;
+    padding: 32px 10px;
+    font-family: 'Courier New', Courier, monospace;
+
+    /*background: linear-gradient(
+        90deg,rgba(0,120,218,1) 0,
+              rgba(0,120,218,1) 3%,
+              rgba(1,172,245,1) 28%,
+              rgba(19,199,121,1) 50%,
+              rgba(34,221,18,1) 76%,
+              rgba(0,169,0,1) 97%,
+              rgba(0,169,0,1) 100%);
+              */
 }
 
 .espacoRoda {
@@ -185,6 +203,10 @@ footer ul {
 footer ul li {
     float: right;
     margin: 0px 8px;
+}
+
+#contato {
+    vertical-align: middle;
 }
 
 h1 {
