@@ -79,8 +79,8 @@ nav > a {
     font-family: var(--font01);
     font-weight: bold;
     transition-duration: 1s;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 16px;
+    margin-left: 16px;
 }
 nav > a:hover {
     text-decoration: underline;
@@ -88,14 +88,6 @@ nav > a:hover {
     font-weight: bold;
     border-radius: 4px;
 
-}
-
-nav > a::after {
-    content: '\00a0\2198';
-}
-
-nav > a::before {
-    content: '\2714\00a0';
 }
 
 /*______________________________________________________________________________________________________*/
