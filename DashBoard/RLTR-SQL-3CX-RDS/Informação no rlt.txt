@@ -1,7 +1,0 @@
-tempo de espera
-fluxo de chamadas por hora
-ligação mais demorada por ramal
-
-tempo total falando por ramal
-agente logado
-ligações abandonadas
