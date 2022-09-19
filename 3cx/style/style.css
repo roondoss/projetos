@@ -67,15 +67,20 @@ nav a:hover {
 
 /*______________________________________________________________________________________________________*/
 
-main {     /* CORPO */
-    background-color: white;
-    border-radius: 10px 40px 10px 10px;
-    box-shadow: 5px 5px 10px var(--cor5);
+#div01 {     /* CORPO */
+    background-color: rgb(35, 35, 35);
+    color: white;
     text-align: center;
-    max-width: 1200px;
-    min-height: 44vh;
-    margin: 32px 8px;
-    padding: 16px;
+    min-height: 32vh;
+    
+}
+
+#div02 {     /* CORPO */
+    background-color: rgb(55, 55, 55);
+    color: white;
+    text-align: center;
+    min-height: 32vh;
+    
 }
 
 /*______________________________________________________________________________________________________*/
@@ -124,7 +129,7 @@ main a::after {
 /*______________________________________________________________________________________________________*/
 
 footer {
-    background-color: var(--cor1);
+    background-color: rgb(35, 35, 35);
     color: var(--cor7);
     text-align: center;
     font-family: var(--fonte02);
