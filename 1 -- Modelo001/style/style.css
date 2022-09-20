@@ -71,8 +71,10 @@ main {     /* CORPO */
     border-radius: 10px 40px 10px 10px;
     box-shadow: 5px 5px 10px var(--cor5);
     text-align: center;
-    max-width: 1200px;
-    min-height: 44vh;
+    display: block;
+    width: auto;
+    margin: auto;
+    min-height: 77vh;
     margin: 32px 8px;
     padding: 16px;
 }
