@@ -69,8 +69,16 @@
 
     }
 
-    .caixa {
+    .caixat {
+      padding-top: 80px;
+      text-align: center;
+      font-size: 1.2em;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .caixai {
       padding-top: 40px;
+      padding-bottom: 40px;
       text-align: center;
     }
 
@@ -80,11 +88,22 @@
 
     }
 
+    .btn-roxo {
+      background: #0596d4;
+      color: white;
+    }
+
+    .btn-roxo:hover {
+      background: white;
+      color: #0596d4;
+    }
+
     footer {
       background-image: url(img/rodape.jpg);
       text-align: center;
       min-height: 200px;
       width: 100vw;
+      padding-top: 100px;
       background-repeat: no-repeat;
       background-size: cover;
       background-position: bottom right;
@@ -201,11 +220,10 @@
   <section id="div01">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 caixa">
-          Link do Relatório
-          https://app.powerbi.com/links/RUTEqpOrSZ?ctid=f4a4e26a-dff2-412a-87e9-4ab066ba8ef0&pbi_source=linkShare
+        <div class="col-md-6 caixat">
+          <P>Pabx IP 3CX dedicado, dados coletados e tratados através da ferramenta <strong>Power Bi</strong>.</P>
         </div>
-        <div class="col-md-6 caixa">
+        <div class="col-md-6 caixai">
           <picture>
             <source media="(max-width: 600px)" srcset="img/note1.png" width="220">
             <img src="img/note1.png" alt="DashBoard" width="360">
@@ -219,15 +237,15 @@
   <section id="div02">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 caixa">
+        <div class="col-md-6 caixai">
           <picture>
             <source media="(max-width: 600px)" srcset="img/note2.png" width="220">
             <img src="img/note2.png" alt="DashBoard" width="360">
           </picture>
         </div>
-        <div class="col-md-6 caixa">
-          Link do Relatório
-          https://app.powerbi.com/links/RUTEqpOrSZ?ctid=f4a4e26a-dff2-412a-87e9-4ab066ba8ef0&pbi_source=linkShare
+        <div class="col-md-6 caixat">
+          <P>Pabx IP 3CX Compartilhado, vários clientes em um único servidor,
+            dados coletados e tratados através da ferramenta <strong>Power Bi</strong>.</P>
         </div>
       </div>
     </div>
@@ -237,15 +255,17 @@
   <section id="div01">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 caixa">
+        <div class="col-md-4 caixat">
+          <!-- DISPONÍVEL -->
+        </div>
+        <div class="col-md-4 caixai">
           <picture>
             <source media="(max-width: 600px)" srcset="img/note3.png" width="220">
             <img src="img/note3.png" alt="DashBoard" width="360">
           </picture>
         </div>
-        <div class="col-md-6 caixa">
-          Link do Relatório
-          https://app.powerbi.com/links/RUTEqpOrSZ?ctid=f4a4e26a-dff2-412a-87e9-4ab066ba8ef0&pbi_source=linkShare
+        <div class="col-md-4 caixat">
+          <!-- DISPONÍVEL -->
         </div>
       </div>
     </div>
@@ -255,11 +275,11 @@
   <section id="div02">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 caixa">
-          Link do Relatório
-          https://app.powerbi.com/links/RUTEqpOrSZ?ctid=f4a4e26a-dff2-412a-87e9-4ab066ba8ef0&pbi_source=linkShare
+        <div class="col-md-6 caixat">
+          <p>Filtros por: cliente, ramal, ano, mês, dia, região e estado, gerando uma infinidade de possibilidades
+            a fim de chegar mais próximo da informação desejada</p>
         </div>
-        <div class="col-md-6 caixa">
+        <div class="col-md-6 caixai">
           <picture>
             <source media="(max-width: 600px)" srcset="img/note4.png" width="220">
             <img src="img/note4.png" alt="DashBoard" width="360">
@@ -272,11 +292,14 @@
   <section>
     <div class="container" id="demo">
       <div class="row">
-        <div class="col-md-6 demoCaixa1">
+        <div class="col-md-6 caixat">
           <p>Ficou curioso(a), solicite uma demostração do relatório on-line, totalmente interativo e com uma infinidade
             de filtros.</p>
+          <a href="https://roondoss.my3cx.com.br:5001/LiveChat938942" class="btn btn-lg btn-custom btn-roxo">
+            <h2>Acesse o nosso chat</h2>
+          </a>
         </div>
-        <div class="col-md-6 demoCaixa2">
+        <div class="col-md-6 caixaDemo">
           <picture>
             <source media="(max-width: 600px)" srcset="img/ela.png" width="220">
             <img src="img/ela.png" alt="DashBoard" width="360">
@@ -288,81 +311,60 @@
 
 
 
-  <section>
-    <!--Use the below code snippet to provide real time updates to the live chat plugin without the need of copying and paste each time the snippet to  your website when changes are made to the configuration -->
-    <!--<call-us-selector phonesystem-url="https://roondoss.my3cx.com.br:5001" party="LiveChat938942"></call-us-selector>-->
-  
-    <!--Incase you don't want real time updates to the live chat plugin when options are changed, use the below code snippet. Please note that each time you change the settings you will need to copy and paste the snippet code to your website-->
-    <call-us 
-  phonesystem-url="https://roondoss.my3cx.com.br:5001" 
-  style="position:fixed;font-size:16px;line-height:17px;z-index: 99999;right: 20px; bottom: 20px;" 
-  id="wp-live-chat-by-3CX" 
-  minimized="true" 
-  animation-style="noanimation" 
-  party="LiveChat938942" 
-  minimized-style="bubbleright" 
-  allow-call="true" 
-  allow-video="true" 
-  allow-soundnotifications="true" 
-  enable-mute="true" 
-  enable-onmobile="true" 
-  offline-enabled="true" 
-  enable="true" 
-  ignore-queueownership="false" 
-  authentication="both" 
-  show-operator-actual-name="true" 
-  aknowledge-received="true" 
-  gdpr-enabled="false" 
-  message-userinfo-format="both" 
-  message-dateformat="both" 
-  lang="browser" 
-  button-icon-type="default" 
-  greeting-visibility="none" 
-  greeting-offline-visibility="none" 
-  chat-delay="2000" 
-  enable-direct-call="true" 
-  enable-ga="false" 
-  ></call-us>
-  
-  
-    <script defer src="https://downloads-global.3cx.com/downloads/livechatandtalk/v1/callus.js"
-      id="tcx-callus-js"
-      charset="utf-8"></script>
-  </section>
+
+  <!--Use the below code snippet to provide real time updates to the live chat plugin without the need of copying and paste each time the snippet to  your website when changes are made to the configuration -->
+  <!--<call-us-selector phonesystem-url="https://roondoss.my3cx.com.br:5001" party="LiveChat938942"></call-us-selector>-->
+
+  <!--Incase you don't want real time updates to the live chat plugin when options are changed, use the below code snippet. Please note that each time you change the settings you will need to copy and paste the snippet code to your website-->
+  <call-us phonesystem-url="https://roondoss.my3cx.com.br:5001"
+    style="position:fixed;font-size:16px;line-height:17px;z-index: 99999;right: 20px; bottom: 20px;"
+    id="wp-live-chat-by-3CX" minimized="true" animation-style="noanimation" party="LiveChat938942"
+    minimized-style="bubbleright" allow-call="true" allow-video="true" allow-soundnotifications="true"
+    enable-mute="true" enable-onmobile="true" offline-enabled="true" enable="true" ignore-queueownership="false"
+    authentication="both" show-operator-actual-name="true" aknowledge-received="true" gdpr-enabled="false"
+    message-userinfo-format="both" message-dateformat="both" lang="browser" button-icon-type="default"
+    greeting-visibility="none" greeting-offline-visibility="none" chat-delay="2000" enable-direct-call="true"
+    enable-ga="false"></call-us>
+
+
+  <script defer src="https://downloads-global.3cx.com/downloads/livechatandtalk/v1/callus.js" id="tcx-callus-js"
+    charset="utf-8"></script>
 
 
 
-</body>
+  <footer>
 
-<footer>
-
-  <section>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3 caixa contato">
-          <p><a href="../home/index.html" target="_blank">Projetos</a></p>
-          <p><a href="https://www.linkedin.com/in/ronaldoonorio/" target="_blank">LinkeDin</a></p>
-          <p><a href="https://contate.me/roondoss">Contato</a></p>
-          <p><a href="https://app.powerbi.com/links/RUTEqpOrSZ?ctid=f4a4e26a-dff2-412a-87e9-4ab066ba8ef0&pbi_source=linkShare"
-              target="_blank">Relatório</a></p>
-          <p><a href="https://roondoss.my3cx.com.br:5001/LiveChat938942" target="_blank"><img src="img/Botão.png" alt="Ligue Agora" width="116"></a></p>
-        </div>
-        <div class="col-md-3 caixa">
-          <img src="img/cb.png" alt="advanced" width="100">
-        </div>
-        <div class="col-md-3 caixa">
-          <img src="img/ci.png" alt="advanced" width="100">
-        </div>
-        <div class="col-md-3 caixa">
-          <img src="img/ca.png" alt="advanced" width="100">
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 caixa contato">
+            <p><a href="../home/index.html" target="_blank">Projetos</a></p>
+            <p><a href="https://www.linkedin.com/in/ronaldoonorio/" target="_blank">LinkeDin</a></p>
+            <p><a href="https://contate.me/roondoss">Contato</a></p>
+            <p><a
+                href="https://app.powerbi.com/links/RUTEqpOrSZ?ctid=f4a4e26a-dff2-412a-87e9-4ab066ba8ef0&pbi_source=linkShare"
+                target="_blank">Relatório On-Line</a></p>
+            <p><a href="https://roondoss.my3cx.com.br:5001/LiveChat938942" target="_blank"><img src="img/Botão.png"
+                  alt="Ligue Agora" width="116"></a></p>
+          </div>
+          <div class="col-md-3 caixa">
+            <img src="img/cb.png" alt="basico" width="100">
+          </div>
+          <div class="col-md-3 caixa">
+            <img src="img/ci.png" alt="intermediário" width="100">
+          </div>
+          <div class="col-md-3 caixa">
+            <img src="img/ca.png" alt="avançado" width="100">
+          </div>
         </div>
       </div>
-    </div>
-    <div class="by">Powered: By Ronaldo Onório 3CX Advanced Certified.
-      
-    </div>
-  </section>
 
-</footer>
+      <div class="by">Powered: By Ronaldo Onório 3CX Advanced Certified.</div>
+
+    </section>
+
+  </footer>
+
+</body>
 
 </html>
