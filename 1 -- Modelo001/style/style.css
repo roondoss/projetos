@@ -21,6 +21,8 @@
     padding: 0px;
 }
 
+/*______________________________________________________________________________________________________*/
+
 body {
     background-color: var(--cor0);
 }
@@ -60,10 +62,6 @@ nav a:hover {
     margin: 12px 16px;
 }
 
-.carousel-control-next, .carousel-control-prev {
-    width: 2%;
-}
-
 /*______________________________________________________________________________________________________*/
 
 main {     /* CORPO */
@@ -71,11 +69,9 @@ main {     /* CORPO */
     border-radius: 10px 40px 10px 10px;
     box-shadow: 5px 5px 10px var(--cor5);
     text-align: center;
-    display: block;
-    width: auto;
-    margin: auto;
+    width: 90vw;
     min-height: 77vh;
-    margin: 32px 8px;
+    margin: 20px 20px;
     padding: 16px;
 }
 
@@ -126,19 +122,8 @@ main a::after {
 
 footer {
     background-color: var(--cor1);
-    color: var(--cor7);
     text-align: center;
-    font-family: var(--fonte02);
     width: auto;
-    margin: 0px;
-    padding: 8px;
-}
-
-/*______________________________________________________________________________________________________*/
-
-footer > p {
-    font-family: var(--font02);
-    color: var(--cor2);
     margin: 0px;
     align-items: center;    /*centraliza horizontalmente*/
     justify-content: center;    /*cetraliza verticalmente*/
@@ -146,52 +131,19 @@ footer > p {
 
 /*______________________________________________________________________________________________________*/
 
-#fp01 > a {
-    text-decoration: none;
-    color: var(--cor2);
-    margin-right: 0px;
-    margin-left: 0px;
-}
-
-#fp01 > a:hover {
-    text-decoration: underline;
-    font-weight: bold;
-}
-
-#fp01 > a::after {
-    content: '\00a0\2197';
-}
-
-/*______________________________________________________________________________________________________*/
-
-#fp03 > a {
-    text-decoration: none;
-    color: var(--cor2);
-    margin-right: 0px;
-    margin-left: 0px;
-}
-
-#fp03 > a:hover {
-    text-decoration: underline;
-    font-weight: bold;
-}
-
-#fp03 > a::after {
-    content: '\00a0\2197';
-}
-
-/*______________________________________________________________________________________________________*/
-
-#fp01 {
-    padding-top: 0%;
-}
-
-#fp02 {
+#caixaF01 {
     padding-top: 2%;
-    padding-bottom: 0%;
+    padding-bottom: 2%;
 }
 
-#fp03 {
-    padding-top: 0%;
-    padding-bottom: 0%;
+#caixaF02 {
+    font-family: var(--font02);
+    color: var(--cor2);
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+
+#caixaF03 {
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
