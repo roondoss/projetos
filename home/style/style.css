@@ -196,51 +196,26 @@ footer {
     font-style: normal;
     font-family: var(--fonte02) 
 }
-footer > p {
-    font-family: var(--font02);
-    margin: 0px;
-}
 
-#fp01 > a {
-    text-decoration: none;
-    margin-right: 0px;
-    margin-left: 0px;
-}
+/*______________________________________________________________________________________________________*/
 
-#fp01 > a:hover {
-    text-decoration: underline;
-    font-weight: bold;
-}
-
-#fp01 > a::after {
-    content: '\00a0\2197';
-}
-
-#fp01 {
-    padding-top: 0%;
-}
-
-#fp02 {
+#caixaF01 {
     padding-top: 2%;
-    padding-bottom: 0%;
+    padding-bottom: 2%;
 }
 
-#fp03 {
-    padding-top: 0%;
-    padding-bottom: 0%;
+#caixaF02 {
+    font-family: var(--font02);
+    color: var(--cor2);
+    padding-top: 3%;
+    padding-bottom: 2%;
 }
 
-.pRoda {
-    align-items: center;
-    /*centraliza horizontalmente*/
-    justify-content: center;
-    /*cetraliza verticalmente*/
+#caixaF03 {
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
-.imgRoda {
-    /* ajusta tamanho das imagens */
-    max-width: 100px;
-    max-height: 100px;
-    width: auto;
-    height: auto;
+#imgF03 {
+    padding-left: 16%;
 }
