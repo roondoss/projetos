@@ -121,6 +121,8 @@ main a::after {
 /*______________________________________________________________________________________________________*/
 
 footer {
+    font-family: var(--font02);
+    color: var(--cor2);
     background-color: var(--cor1);
     text-align: center;
     width: auto;
@@ -129,25 +131,13 @@ footer {
     justify-content: center;    /*cetraliza verticalmente*/
 }
 
-/*______________________________________________________________________________________________________*/
-
-#caixaF01 {
-    padding-top: 2%;
-    padding-bottom: 2%;
-}
-
-#caixaF02 {
-    font-family: var(--font02);
+footer a {
     color: var(--cor2);
-    padding-top: 3%;
-    padding-bottom: 2%;
+    text-decoration: none;
 }
 
-#caixaF03 {
-    padding-top: 2%;
-    padding-bottom: 2%;
-}
-
-#imgF03 {
-    padding-left: 16%;
+footer a:hover {
+    color: var(--cor2);
+    text-decoration: underline;
+    font-weight: bold;
 }
