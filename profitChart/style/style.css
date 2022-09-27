@@ -228,6 +228,20 @@ h3 {
     letter-spacing: -0.04em;
 }
 
+#by {
+    color: white;
+}
+
+#by a {
+    text-decoration: none;
+    color: white;
+}
+
+#by a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 @media (max-width: 575.98px) {
     .btn-custom {
         margin: 10px 16px;
