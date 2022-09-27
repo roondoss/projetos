@@ -64,13 +64,13 @@ nav a:hover {
 
 /*______________________________________________________________________________________________________*/
 
-main {     /* CORPO */
+main {
     background-color: white;
     border-radius: 10px 40px 10px 10px;
     box-shadow: 5px 5px 10px var(--cor5);
     text-align: center;
     width: 90vw;
-    min-height: 77vh;
+    min-height: 80vh;
     margin: 20px 20px;
     padding: 50px 16px 16px 16px;
 }
@@ -140,4 +140,8 @@ footer a:hover {
     color: var(--cor2);
     text-decoration: underline;
     font-weight: bold;
+}
+
+#by {
+    padding: 2% 0%;
 }
