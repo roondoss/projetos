@@ -138,6 +138,10 @@ footer a:hover {
     .carousel {
         padding-top: 16px;
     }
+
+    .carousel h1 {
+        font-size: 32px;
+    }
     
     }
 
@@ -165,7 +169,7 @@ footer a:hover {
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
     #capa {
         width: 100vw;
-        height: 340px;
+        height: 300px;
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
