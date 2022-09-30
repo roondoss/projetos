@@ -134,6 +134,10 @@ footer a:hover {
         width: 180px;
         padding: 16px;
     }
+
+    .carousel {
+        padding-top: 16px;
+    }
     
     }
 
@@ -150,6 +154,10 @@ footer a:hover {
     #imagem {
         width: 200px;
         padding: 16px;
+    }
+
+    .carousel {
+        padding-top: 32px;
     }
     
     }
@@ -168,6 +176,10 @@ footer a:hover {
         width: 260px;
         padding: 16px;
     }
+
+    .carousel {
+        padding-top: 50px;
+    }
     
     }
 
@@ -184,6 +196,10 @@ footer a:hover {
     #imagem {
         width: 300px;
         padding: 16px;
+    }
+
+    .carousel {
+        padding-top: 50px;
     }
     
     }
