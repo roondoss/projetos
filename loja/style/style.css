@@ -79,6 +79,17 @@ main {
     vertical-align: middle;
     text-align: center;
     color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+#galeria img {
+    transition: 0.5s;
+    max-width: 100%;
+}
+
+#galeria:hover img {
+    transform: scale(1.2);
 }
 
 /*______________________________________________________________________________________________________*/
