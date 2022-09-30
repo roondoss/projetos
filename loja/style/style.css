@@ -8,12 +8,9 @@
     --font00: Verdana, Geneva, Tahoma, sans-serif;
     --font01: 'Inconsolata', monospace; 
     --font02: 'Sriracha', cursive;
-    --cor0: #D5D9E5;
-    --cor1: #979EAC;
-    --cor2: #606062;
-    --cor3: #2973b8;
-    --cor4: #1D428A;
-    --cor5: #10234A;
+    
+    --cor1: #0D1114;
+    --cor2: #202528;
 }
 
 * {
@@ -24,7 +21,7 @@
 /*______________________________________________________________________________________________________*/
 
 body {
-    background-color: var(--cor0);
+    background-color: black;
 }
 
 /*______________________________________________________________________________________________________*/
@@ -36,13 +33,17 @@ header {
 
 /*______________________________________________________________________________________________________*/
 
+#nav a {
+    color: white;
+}
+
 nav {
-    background-color: var(--cor1);
+    width: 100vw;
+    background-color: var(--cor2);
     box-shadow: 1px 2px 4px #10234aa4;
 }
 nav a {
     text-decoration: none;
-    color: var(--cor4);
     font-family: var(--font1);
     font-weight: bold;
     transition-duration: 1s;
@@ -58,64 +59,26 @@ nav a:hover {
 
 .divisor {
     width: 2px;
-    background: rgba(0,0,0,.5);
+    background: white;
     margin: 12px 16px;
 }
 
 /*______________________________________________________________________________________________________*/
 
 main {
-    background-color: white;
-    border-radius: 10px 40px 10px 10px;
-    box-shadow: 5px 5px 10px var(--cor5);
+    background-color: var(--cor1);
     text-align: center;
-    width: 90vw;
-    min-height: 80vh;
-    margin: 20px 20px;
-    padding: 50px 16px 16px 16px;
+    width: 100vw;
+    min-height: 80vh;    
 }
 
 /*______________________________________________________________________________________________________*/
 
-main h1 {
-    color: var(--cor5);
-    font-family: var(--font01);
-}
-
-main h2 {
-    color: var(--cor4);
-    font-family: var(--font01);
-}
-
-main h3 {
-    color: var(--cor3);
-    font-family: var(--font01);
-}
-
-/*______________________________________________________________________________________________________*/
-
-main p {
-    color: var(--cor2);
-    font-family: var(--font02);
-    text-align: left;
-}
-
-main a {
-    text-decoration: none;
-    color: var(--cor2);
-    font-family: var(--font02);
-    font-weight: bold;
-}
-
-main a:hover {
-    text-decoration: underline;
-    background-color: var(--cor0);
-    font-weight: bold;
-    border-radius: 4px;
-}
-
-main a::after {
-    content: '\00a0\1f517';
+#galeria {
+    padding-top: 20px;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
 }
 
 /*______________________________________________________________________________________________________*/
@@ -147,17 +110,69 @@ footer a:hover {
 }
 
 @media screen and (max-width: 767.98px) {
+    #capa {
+        width: 100vw;
+        height: 180px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-image: url(../img/capa770.jpg)
+    }
+
+    #imagem {
+        width: 160px;
+        padding: 16px;
+    }
     
-}
+    }
 
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
+    #capa {
+        width: 100vw;
+        height: 240px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-image: url(../img/capa992.jpg)
+    }
 
-}
-
+    #imagem {
+        width: 200px;
+        padding: 16px;
+    }
+    
+    }
+  
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
+    #capa {
+        width: 100vw;
+        height: 340px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-image: url(../img/capa1200.jpg)
+    }
 
-}
+    #imagem {
+        width: 260px;
+        padding: 16px;
+    }
+    
+    }
 
 @media screen and (min-width: 1200px) {
-
-}
+    #capa {
+        width: 100vw;
+        height: 340px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-image: url(../img/capa1920.jpg)
+    }
+    
+    #imagem {
+        width: 300px;
+        padding: 16px;
+    }
+    
+    }
