@@ -73,6 +73,29 @@ nav a:hover {
 
 /*______________________________________________________________________________________________________*/
 
+.espacoSecao {
+    height: 200px;
+}
+
+.secao {
+    background-color: white;
+    padding: 32px;
+    margin: 0px 0px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.imagem {
+   padding-top: 10px;
+}
+
+.transparente {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 32px;
+}
 
 
 /*______________________________________________________________________________________________________*/
