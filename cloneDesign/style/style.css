@@ -30,15 +30,30 @@ body {
 /*______________________________________________________________________________________________________*/
 
 header {
-    text-align: center;
     width: 100vw;
+}
+
+#navSection {
+    width: 100vw;
+}
+
+#navSec1 {
+    padding-top: 16px;
+    text-align: center;
+}
+
+#navSec2 {
+    text-align: center;
+}
+
+#navSec3 {
+    text-align: center;
 }
 
 /*______________________________________________________________________________________________________*/
 
 nav {
     background-color: white;
-    box-shadow: 1px 2px 4px #10234aa4;
 }
 nav a {
     text-decoration: none;
@@ -46,8 +61,6 @@ nav a {
     font-family: var(--font1);
     font-weight: bold;
     transition-duration: 1s;
-    margin-right: 20px;
-    margin-left: 20px;
 }
 nav a:hover {
     background-color: var(--cor0);
