@@ -340,6 +340,18 @@ nav a:hover {
               rgba(0,120,218,1) 100%);
 }
 
+.gradiente2 {
+    background: linear-gradient(
+        90deg,rgba(0,120,218,1) 0,
+              rgba(0,120,218,1) 3%,
+              rgba(1,172,245,1) 28%,
+              rgba(19,199,121,1) 50%,
+              rgba(34,221,18,1) 76%,
+              rgba(0,169,0,1) 97%,
+              rgba(0,169,0,1) 100%);
+
+}
+
 /*______________________________________________________________________________________________________*/
 
 .rodape {
@@ -400,6 +412,37 @@ color: var(--cor0);
 /*______________________________________________________________________________________________________*/
 
 @media screen and (max-width: 767.98px) {
+    .rodape {
+        background-image: url(../img/rodape.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 1200px;
+        text-align: center;
+        color: white;
+    }
+
+    .roda1 {
+        height: 8%;
+    }
+    
+    
+    .roda2 {
+        height: 58%;
+    }
+    
+    .roda3 {
+        height: 30%;
+    }
+    
+    .roda4 {
+        height: 4%;
+    }
+
+    .certificacao {
+        padding: 16px;
+    }
     
 }
 
