@@ -27,6 +27,13 @@ body {
     background-color: var(--cor0);
 }
 
+hr {
+    background-color: var(--cor0);
+    border-radius: 8px;
+    padding: 4px;
+    margin: 8px 32px;
+}
+
 /*______________________________________________________________________________________________________*/
 
 header {
@@ -94,6 +101,11 @@ nav a:hover {
     height: 25%;
 }
 
+.cabe2 h1 {
+    font-variant: small-caps;
+    font-size: 4em;
+}
+
 .cabe3 {
     height: 25%;
 }
@@ -133,6 +145,84 @@ nav a:hover {
 
 .linguagens img {
     padding: 50px;
+}
+
+/*______________________________________________________________________________________________________*/
+
+#projetos {
+    text-align: center;
+}
+
+#projetos p {
+    font-size: 2em;
+    color: #0596d4;
+    font-weight: bold;
+    padding: 50px;
+}
+
+#projetos ul {
+    color: var(--cor2);
+    font-family: var(--font02);
+    text-align: left;
+    list-style-type: '\2714\00a0\00a0';
+    list-style-position: inside;
+    columns: 3;
+    padding-left: 20px;
+}
+
+/*______________________________________________________________________________________________________*/
+
+#outrosProjetos {
+    text-align: center;
+}
+
+#outrosProjetos p {
+    font-size: 2em;
+    color: #0596d4;
+    font-weight: bold;
+    padding: 50px;
+}
+
+#outrosProjetos ul {
+    color: var(--cor2);
+    font-family: var(--font02);
+    text-align: left;
+    list-style-type: '\2714\00a0\00a0';
+    list-style-position: inside;
+    columns: 3;
+    padding-left: 20px;
+}
+
+/*______________________________________________________________________________________________________*/
+
+#clientes {
+    text-align: center;
+}
+
+#clientes p {
+    font-size: 2em;
+    color: #0596d4;
+    font-weight: bold;
+    padding: 50px;
+}
+
+#clientes ul {
+    color: var(--cor2);
+    font-family: var(--font02);
+    text-align: left;
+    list-style-type: '\2714\00a0\00a0';
+    list-style-position: inside;
+    columns: 3;
+    padding-left: 20px;
+}
+
+/*______________________________________________________________________________________________________*/
+
+#historiaTexto {
+    background-image: url(../img/pontos2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
 /*______________________________________________________________________________________________________*/
