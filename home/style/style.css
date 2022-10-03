@@ -4,9 +4,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
 :root {
-    --font00: Verdana, Geneva, Tahoma, sans-serif;
-    --font01: 'Inconsolata', monospace; 
+    --font00: 'Oswald', sans-serif;
+    --font01: 'Mulish', sans-serif; 
     --font02: 'Sriracha', cursive;
     --cor0: #D5D9E5;
     --cor1: #979EAC;
@@ -25,6 +28,19 @@
 
 body {
     background-color: var(--cor0);
+}
+
+h1 {
+    font-family: var(--font00) !important;
+}
+
+h3, h6 {
+    font-family: var(--font01)!important;
+}
+
+p {
+    font-family: var(--font02);
+    font-weight: lighter;
 }
 
 hr {
@@ -136,7 +152,7 @@ nav a:hover {
     text-align: center;
 }
 
-.linguagens P {
+.linguagens h1 {
     font-size: 2em;
     color: #0596d4;
     font-weight: bold;
@@ -153,7 +169,7 @@ nav a:hover {
     text-align: center;
 }
 
-#projetos p {
+#projetos h1 {
     font-size: 2em;
     color: #0596d4;
     font-weight: bold;
@@ -185,7 +201,7 @@ nav a:hover {
     text-align: center;
 }
 
-#outrosProjetos p {
+#outrosProjetos h1 {
     font-size: 2em;
     color: #0596d4;
     font-weight: bold;
@@ -217,7 +233,7 @@ nav a:hover {
     text-align: center;
 }
 
-#clientes p {
+#clientes h1 {
     font-size: 2em;
     color: #0596d4;
     font-weight: bold;
@@ -288,6 +304,8 @@ nav a:hover {
     border: 2px solid white;
     border-radius: 16px;
 }
+
+/*______________________________________________________________________________________________________*/
 
 #galeriaTexto {
     text-align: center;
