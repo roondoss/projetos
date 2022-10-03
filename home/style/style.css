@@ -1,6 +1,4 @@
 
-/* CONFIGURAÇÃO PADRÃO DO DOCUMENTO */
-
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
@@ -10,16 +8,12 @@
     --font00: Verdana, Geneva, Tahoma, sans-serif;
     --font01: 'Inconsolata', monospace; 
     --font02: 'Sriracha', cursive;
-    
     --cor0: #D5D9E5;
     --cor1: #979EAC;
     --cor2: #606062;
     --cor3: #2973b8;
     --cor4: #1D428A;
     --cor5: #10234A;
-    /* COR RODAPÉ */
-    --cor6: #CDCCCC;
-    --cor7: #606063;
 }
 
 * {
@@ -27,195 +21,268 @@
     padding: 0px;
 }
 
-html, body {
-    background: var(--cor0);
-    align-items: center;
-    align-content: center;
-    align-self: center;
+/*______________________________________________________________________________________________________*/
+
+body {
+    background-color: var(--cor0);
 }
 
-a {
-    color: rgb(100, 100, 100);
-    text-decoration: none;
-    font-weight: bolder;
-}
-
-a:hover {
-    text-decoration: underline;
-    font-weight: bold;
+hr {
+    background-color: var(--cor0);
+    border-radius: 8px;
+    padding: 4px;
+    margin: 8px 32px;
 }
 
 /*______________________________________________________________________________________________________*/
 
-          /* CABEÇALHO */
 header {
+    width: 100vw;
+}
+
+#navSection {
+    width: 100vw;
+}
+
+#navSec1 {
+    padding-top: 16px;
     text-align: center;
 }
 
-header > h1 {
-    font-size: 8vw;  /* 6% MUDA O TAMANHO DE ACORDO COM A LARURA DA JANELA */
-    font-family: var(--font01);
-    font-variant: small-caps;
-    color: var(--cor5);
-    padding: 16px;
+#navSec2 {
+    text-align: center;
 }
 
-header > p {
-    color: var(--cor4);
-    font-family: var(--font02);
-    font-size: 1.2em;
-    padding-bottom: 20px;
+#navSec3 {
+    text-align: center;
 }
+
+.navbar-light .navbar-toggler {
+    color: #0596d4 !important;
+    border-color: #0596d4 !important;
+}
+
+/*______________________________________________________________________________________________________*/
 
 nav {
     background-color: white;
-    text-align: left;
-    padding: 4px 4px 4px 32px;
-    box-shadow: 1px 2px 4px #10234aa4;
 }
-nav > a {
+nav a {
     text-decoration: none;
-    color: var(--cor4);
-    font-family: var(--font01);
+    color: #0596d4 !important;
+    font-family: var(--font1);
     font-weight: bold;
     transition-duration: 1s;
-    margin-right: 16px;
-    margin-left: 16px;
 }
-nav > a:hover {
-    text-decoration: underline;
+nav a:hover {
     background-color: var(--cor0);
+    text-decoration: underline;
     font-weight: bold;
     border-radius: 4px;
-
 }
 
 /*______________________________________________________________________________________________________*/
 
-        /* CORPO */
-
-main {
-    background-color: white;
-    border-radius: 10px 40px 10px 10px;
+.cabecalho {
+    background-image: url(../img/cabecalho.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
     text-align: center;
-    max-width: 800px;
-    padding: 16px;
-    margin: 32px;
-    box-shadow: 5px 5px 10px #10234aa4;
-    margin-left: auto;
-    margin-right: auto;
+    color: white;
 }
 
-h1 {
-    color: var(--cor5);
-    font-family: var(--font01);
+.cabe1 {
+    height: 25%;
 }
 
-h2 {
-    color: var(--cor4);
-    font-family: var(--font01)
+.cabe2 {
+    height: 25%;
 }
 
-h3 {
-    color: var(--cor3);
-    font-family: var(--font01)
+.cabe2 h1 {
+    font-variant: small-caps;
+    font-size: 4em;
 }
 
-p {
-    color: var(--cor2);
-    font-family: var(--font02)
+.cabe3 {
+    height: 25%;
 }
 
-main > p > a {
-    text-decoration: none;
-    color: var(--cor2);
-    font-family: var(--font02);
+.cabe4 {
+    height: 25%;
+}
+
+#btnCabecalho {
+    background-color: #0596d4;
+    border-radius: 1000px;
+    -webkit-border-radius: 1000px;
+    -moz-border-radius: 1000px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    color: white;
+    margin: 100px;
+}
+
+#btnCabecalho:hover {
+    background-color: white;
+    color: #0596d4;
+}
+
+/*______________________________________________________________________________________________________*/
+
+.linguagens {
+    text-align: center;
+}
+
+.linguagens P {
+    font-size: 2em;
+    color: #0596d4;
     font-weight: bold;
+    padding: 50px;
 }
 
-main > p > a:hover {
-    text-decoration: underline;
-    background-color: var(--cor0);
+.linguagens img {
+    padding: 50px;
+}
+
+/*______________________________________________________________________________________________________*/
+
+#projetos {
+    text-align: center;
+}
+
+#projetos p {
+    font-size: 2em;
+    color: #0596d4;
     font-weight: bold;
-    border-radius: 4px;
-
+    padding: 50px;
 }
 
-main > p > a::after {
-    content: '\00a0\1f517';
-}
-
-main ul {
+#projetos ul {
     color: var(--cor2);
     font-family: var(--font02);
     text-align: left;
     list-style-type: '\2714\00a0\00a0';
     list-style-position: inside;
-    columns: 2;
+    columns: 3;
+    padding-left: 20px;
 }
-
-#container {
-    position: relative;
-    border-radius: 10px;
-    background-color: white;
-    height: 480px;
-    
-}
-
-#conteudo h3 {
-    padding-bottom: 8px;
-}
-
-#conteudo {
-    position: absolute;
-    
-    /* POSICIONA A CAIXA */
-    left: 50%;
-    top: 50%;
-
-    /* CONSIDERA O CENTRO DA CAIXA */
-    transform: translate(-50%, -50%);
-
-    height: auto;
-    width: auto;
-}
-
 
 /*______________________________________________________________________________________________________*/
 
-          /* RODAPÉ */
+#outrosProjetos {
+    text-align: center;
+}
+
+#outrosProjetos p {
+    font-size: 2em;
+    color: #0596d4;
+    font-weight: bold;
+    padding: 50px;
+}
+
+#outrosProjetos ul {
+    color: var(--cor2);
+    font-family: var(--font02);
+    text-align: left;
+    list-style-type: '\2714\00a0\00a0';
+    list-style-position: inside;
+    columns: 3;
+    padding-left: 20px;
+}
+
+/*______________________________________________________________________________________________________*/
+
+#clientes {
+    text-align: center;
+}
+
+#clientes p {
+    font-size: 2em;
+    color: #0596d4;
+    font-weight: bold;
+    padding: 50px;
+}
+
+#clientes ul {
+    color: var(--cor2);
+    font-family: var(--font02);
+    text-align: left;
+    list-style-type: '\2714\00a0\00a0';
+    list-style-position: inside;
+    columns: 3;
+    padding-left: 20px;
+}
+
+/*______________________________________________________________________________________________________*/
+
+#historiaTexto {
+    background-image: url(../img/pontos2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    font-size: 2em;
+    color: #0596d4;
+    font-weight: bold;
+}
+
+#historiaTexto p {
+    text-align: justify;
+    font-size: .5em;
+    color: #10234A;
+}
+
+#galeriaTexto {
+    text-align: center;
+    font-size: 2em;
+    color: #0596d4;
+    font-weight: bold;
+    padding: 50px;
+}
+
+/*______________________________________________________________________________________________________*/
 
 footer {
-    color: var(--cor7);
-    background-color: var(--cor6);
-    border-radius: 0px;
-    width: auto;
-    margin: 0px;
-    padding: 8px;
-    text-align: center;
-    font-style: normal;
-    font-family: var(--fonte02) 
-}
-
-/*______________________________________________________________________________________________________*/
-
-#caixaF01 {
-    padding-top: 2%;
-    padding-bottom: 2%;
-}
-
-#caixaF02 {
     font-family: var(--font02);
     color: var(--cor2);
-    padding-top: 3%;
-    padding-bottom: 2%;
+    background-color: var(--cor1);
+    text-align: center;
+    width: auto;
+    margin: 0px;
+    align-items: center;    /*centraliza horizontalmente*/
+    justify-content: center;    /*cetraliza verticalmente*/
 }
 
-#caixaF03 {
-    padding-top: 2%;
-    padding-bottom: 2%;
+footer a {
+    color: var(--cor2);
+    text-decoration: none;
 }
 
-#imgF03 {
-    padding-left: 16%;
+footer a:hover {
+    color: var(--cor2);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#by {
+    padding: 2% 0%;
+}
+
+@media screen and (max-width: 767.98px) {
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+
 }
