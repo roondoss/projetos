@@ -329,31 +329,75 @@ nav a:hover {
 
 /*______________________________________________________________________________________________________*/
 
-footer {
-    font-family: var(--font02);
-    color: var(--cor2);
-    background-color: var(--cor1);
+.gradiente {
+    background: linear-gradient(
+        90deg,rgba(0,169,0,1) 0,
+              rgba(0,169,0,1) 3%,
+              rgba(34,221,18,1) 28%,
+              rgba(19,199,121,1) 50%,
+              rgba(1,172,245,1) 76%,
+              rgba(0,120,218,1) 97%,
+              rgba(0,120,218,1) 100%);
+}
+
+/*______________________________________________________________________________________________________*/
+
+.rodape {
+    background-image: url(../img/rodape.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
     text-align: center;
-    width: auto;
-    margin: 0px;
-    align-items: center;    /*centraliza horizontalmente*/
-    justify-content: center;    /*cetraliza verticalmente*/
+    color: white;
 }
 
-footer a {
-    color: var(--cor2);
-    text-decoration: none;
+.roda1 {
+    height: 16%;
+    background-color: rgba(255, 255, 255, 0.123);
 }
 
-footer a:hover {
-    color: var(--cor2);
+
+.roda2 {
+    height: 50%;
+    font-family: var(--font00);
+}
+
+.roda2 ul {
+    color: var(--cor0);
+    font-family: var(--font01);
+    text-align: left;
+    list-style-type: '\2714\00a0\00a0';
+    list-style-position: inside;
+    columns: 1;
+    padding-left: 20px;
+    
+}
+
+.roda3 {
+    height: 20%;
+    font-family: var(--font00);
+}
+
+.roda4 {
+    height: 14%;
+    background-color: rgba(255, 255, 255, 0.123);
+    font-family: var(--font02);
+    color: var(--cor0);
+}
+
+.roda4 a {
+text-decoration: none;
+color: var(--cor0);    
+}
+
+.roda4 a:hover {
     text-decoration: underline;
-    font-weight: bold;
-}
+    color: #0596d4;
+    font-weight: bold;    
+    }
 
-#by {
-    padding: 2% 0%;
-}
+/*______________________________________________________________________________________________________*/
 
 @media screen and (max-width: 767.98px) {
     
