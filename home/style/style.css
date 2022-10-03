@@ -170,6 +170,15 @@ nav a:hover {
     padding-left: 20px;
 }
 
+#projetos a {
+    color: black;
+}
+
+#projetos a:hover {
+    color: #0596d4;
+    font-weight: bold;
+}
+
 /*______________________________________________________________________________________________________*/
 
 #outrosProjetos {
@@ -193,6 +202,15 @@ nav a:hover {
     padding-left: 20px;
 }
 
+#outrosProjetos a {
+    color: black;
+}
+
+#outrosProjetos a:hover {
+    color: #0596d4;
+    font-weight: bold;
+}
+
 /*______________________________________________________________________________________________________*/
 
 #clientes {
@@ -214,6 +232,15 @@ nav a:hover {
     list-style-position: inside;
     columns: 3;
     padding-left: 20px;
+}
+
+#clientes a {
+    color: black;
+}
+
+#clientes a:hover {
+    color: #0596d4;
+    font-weight: bold;
 }
 
 /*______________________________________________________________________________________________________*/
