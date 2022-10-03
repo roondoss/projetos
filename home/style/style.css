@@ -363,12 +363,23 @@ footer a:hover {
     #navPhone {
         display: none;
     }
+
+    .cabe2 h1 {
+        font-variant: small-caps;
+        font-size: 6em;
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
-
+    .cabe2 h1 {
+        font-variant: small-caps;
+        font-size: 6em;
+    }
 }
 
 @media screen and (min-width: 1200px) {
-
+    .cabe2 h1 {
+        font-variant: small-caps;
+        font-size: 6em;
+    }
 }
