@@ -120,7 +120,7 @@ nav a:hover {
     -webkit-border-radius: 1000px;
     -moz-border-radius: 1000px;
     text-transform: uppercase;
-    transition: background 0.4s, color 0.4s;
+    width: 160px;
     color: white;
     margin: 100px;
 }
@@ -128,6 +128,7 @@ nav a:hover {
 #btnCabecalho:hover {
     background-color: white;
     color: #0596d4;
+    border: 4px solid #0596d4;
 }
 
 /*______________________________________________________________________________________________________*/
@@ -222,7 +223,7 @@ nav a:hover {
     background-image: url(../img/pontos2.png);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
+    min-height: 262px;
 }
 
 /*______________________________________________________________________________________________________*/
