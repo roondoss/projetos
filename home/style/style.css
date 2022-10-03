@@ -218,7 +218,7 @@ nav a:hover {
 
 /*______________________________________________________________________________________________________*/
 
-#historiaTexto {
+#historiaTexto1 {
     background-image: url(../img/pontos2.png);
     background-repeat: no-repeat;
     background-position: center center;
@@ -229,10 +229,32 @@ nav a:hover {
     font-weight: bold;
 }
 
-#historiaTexto p {
+#historiaTexto1 p {
     text-align: justify;
     font-size: .5em;
     color: #10234A;
+}
+
+#historiaTexto2 {
+    background-image: url(../img/pontos2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    font-size: 2em;
+    color: #0596d4;
+    font-weight: bold;
+}
+
+#historiaTexto2 p {
+    text-align: justify;
+    font-size: .5em;
+    color: #10234A;
+}
+
+#historiaImagem {
+    text-align: center;
+    padding: 50px 0px;
 }
 
 #galeriaTexto {
@@ -241,6 +263,10 @@ nav a:hover {
     color: #0596d4;
     font-weight: bold;
     padding: 50px;
+}
+
+#galeriaImagems {
+    text-align: center;
 }
 
 /*______________________________________________________________________________________________________*/
