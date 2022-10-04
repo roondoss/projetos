@@ -359,7 +359,7 @@ nav a:hover {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 400px;
     text-align: center;
     color: white;
 }
@@ -373,6 +373,10 @@ nav a:hover {
 .roda2 {
     height: 50%;
     font-family: var(--font00);
+}
+
+.coluna {
+    
 }
 
 .roda2 ul {
@@ -418,18 +422,18 @@ color: var(--cor0);
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
-        height: 1200px;
+        height: 1400px;
         text-align: center;
         color: white;
     }
 
     .roda1 {
-        height: 8%;
+        height: 6%;
     }
     
     
     .roda2 {
-        height: 58%;
+        height: 60%;
     }
     
     .roda3 {
