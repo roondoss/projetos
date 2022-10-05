@@ -26,16 +26,24 @@
 
 /*______________________________________________________________________________________________________*/
 
-body {
-    background-color: var(--cor0);
+#bodyLocal {
+    background-color: white;
+    background-image: url(../img/backgroundBody.png);
+    background-position: center center;
+    
+    
 }
 
 h1 {
-    font-family: var(--font00) !important;
+    
 }
 
 h3, h6 {
-    font-family: var(--font01)!important;
+    
+}
+
+h5 {
+
 }
 
 p {
@@ -115,11 +123,21 @@ nav a:hover {
 
 .cabe2 {
     height: 25%;
+    color: var(--cor2);
 }
 
 .cabe2 h1 {
     font-variant: small-caps;
     font-size: 4em;
+    color: var(--cor1);
+}
+
+.cabe2 h3 {
+    color: var(--cor2);
+}
+
+.cabe2 h6 {
+    color: var(--cor2);
 }
 
 .cabe3 {
