@@ -2,201 +2,418 @@
 <html lang="pt-BR">
 
 <head>
-  <title>&nbspVOP</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+  <link rel="shortcut icon" href="img/vop.png" type="image/png">
+
+  <!-- Atualização Automática -->
+  <meta http-equiv="refresh" content="3600">
+
+  <!-- Folhas CSS -->
+  <link rel="stylesheet" href="./style/style.css" media="all">
+  <link rel="stylesheet" href="./style/print.css" media="print">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="shortcut icon" href="img/ico.png" type="image/png">
-  <style>
-    /* Remove the navbar's default margin-bottom and rounded borders */
-    .navbar {
-      margin-bottom: 0;
-      border-radius: 0;
-    }
 
-    img {
-      background-attachment: fixed;
-      background-position: top center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      width: 99vw;
-    }
+  <!-- JavaScript (Opcional) -->
+  <script src="./script/script.js" defer></script> <!-- Java Script -->
 
-    #by a {
-      text-decoration: none;
-      color: white;
-    }
+  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" defer
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" defer
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" defer
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
 
-    #by a:hover {
-      text-decoration: none;
-      font-weight: bolder;
-    }
+  <!-- Tags Google -->
+  <meta name="keywords" content=" Vila dos Operadores ">
 
-    #linkl a {
-      text-decoration: none;
-      color: black;
-    }
+  <title> &nbsp Vila dos Operadores
+  </title>
 
-    #linkL a:hover {
-      text-decoration: none;
-      font-weight: bolder;
-    }
-
-    #linkR a {
-      text-decoration: none;
-      color: black;
-    }
-
-    #linkrR a:hover {
-      text-decoration: underline;
-      font-weight: bolder;
-    }
-
-    #construcao {
-      color: black;
-      display: block;
-      text-align: center;
-      margin: auto;
-      padding: 10px;
-      width: 200px;
-    }
-
-    /*
-    #navbarTop {
-      background-color: gray;
-      border: 0px;
-    }
-
-    #navbarLateral {
-      background-color: darkgray;
-    }
-    */
-
-    h1 {
-      text-align: center;
-    }
-
-    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-    .row.content {
-      height: 450px
-    }
-
-    /* Set gray background color and 100% height */
-    .sidenav {
-      padding-top: 20px;
-      background-color: #f1f1f1;
-      height: 100%;
-    }
-
-    /* Set black background color, white text and some padding */
-    footer {
-      background-color: #555;
-      color: white;
-      padding: 15px;
-    }
-
-    #ro {
-      height: 20px;
-      width: 20px;
-      margin-right: 32px;
-    }
-
-    /* On small screens, set height to 'auto' for sidenav and grid */
-    @media screen and (max-width: 767px) {
-      .sidenav {
-        height: auto;
-        padding: 15px;
-      }
-
-      .row.content {
-        height: auto;
-      }
-    }
-  </style>
 </head>
 
-<body>
-  <div>
-    <img src="img/capa.jpg" alt="">
-  </div>
-  <nav class="navbar navbar-inverse" id="navbarTop">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="galeria.html"
-          target="_blank">Galeria</a>
-      </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="sobre.html">Sobre</a></li>
-          <li><a href="contato.html">Contato</a></li>
-        </ul>
-        <!-- <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul> -->
-      </div>
-    </div>
-  </nav>
 
-  <div class="container-fluid text-center">
-    <div class="row content">
-      <div class="col-sm-2 sidenav" id="navbarLateral">
-        <p id="linkl"><a href="reservas.html">Reservas</a></p>
-        <p id="linkl"><a href="aluguel.html">Aluguel</a></p>
-        <p id="linkl"><a href="venda.html">Venda</a></p>
-      </div>
+<body id="bodyLocal">
+  <header>
 
+    <section id="navSection" class="d-flex">
+      <div class="container align-self-center">
+        <div class="row">
 
+          <div id="navSec1" class="col-md-2">
+            <img src="img/vop.png" alt="Vila dos Operadores" width="80">
+          </div>
 
+          <div id="navSec2" class="col-md-8">
+            <nav class="navbar navbar-expand-md navbar-light navbar-transparente">
+              <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+                <i class="fas fa-bars"></i>
+              </button>
 
-      <div class="col-sm-8 text-left">
-        <h1>Residencial Encontro das Águas</h1>
-        <p>
-          <img id="construcao" src="../assets/imgProjetos/construcao.png" alt="construção">
-        </p>
-        <hr>
-        <h1>Em Construção</h1>
-        <p>
-          <img id="construcao" src="../assets/imgProjetos/code.png" alt="Código">
-        </p>
-      </div>
+              <div class="collapse navbar-collapse" id="nav-principal">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item"><a href="#" class="nav-link">
+                      <h6>Home</h6>
+                    </a></li>
+                  <li class="nav-item"><a href="#sobre" class="nav-link" target="_blank">
+                      <h6>Sobre</h6>
+                    </a></li>
+                  <li class="nav-item"><a href="#contato" class="nav-link" target="_blank">
+                      <h6>Contato</h6>
+                    </a></li>
+                  <li class="nav-item"><a href="#galeria" class="nav-link"
+                      target="_blank">
+                      <h6>Galeria</h6>
+                    </a></li>
+                  <li id="navPhone" class="nav-item"><a href="https://wa.me/5518xxxxxxxx" class="nav-link"
+                      target="_blank">
+                      <h6>18 xxxx xxxx
+                      </h6>
+                    </a></li>
+                </ul>
+              </div>
 
+              <div id="navSec3" class="col-md-2">
+                <!-- EM BRANCO -->
+              </div>
+            </nav>
+          </div>
 
-
-
-      <div class="col-sm-2 sidenav" id="navbarLateral">
-        <div class="well">
-          <p id="linkR"><a href="academia.html">Academia</a></p>
-        </div>
-        <div class="well">
-          <p id="linkR"><a href="bosque.html">Bosque</a></p>
-        </div>
-        <div class="well">
-          <p id="linkR"><a href="pilates.html">Pilates</a></p>
-        </div>
-        <div class="well">
-          <p id="linkR"><a href="piscina.html">Piscina</a></p>
-        </div>
-        <div class="well">
-          <p id="linkR"><a href="sauna.html">Sauna</a></p>
         </div>
       </div>
-    </div>
-  </div>
+    </section>
 
-  <footer class="container-fluid text-center">
-    <p id="by">
-      <img id="ro" src="img/logo.png">
-      Powered:
-      <a href="https://contate.me/roondoss" target="_blank"> &nbsp&nbsp By Ronaldo Onório</a></p>
+    <section class="cabecalho">
+
+      <section class="d-flex cabe1">
+        <div class="container align-self-center">
+          <div class="row">
+
+            <div class="col-md-12">
+              <!-- Espaço em Branco -->
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="d-flex cabe2">
+        <div class="container align-self-center">
+          <div class="row">
+
+            <div class="col-md-12">
+              <h3>Condomínio Residencial</h3>
+              <h1>Encontro das Águas</h1>
+              <h6>Vila dos Operadores</h6>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="d-flex cabe3">
+        <div class="container align-self-center">
+          <div class="row">
+
+            <div class="col-md-4">
+              <!-- Espaço em Branco -->
+            </div>
+
+            <div class="col-md-4">
+              <!-- Espaço em Branco --> Chama
+            </div>
+
+            <div class="col-md-4">
+              <!-- Espaço em Branco -->
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="d-flex cabe4">
+        <div class="container align-self-center">
+          <div class="row">
+
+            <div class="col-md-12">
+              <!-- Espaço em Branco -->
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+    </section>
+
+  </header>
+
+  <main>
+
+    <section class="linguagens">
+      <section class="d-flex">
+        <div class="container align-self-center">
+          <div class="row">
+            <div class="col-md-12">
+              <h1>Áreas Comuns</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="linguagensImg" class="d-flex">
+        <div class="container align-self-center">
+          <div class="row">
+            <div class="col-md-3">
+              Bosque
+            </div>
+            <div class="col-md-3">
+              Piscina
+            </div>
+            <div class="col-md-3">
+              Quadras
+            </div>
+            <div class="col-md-3">
+              Academia
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <hr>
+
+    <section>
+      <section class="d-flex">
+        <div class="container align-self-center">
+          <div class="row">
+            <div id="historiaTexto1" class="col-md-6">
+              <h1>HISTÓRIA</h1>
+              <p>Localizado no município de Castilho -SP na intersecção do rio Paraná com o rio Sucuriú e divisa com a cidade de Três Lagoas - MS.
+
+                Em decorrência da construção da Usina Hidrelétrica da CESP em 1960 teve a necessidade de construir a Vila dos Operadores.</p>
+            </div>
+            <div id="historiaImagem" class="col-md-6">
+              <img id="historiaImagemImg" src="img/cores.jpg" alt="Cores">
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section>
+      <section class="d-flex">
+        <div class="container align-self-center">
+          <div class="row">
+            <div id="historiaTexto2" class="col-md-12">
+              <p>bla bla bla bla, enfim, bla</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <div class="gradiente"> . </div>
+
+    <section id="galeriaTexto">
+      <section class="d-flex">
+        <div class="container align-self-center">
+          <div class="row">
+            <div class="col-md-12">
+              <h1>GALERIA</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section>
+      <section class="d-flex">
+        <div class="container align-self-center">
+          <div class="row">
+            <div id="galeriaImagemCenter" class="col-md-12">
+              IMAGENS
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <div class="gradiente2"> . </div>
+
+  </main>
+
+  <footer>
+
+    <section class="rodape">
+
+      <section class="d-flex roda1">
+        <div class="container align-self-center">
+          <div class="row">
+
+            <div class="col-md-12">
+              <h1>Atividades</h1>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="d-flex roda2">
+        <div class="container align-self-center">
+          <div class="row">
+
+            <div class=" coluna col-md-3">
+              <h5>Bosque</h5>
+              <ul>
+                <li>Quiosques</li>
+                <li>reservas</li>
+              </ul>
+            </div>
+
+            <div class=" coluna col-md-3">
+              <h5>Piscina</h5>
+              <ul>
+                <li>Horários</li>
+                <li>Exames</li>
+              </ul>
+            </div>
+
+            <div class=" coluna col-md-3">
+              <h5>Quadras</h5>
+              <ul>
+                <li>Futebol Salão</li>
+                <li>Voley Adaptado</li>
+                <li>futebol society</li>
+                <li>Tênis</li>
+              </ul>
+            </div>
+
+            <div class=" coluna col-md-3">
+              <h5>Academia</h5>
+              <ul>
+                <li>Musculação</li>
+                <li>Pilates</li>
+                <li>Dança</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="d-flex roda3">
+        <div class="container align-self-center">
+          <div class="row">
+
+            <div class="col-md-3">
+              <!--BRANCO-->
+            </div>
+
+            <div class="col-md-3 certificacao">
+              <!--BRANCO-->
+            </div>
+
+            <div class="col-md-3 certificacao">
+              <!--BRANCO-->
+            </div>
+
+            <div class="col-md-3 certificacao">
+              <!--BRANCO-->
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+
+      <section class="d-flex roda4">
+        <div class="container align-self-center">
+          <div class="row">
+            <div id="by" class="col-md-4">
+              <img src="img/ro.png" alt="Ronaldo Onorio" width="32px">
+            </div>
+            <div id="by" class="col-md-4">
+              
+              Powered: By Ronaldo Onório
+            </div>
+            <div id="by" class="col-md-4">
+              <!--BRANCO-->
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+    </section>
+
+    <section>
+      <call-us
+        phonesystem-url="https://roondoss.my3cx.com.br:5001" 
+        style="position:fixed;font-size:16px;line-height:17px;z-index: 99999;right: 20px; bottom: 20px;" 
+        id="wp-live-chat-by-3CX" 
+        minimized="true" 
+        animation-style="noanimation" 
+        party="LiveChat383310" 
+        minimized-style="bubbleright" 
+        allow-call="true" 
+        allow-video="false" 
+        allow-soundnotifications="true" 
+        enable-mute="true" 
+        enable-onmobile="true" 
+        offline-enabled="false" 
+        enable="true" 
+        ignore-queueownership="false" 
+        authentication="both" 
+        show-operator-actual-name="true" 
+        aknowledge-received="true" 
+        gdpr-enabled="false" 
+        message-userinfo-format="both" 
+        message-dateformat="both" 
+        lang="browser" 
+        button-icon-type="default" 
+        greeting-visibility="none" 
+        greeting-offline-visibility="none" 
+        chat-delay="2000" 
+        enable-direct-call="true" 
+        enable-ga="false">
+      </call-us>
+      <script defer src="https://downloads-global.3cx.com/downloads/livechatandtalk/v1/callus.js"
+        id="tcx-callus-js"
+        charset="utf-8">
+      </script>
+    </section>
+
+    <section>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+      <a href="https://wa.me/5567998763544?text=Em%20que%20posso%20te%20ajudar?%20Clica%20no%20botão%20acima%20ou%20BAIXAR%20no%20botão%20abaixo."
+        style="position:fixed;
+      width:60px;
+      height:60px;
+      bottom:24px;
+      left:40px;
+      background-color:#0596d4;
+      color:#FFF;
+      border-radius:50px;
+      text-align:center;
+      font-size:30px;
+      box-shadow: 0px 0px 4px #000;
+      z-index:1000;" target="_blank">
+        <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+      </a>
+    </section>
+
   </footer>
 
 </body>

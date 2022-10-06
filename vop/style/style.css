@@ -1,216 +1,351 @@
 
-/* CONFIGURAÇÃO PADRÃO DO DOCUMENTO */
-
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
 :root {
-    --font00: Verdana, Geneva, Tahoma, sans-serif;
-    --font01: 'Inconsolata', monospace; 
+    --font00: 'Oswald', sans-serif;
+    --font01: 'Mulish', sans-serif; 
     --font02: 'Sriracha', cursive;
-    
     --cor0: #D5D9E5;
-    --cor1: #979EAC;
-    --cor2: #606062;
-    --cor3: #2973b8;
-    --cor4: #1D428A;
-    --cor5: #10234A;
+    --cor1: #34401A;
+    --cor2: #64732F;
+    --cor3: #CAD959;
+    --cor4: #B4BF5E;
+    --cor5: #252617;
 }
 
-/*______________________________________________________________________________________________________*/
-
-* {                    /* APLICA A TODOS OS ELEMENTOS DO DOCUMENTO */
+* {
     margin: 0px;
     padding: 0px;
 }
 
-html, body {
-    background: var(--cor0);
+/*______________________________________________________________________________________________________*/
+
+#bodyLocal {
+    background-color: white;
+    background-image: url(../img/backgroundBody.png);
+    background-position: center center;
+    
+    
+}
+
+h1 {
+    
+}
+
+h3, h6 {
+    
+}
+
+h5 {
+
+}
+
+p {
+    font-family: var(--font02);
+    font-weight: lighter;
+}
+
+hr {
+    background-color: var(--cor0);
+    border-radius: 8px;
+    padding: 4px;
+    margin: 8px 32px;
 }
 
 /*______________________________________________________________________________________________________*/
 
 header {
+    width: 100vw;
+}
+
+#navSection {
+    width: 100vw;
+}
+
+#navSec1 {
+    padding-top: 16px;
     text-align: center;
 }
 
-header > h1 {      /* H1 DENTRO DO HEADER */
-    font-size: 8vw;  /* 8% MUDA O TAMANHO DE ACORDO COM A LARURA DA JANELA */
-    font-family: var(--font01);
-    font-variant: small-caps;
-    color: var(--cor5);
-    padding: 16px;
+#navSec2 {
+    text-align: center;
 }
 
-header > p {
-    color: var(--cor2);
-    font-family: var(--font02);
-    font-size: 1.2em;
-    padding-bottom: 20px;
+#navSec3 {
+    text-align: center;
+}
+
+.navbar-light .navbar-toggler {
+    color: #0596d4 !important;
+    border-color: #0596d4 !important;
 }
 
 /*______________________________________________________________________________________________________*/
 
 nav {
     background-color: white;
-    text-align: left;
-    padding: 4px 4px 4px 32px;
-    box-shadow: 1px 2px 4px #10234aa4;
 }
-nav > a {
+nav a {
     text-decoration: none;
-    color: var(--cor4);
+    color: #0596d4 !important;
     font-family: var(--font1);
     font-weight: bold;
     transition-duration: 1s;
-    margin-right: 20px;
-    margin-left: 20px;
 }
-nav > a:hover {
+nav a:hover {
     background-color: var(--cor0);
     text-decoration: underline;
     font-weight: bold;
     border-radius: 4px;
 }
 
-nav > a::before {
-    content: '\2714\00a0';
-}
-
 /*______________________________________________________________________________________________________*/
 
-main {     /* CORPO */
+.cabecalho {
+    background-image: url(../img/cabecalho.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+    color: white;
+}
+
+.cabe1 {
+    height: 25%;
+}
+
+.cabe2 {
+    height: 25%;
+    color: var(--cor2);
+}
+
+.cabe2 h1 {
+    font-variant: small-caps;
+    font-size: 4em;
+    color: var(--cor1);
+}
+
+.cabe2 h3 {
+    color: var(--cor2);
+}
+
+.cabe2 h6 {
+    color: var(--cor2);
+}
+
+.cabe3 {
+    height: 25%;
+}
+
+.cabe4 {
+    height: 25%;
+}
+
+#btnCabecalho {
+    background-color: #0596d4;
+    width: 100px;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    color: white;
+}
+
+#btnCabecalho:hover {
     background-color: white;
-    border-radius: 10px 40px 10px 10px;
-    box-shadow: 5px 5px 10px var(--cor5);
+    color: #0596d4;
+    border: 4px solid #0596d4;
+}
+
+/*______________________________________________________________________________________________________*/
+
+#titulo {
+
+}
+
+/*______________________________________________________________________________________________________*/
+
+
+
+/*______________________________________________________________________________________________________*/
+
+#historiaTexto1 {
     text-align: center;
-    max-width: 800px;
-    min-height: 53vh;
-    margin: 32px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 16px;
+    font-size: 2em;
+    color: #0596d4;
+    font-weight: bold;
+}
+
+#historiaTexto1 p {
+    text-align: justify;
+    font-size: .5em;
+    color: #10234A;
+}
+
+#historiaTexto2 {
+    text-align: center;
+    font-size: 2em;
+    color: #0596d4;
+    font-weight: bold;
+}
+
+#historiaTexto2 p {
+    text-align: justify;
+    font-size: .5em;
+    color: #10234A;
+}
+
+#historiaImagem {
+    text-align: center;
+    padding: 50px 0px;
+}
+
+#historiaImagemImg {
+    border: 2px solid white;
+    border-radius: 16px;
 }
 
 /*______________________________________________________________________________________________________*/
 
-h1 {
-    color: var(--cor5);
-    font-family: var(--font01);
-}
+.galeria {
 
-h2 {
-    color: var(--cor4);
-    font-family: var(--font01);
-}
-
-h3 {
-    color: var(--cor3);
-    font-family: var(--font01);
 }
 
 /*______________________________________________________________________________________________________*/
 
-main p {
-    color: var(--cor2);
-    font-family: var(--font02);
+.gradiente {
+    background: linear-gradient(
+        90deg,
+        #34401A 0,
+        #64732F 25%,
+        #CAD959 50%,
+        #CAD959 75%,
+        #252617 100%);
+}
+
+.gradiente2 {
+    background: linear-gradient(
+        90deg,
+        #252617 0,
+        #CAD959 25%,
+        #CAD959 50%,
+        #64732F 75%,
+        #34401A 100%);
+
+}
+
+/*______________________________________________________________________________________________________*/
+
+.rodape {
+    background-image: url(../img/rodape.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+    color: white;
+}
+
+.roda1 {
+    height: 16%;
+    background-color: rgba(255, 255, 255, 0.123);
+}
+
+
+.roda2 {
+    height: 50%;
+    font-family: var(--font00);
+}
+
+.roda2 ul {
+    color: var(--cor0);
+    font-family: var(--font01);
     text-align: left;
-}
-
-main a {
-    text-decoration: none;
-    color: var(--cor2);
-    font-family: var(--font02);
-    font-weight: bold;
-}
-
-main a:hover {
-    text-decoration: underline;
-    background-color: var(--cor0);
-    font-weight: bold;
-    border-radius: 4px;
-}
-
-main a::after {
-    content: '\00a0\1f517';
-}
-
-/*______________________________________________________________________________________________________*/
-
-footer {
-    background-color: var(--cor1);
-    color: var(--cor7);
-    text-align: center;
-    font-family: var(--fonte02);
-    width: auto;
-    margin: 0px;
-    padding: 8px;
-}
-
-/*______________________________________________________________________________________________________*/
-
-footer > p {
-    font-family: var(--font02);
-    color: var(--cor2);
-    margin: 0px;
-    align-items: center;    /*centraliza horizontalmente*/
-    justify-content: center;    /*cetraliza verticalmente*/
-}
-
-#ro {
+    list-style-type: '\2714\00a0\00a0';
+    list-style-position: inside;
+    columns: 1;
+    padding-left: 20px;
     
 }
 
-/*______________________________________________________________________________________________________*/
-
-#fp01 > a {
-    text-decoration: none;
-    color: var(--cor2);
-    margin-right: 0px;
-    margin-left: 0px;
+.roda3 {
+    height: 20%;
+    font-family: var(--font00);
 }
 
-#fp01 > a:hover {
-    text-decoration: underline;
-    font-weight: bold;
-}
-
-#fp01 > a::after {
-    content: '\00a0\2197';
+.roda4 {
+    height: 14%;
+    background-color: rgba(255, 255, 255, 0.123);
+    font-family: var(--font02);
+    color: var(--cor0);
 }
 
 /*______________________________________________________________________________________________________*/
 
-#fp03 > a {
-    text-decoration: none;
-    color: var(--cor2);
-    margin-right: 0px;
-    margin-left: 0px;
+@media screen and (max-width: 767.98px) {
+    .rodape {
+        background-image: url(../img/rodape.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 1400px;
+        text-align: center;
+        color: white;
+    }
+
+    .roda1 {
+        height: 6%;
+    }
+    
+    
+    .roda2 {
+        height: 60%;
+    }
+    
+    .roda3 {
+        height: 30%;
+    }
+    
+    .roda4 {
+        height: 4%;
+    }
+
+    .certificacao {
+        padding: 16px;
+    }
+    
 }
 
-#fp03 > a:hover {
-    text-decoration: underline;
-    font-weight: bold;
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    #navPhone {
+        display: none;
+    }
+
+    .cabe2 h1 {
+        font-variant: small-caps;
+        font-size: 6em;
+    }
 }
 
-#fp03 > a::after {
-    content: '\00a0\2197';
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+    .cabe2 h1 {
+        font-variant: small-caps;
+        font-size: 6em;
+    }
 }
 
-/*______________________________________________________________________________________________________*/
-
-#fp01 {
-    padding-top: 0%;
-}
-
-#fp02 {
-    padding-top: 2%;
-    padding-bottom: 0%;
-}
-
-#fp03 {
-    padding-top: 0%;
-    padding-bottom: 0%;
+@media screen and (min-width: 1200px) {
+    .cabe2 h1 {
+        font-variant: small-caps;
+        font-size: 6em;
+    }
 }
