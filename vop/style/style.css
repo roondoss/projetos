@@ -138,6 +138,41 @@ nav a:hover {
 
 /*______________________________________________________________________________________________________*/
 
+.areaComum {
+    width: 100vw;
+    height: 200px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.bosque {
+    width: 100vw;
+    height: 400px;
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    padding-top: 200px;
+    background-image: url(../img/areaComum/bosque.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.academia {
+    width: 100vw;
+    height: 400px;
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    padding-top: 200px;
+    background-image: url(../img/areaComum/academia.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
 /*______________________________________________________________________________________________________*/
 
 #historiaTexto {
@@ -145,6 +180,7 @@ nav a:hover {
     font-size: 2em;
     color: #0596d4;
     font-weight: bold;
+    padding-top: 150px;
 }
 
 #historiaTexto p {
@@ -153,7 +189,7 @@ nav a:hover {
     color: #10234A;
 }
 
-#historiaImagem {
+#historiaImg {
     text-align: center;
     padding: 50px 0px;
     border: 2px solid white;
