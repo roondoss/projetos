@@ -36,6 +36,8 @@
 
 p {
     font-family: var(--font02);
+    text-align: center;
+    padding: 80px;
     font-weight: lighter;
 }
 
@@ -155,8 +157,6 @@ nav a:hover {
     background-image: url(../img/areaComum/bosque.jpg);
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-
 }
 
 .academia {
@@ -169,8 +169,30 @@ nav a:hover {
     background-image: url(../img/areaComum/academia.jpg);
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+}
 
+.piscina {
+    width: 100vw;
+    height: 400px;
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    padding-top: 200px;
+    background-image: url(../img/areaComum/piscina.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.quadras {
+    width: 100vw;
+    height: 400px;
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    padding-top: 200px;
+    background-image: url(../img/areaComum/quadras.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 /*______________________________________________________________________________________________________*/
