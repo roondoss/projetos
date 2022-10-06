@@ -343,7 +343,7 @@ nav a:hover {
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
-        height: 1400px;
+        height: 1200px;
         text-align: center;
         color: white;
     }
@@ -358,11 +358,11 @@ nav a:hover {
     }
     
     .roda3 {
-        height: 30%;
+        height: 24%;
     }
     
     .roda4 {
-        height: 4%;
+        height: 10%;
     }
 
     .certificacao {
