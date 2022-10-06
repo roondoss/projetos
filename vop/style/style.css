@@ -34,20 +34,6 @@
     
 }
 
-p {
-    font-family: var(--font02);
-    text-align: center;
-    padding: 80px;
-    font-weight: lighter;
-}
-
-hr {
-    background-color: var(--cor0);
-    border-radius: 8px;
-    padding: 4px;
-    margin: 8px 32px;
-}
-
 /*______________________________________________________________________________________________________*/
 
 header {
@@ -72,8 +58,8 @@ header {
 }
 
 .navbar-light .navbar-toggler {
-    color: #0596d4 !important;
-    border-color: #0596d4 !important;
+    color: var(--cor2) !important;
+    border-color: var(--cor2) !important;
 }
 
 /*______________________________________________________________________________________________________*/
@@ -83,7 +69,7 @@ nav {
 }
 nav a {
     text-decoration: none;
-    color: #0596d4 !important;
+    color: var(--cor1) !important;
     font-family: var(--font1);
     font-weight: bold;
     transition-duration: 1s;
@@ -147,52 +133,100 @@ nav a:hover {
     padding-top: 80px;
 }
 
+.areaComum h2 {
+    text-align: center;
+    color: var(--cor2);
+}
+
 .bosque {
     width: 100vw;
     height: 400px;
+    font-family: var(--font02);
     text-align: center;
     font-size: 3em;
-    color: white;
-    padding-top: 200px;
+    color: #D4E5A2;
+    padding-top: 300px;
     background-image: url(../img/areaComum/bosque.jpg);
     background-position: center center;
     background-repeat: no-repeat;
 }
 
+.bosqueTexto p {
+    text-align: center;
+    font-family: var(--font02);
+    color: var(--cor2);
+    padding-top: 60px;
+}
+
+.bosqueTexto ul {
+    color: var(--cor2);
+    font-family: var(--font02);
+    text-align: left;
+    list-style-type: '\2714\00a0\00a0';
+    list-style-position: inside;
+    columns:1;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
 .academia {
     width: 100vw;
     height: 400px;
+    font-family: var(--font02);
     text-align: center;
     font-size: 3em;
-    color: white;
-    padding-top: 200px;
+    color: #D4E5A2;
+    padding-top: 300px;
     background-image: url(../img/areaComum/academia.jpg);
     background-position: center center;
     background-repeat: no-repeat;
 }
 
+.academiaTexto p {
+    text-align: center;
+    font-family: var(--font02);
+    color: var(--cor2);
+    padding-top: 60px;
+}
+
 .piscina {
     width: 100vw;
     height: 400px;
+    font-family: var(--font02);
     text-align: center;
     font-size: 3em;
-    color: white;
-    padding-top: 200px;
+    color: #D4E5A2;
+    padding-top: 300px;
     background-image: url(../img/areaComum/piscina.jpg);
     background-position: center center;
     background-repeat: no-repeat;
 }
 
+.piscinaTexto p {
+    text-align: center;
+    font-family: var(--font02);
+    color: var(--cor2);
+    padding-top: 60px;
+}
+
 .quadras {
     width: 100vw;
     height: 400px;
+    font-family: var(--font02);
     text-align: center;
     font-size: 3em;
-    color: white;
-    padding-top: 200px;
+    color: #D4E5A2;
+    padding-top: 300px;
     background-image: url(../img/areaComum/quadras.jpg);
     background-position: center center;
     background-repeat: no-repeat;
+}
+
+.quadrasTexto p {
+    text-align: center;
+    font-family: var(--font02);
+    color: var(--cor2);
+    padding-top: 60px;
 }
 
 /*______________________________________________________________________________________________________*/
@@ -200,7 +234,7 @@ nav a:hover {
 #historiaTexto {
     text-align: center;
     font-size: 2em;
-    color: #0596d4;
+    color: var(--cor1);
     font-weight: bold;
     padding-top: 150px;
 }
@@ -208,7 +242,7 @@ nav a:hover {
 #historiaTexto p {
     text-align: justify;
     font-size: .5em;
-    color: #10234A;
+    color: var(--cor2);
 }
 
 #historiaImg {
@@ -220,8 +254,15 @@ nav a:hover {
 
 /*______________________________________________________________________________________________________*/
 
-.galeria {
+#galeriaTexto {
+    text-align: center;
+    color: var(--cor1);
+    padding: 16px 0px;
 
+}
+
+#galeriaImagem {
+    margin-bottom: 32px;
 }
 
 /*______________________________________________________________________________________________________*/
