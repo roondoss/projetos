@@ -31,6 +31,39 @@
     
     
 }
+h1 {
+    font-variant: small-caps;
+    font-family: var(--font0) !important;
+    font-weight: bold;
+    font-size: 4em;
+    color: var(--cor1) !important ;
+}
+
+h2 {
+    font-family: var(--font1) !important ;
+    font-weight: bolder;
+}
+
+h3 {
+    font-family: var(--font1) !important;
+    font-weight: normal;
+    color: var(--cor2);
+}
+
+h5 {
+    font-family: var(--font1) !important;
+    font-weight: lighter;
+}
+
+h6 {
+    font-family: var(--font1) !important;
+    font-weight: lighter;
+    color: var(--cor2);
+}
+
+p {
+    font-family: var(--font2) !important;
+}
 
 /*______________________________________________________________________________________________________*/
 
@@ -67,14 +100,15 @@ nav {
 }
 nav a {
     text-decoration: none;
-    color: var(--cor1) !important;
-    font-family: var(--font1);
+    color: var(--cor2) !important;
+    font-family: var(--font0);
     font-weight: bold;
     transition-duration: 1s;
 }
 nav a:hover {
     background-color: var(--cor4);
     text-decoration: underline;
+    color: white !important;
     font-weight: bold;
     border-radius: 4px;
 }
@@ -97,20 +131,6 @@ nav a:hover {
 
 .cabe2 {
     height: 25%;
-    color: var(--cor2);
-}
-
-.cabe2 h1 {
-    font-variant: small-caps;
-    font-size: 4em;
-    color: var(--cor1);
-}
-
-.cabe2 h3 {
-    color: var(--cor2);
-}
-
-.cabe2 h6 {
     color: var(--cor2);
 }
 
@@ -192,7 +212,7 @@ nav a:hover {
 
 .bosqueTexto ul {
     color: var(--cor2);
-    font-family: var(--font02);
+    font-family: var(--font2);
     text-align: left;
     list-style-type: '\2714\00a0\00a0';
     list-style-position: inside;
@@ -363,12 +383,11 @@ nav a:hover {
 
 .roda2 {
     height: 50%;
-    font-family: var(--font00);
 }
 
 .roda2 ul {
     color: var(--cor0);
-    font-family: var(--font01);
+    font-family: var(--font2);
     text-align: left;
     list-style-type: '\2714\00a0\00a0';
     list-style-position: inside;
