@@ -6,9 +6,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 :root {
-    --font00: 'Oswald', sans-serif;
-    --font01: 'Mulish', sans-serif; 
-    --font02: 'Sriracha', cursive;
+    --font0: 'Oswald', sans-serif;
+    --font1: 'Mulish', sans-serif; 
+    --font2: 'Sriracha', cursive;
     --cor0: #D5D9E5;
     --cor1: #34401A;
     --cor2: #64732F;
