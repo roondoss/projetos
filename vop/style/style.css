@@ -15,7 +15,7 @@
     --cor1: #34401A;
     --cor2: #64732F;
     --cor3: #CAD959;
-    --cor4: #B4BF5E;
+    --cor4: #de7707;
     --cor5: #252617;
 }
 
@@ -75,7 +75,7 @@ nav a {
     transition-duration: 1s;
 }
 nav a:hover {
-    background-color: var(--cor0);
+    background-color: var(--cor4);
     text-decoration: underline;
     font-weight: bold;
     border-radius: 4px;
@@ -138,6 +138,16 @@ nav a:hover {
     color: var(--cor2);
 }
 
+#separadorR {
+    text-align: right;
+    padding-bottom: 16px;
+}
+
+#separadorL {
+    text-align: left;
+    padding-bottom: 16px;
+}
+
 .bosque {
     width: 100vw;
     height: 400px;
@@ -149,6 +159,13 @@ nav a:hover {
     background-image: url(../img/areaComum/bosque.jpg);
     background-position: center center;
     background-repeat: no-repeat;
+}
+
+.bosqueTexto h3 {
+    padding-top: 16px;
+    text-align: center;
+    font-family: var(--font02);
+    color: var(--cor1);
 }
 
 .bosqueTexto p {
@@ -182,11 +199,18 @@ nav a:hover {
     background-repeat: no-repeat;
 }
 
+.academiaTexto h3 {
+    padding-top: 16px;
+    text-align: center;
+    font-family: var(--font02);
+    color: var(--cor1);
+}
+
 .academiaTexto p {
     text-align: center;
     font-family: var(--font02);
     color: var(--cor2);
-    padding-top: 60px;
+    padding-top: 32px;
 }
 
 .piscina {
@@ -202,11 +226,18 @@ nav a:hover {
     background-repeat: no-repeat;
 }
 
+.piscinaTexto h3 {
+    padding-top: 16px;
+    text-align: center;
+    font-family: var(--font02);
+    color: var(--cor1);
+}
+
 .piscinaTexto p {
     text-align: center;
     font-family: var(--font02);
     color: var(--cor2);
-    padding-top: 60px;
+    padding-top: 32px;
 }
 
 .quadras {
@@ -226,7 +257,14 @@ nav a:hover {
     text-align: center;
     font-family: var(--font02);
     color: var(--cor2);
-    padding-top: 60px;
+    padding-top: 32px;
+}
+
+.quadrasTexto h3 {
+    padding-top: 16px;
+    text-align: center;
+    font-family: var(--font02);
+    color: var(--cor1);
 }
 
 /*______________________________________________________________________________________________________*/
