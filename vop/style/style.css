@@ -118,6 +118,23 @@ nav a:hover {
     height: 25%;
 }
 
+#btnCabecalho {
+    background-color: #de7707;
+    width: 300px;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    color: white;
+}
+
+#btnCabecalho:hover {
+    background-color: white;
+    color: #de7707;
+    border: 4px solid #de7707;
+}
+
 .cabe4 {
     height: 25%;
 }
@@ -417,6 +434,24 @@ nav a:hover {
     .cabe2 h1 {
         font-variant: small-caps;
         font-size: 6em;
+    }
+
+    #btnCabecalho {
+        background-color: #de7707;
+        width: 300px;
+        border-radius: 500px;
+        -webkit-border-radius: 500px;
+        -moz-border-radius: 500px;
+        text-transform: uppercase;
+        transition: background 0.4s, color 0.4s;
+        color: white;
+        margin-top: 80px;
+    }
+    
+    #btnCabecalho:hover {
+        background-color: white;
+        color: #de7707;
+        border: 4px solid #de7707;
     }
 }
 
