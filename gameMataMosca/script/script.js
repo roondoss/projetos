@@ -34,6 +34,11 @@ mosca.style.top = posicaoy + 'px'
 mosca.style.position = 'absolute'
 mosca.id = "mosca"  // Atribuindo um Id para a imagem
 
+mosca.onclick = function () {
+    alert('Elemento clicado a tempo')
+}
+
+
 document.body.appendChild(mosca)
 console.log(tamanhoAleatorio())
 console.log(ladoAleatorio())
@@ -69,4 +74,4 @@ function ladoAleatorio() {
 
 setInterval(function() {
     posicaoRandomica()    
-}, 1000);
+}, 2000);
