@@ -1,5 +1,6 @@
 var largura = 0
 var altura = 0
+var vidas = 1
 
 function  ajustaTamanhoPalcoJogo() {
     largura = window.innerWidth
@@ -11,9 +12,19 @@ ajustaTamanhoPalcoJogo()
 
 function posicaoRandomica() {
 
-    // remover a mosca anterior, caso exista
+    // remover a mosca anterior, caso exista, AUTOMATICAMENTE
     if (document.getElementById('mosca')) {
         document.getElementById('mosca').remove()
+
+        console.log('Elemento selecionado foi: v' + vidas)
+
+        if (vidas > 3) {
+            window.location.href = 'gameOver.html'
+        } else {
+        document.getElementById('v' + vidas).src = "img/coracao_vazio.png"
+        vidas++
+            }
+        
     }
 
 var posicaox = Math.floor(Math.random() * largura) -90
@@ -35,7 +46,7 @@ mosca.style.position = 'absolute'
 mosca.id = "mosca"  // Atribuindo um Id para a imagem
 
 mosca.onclick = function () {
-    alert('Elemento clicado a tempo')
+    this.remove()   // Remove o proprio elemento que esta executando
 }
 
 
