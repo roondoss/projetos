@@ -47,9 +47,9 @@ function posicaoRandomica() {
         console.log('Elemento selecionado foi: v' + vidas)
 
         if (vidas > 3) {
-            window.location.href = 'gameOver.html'
+            window.location.href = 'youLose.html'
         } else {
-        document.getElementById('v' + vidas).src = "img/coracao_vazio.png"
+        document.getElementById('v' + vidas).src = "img/heart.png"
         vidas++
             }
         

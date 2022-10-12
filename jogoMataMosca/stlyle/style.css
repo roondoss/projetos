@@ -1,9 +1,9 @@
 html {
-    cursor: url(../img/mata_mosca.png) 30 30, auto;
+    cursor: url(../img/rqt.png) 30 30, auto;
 }
 
 body {
-    background-image: url(../img/bg.jpg);
+    background-image: url(../img/background.jpg);
     background-repeat: no-repeat;
     
     
