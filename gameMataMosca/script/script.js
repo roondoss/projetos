@@ -7,7 +7,6 @@ var criaMoscaTempo = 1500
 
 var nivel = window.location.search
 nivel = nivel.replace('?', '')
-alert(nivel)
 
 if (nivel === 'easy' ) {
     criaMoscaTempo = 1500
