@@ -1,7 +1,22 @@
 var largura = 0
 var altura = 0
 var vidas = 1
-var tempo = 10
+var tempo = 15
+
+var criaMoscaTempo = 1500
+
+var nivel = window.location.search
+nivel = nivel.replace('?', '')
+alert(nivel)
+
+if (nivel === easy ) {
+    criaMoscaTempo = 1500
+} else if ( nivel === normal ) {
+    criaMoscaTempo = 1000
+}else if ( nivel === hard ) {
+    criaMoscaTempo = 750
+}
+
 
 function  ajustaTamanhoPalcoJogo() {
     largura = window.innerWidth
@@ -18,7 +33,7 @@ var cronometro = setInterval(function () {
     if ( tempo < 0 ) {
         clearInterval(cronometro)
         clearInterval(criaMosca)
-        alert('VITÓRIA')
+        window.location.href = 'youWin.html'
     } else {
     document.getElementById('cronometro').innerHTML = tempo
         }
@@ -99,4 +114,4 @@ function ladoAleatorio() {
 
 var criaMosca = setInterval(function() {
     posicaoRandomica()    
-}, 2000);
+}, criaMoscaTempo);
