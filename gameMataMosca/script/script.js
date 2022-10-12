@@ -1,7 +1,7 @@
 var largura = 0
 var altura = 0
 var vidas = 1
-var tempo = 15
+var tempo = 20
 
 var criaMoscaTempo = 1500
 
@@ -9,11 +9,11 @@ var nivel = window.location.search
 nivel = nivel.replace('?', '')
 alert(nivel)
 
-if (nivel === easy ) {
+if (nivel === 'easy' ) {
     criaMoscaTempo = 1500
-} else if ( nivel === normal ) {
+} else if ( nivel === 'normal' ) {
     criaMoscaTempo = 1000
-}else if ( nivel === hard ) {
+}else if ( nivel === 'hard' ) {
     criaMoscaTempo = 750
 }
 
