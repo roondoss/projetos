@@ -39,15 +39,26 @@ class Bd {
     recuperarTodosRegistros() {
         console.log('Chegando')
 
+        let despesas = Array()
+
         let id = localStorage.getItem('id')
 
         // Recuperar todas as despesas
         for ( let i = 1; i <= id; i++ ) {
             // Resuperar despesa
-            let despesa = localStorage.getItem(i)
+            let despesa = JSON.parse(localStorage.getItem(i))
 
-            console.log('despesa')
+            // verificar se indice foi removido e pular
+            if ( despesa === null) {
+                continue
+            }
+
+            despesas.push(despesa)
+
+            //console.log(despesas)
         }
+
+        return despesas
     }
 }
 
@@ -91,5 +102,8 @@ function cadastrarDespesa() {
 }
 
 function carregaListaDespesas() {
-    bd.recuperarTodosRegistros()
+    let despesas = Array()
+    despesas = bd.recuperarTodosRegistros()
+
+    console.log(despesas)
 }
