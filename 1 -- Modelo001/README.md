@@ -1,13 +1,11 @@
 <p align="center">
-  <a href="https://roondoss.github.io/projetos/bentoMataMosca/index.html">
-    <img src="img/bento.png" alt="Bento Onório" width="160" height="160">
+  <a href="https://roondoss.github.io/projetos/home/">
+    <img src="../assets/imgProjetos/logo.png" alt="Ronaldo Onorio" width="80" height="80">
   </a>
-  <h1 align="center">Cópia do jogo Mata Mosca</h1>
+  <h1 align="center">Modelo</h1>
 </p>
 
-<strong>Essa é uma simples cópia com os gráficos pesonalizados para o meu filho,
-o mesmo possui altismo, acredito que os movimentos do jogo podem ajudar
-a melhorar a atenção.</strong>
+<strong>Base para os projetos</strong>
 
 <sub> Segue nas redes sociais.  <br>
 [<img src = "../assets/imgReadme/guithub.png">](https://github.com/roondoss)
