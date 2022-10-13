@@ -9,7 +9,7 @@ var nivel = window.location.search
 nivel = nivel.replace('?', '')
 
 if (nivel === 'easy' ) {
-    criaMoscaTempo = 1000
+    criaMoscaTempo = 1500
 } else if ( nivel === 'normal' ) {
     criaMoscaTempo = 1000
 }else if ( nivel === 'hard' ) {
