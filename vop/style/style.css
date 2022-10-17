@@ -67,6 +67,16 @@ p {
 
 /*______________________________________________________________________________________________________*/
 
+#login {
+    color: var(--cor5);
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 20px;
+}
+
 header {
     width: 100vw;
 }
@@ -85,7 +95,7 @@ header {
 }
 
 #navSec3 {
-    text-align: center;
+    text-align: right;
 }
 
 .navbar-light .navbar-toggler {
@@ -157,6 +167,45 @@ nav a:hover {
 
 .cabe4 {
     height: 25%;
+}
+
+/*______________________________________________________________________________________________________*/
+
+#logoLogin{
+    text-align: center;
+    margin-top: 32px;
+}
+
+#homeLogin {
+    color: var(--cor1);
+    margin-left: 32px;
+}
+
+#tituloLogin {
+    text-align: center;
+}
+
+#tituloLogin p {
+    color: var(--cor2);
+    text-align: center;
+}
+
+#formularioLogin {
+    text-align: center;
+}
+
+#campos {
+    text-align: center;
+    margin: 60px 0px;
+    padding-left: 0px;
+}
+
+#mail {
+    margin-bottom: 8px;
+}
+
+#senha {
+    margin-bottom: 32px;
 }
 
 /*______________________________________________________________________________________________________*/
