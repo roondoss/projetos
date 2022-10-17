@@ -37,8 +37,6 @@ class Bd {
         localStorage.setItem('id', id)
     }
     recuperarTodosRegistros() {
-        console.log('Chegando')
-
         let despesas = Array()
 
         let id = localStorage.getItem('id')
@@ -53,6 +51,7 @@ class Bd {
                 continue
             }
 
+            despesa.id = i
             despesas.push(despesa)
 
             //console.log(despesas)
@@ -62,7 +61,46 @@ class Bd {
     }
 
     pesquisar(despesa) {
+        let despesasFiltradas = Array()
+        despesasFiltradas = this.recuperarTodosRegistros()
+        console.log(despesasFiltradas)
         console.log(despesa)
+
+        //ano
+        if( despesa.ano != '') {
+            despesasFiltradas = despesasFiltradas.filter( d => d.ano == despesa.ano)
+        }
+
+        //mes
+        if( despesa.mes != '') {
+            despesasFiltradas = despesasFiltradas.filter( d => d.mes == despesa.mes)
+        }
+
+        //dia
+        if( despesa.dia != '') {
+            despesasFiltradas = despesasFiltradas.filter( d => d.dia == despesa.dia)
+        }
+
+        //tipo
+        if( despesa.tipo != '') {
+            despesasFiltradas = despesasFiltradas.filter( d => d.tipo == despesa.tipo)
+        }
+
+        //descricao
+        if( despesa.descricao != '') {
+            despesasFiltradas = despesasFiltradas.filter( d => d.descricao == despesa.descricao)
+        }
+
+        //valor
+        if( despesa.valor != '') {
+            despesasFiltradas = despesasFiltradas.filter( d => d.valor == despesa.valor)
+        }
+
+        return despesasFiltradas
+    }
+
+    remover(id) {
+        localStorage.removeItem(id)
     }
 
 }
@@ -114,11 +152,13 @@ function cadastrarDespesa() {
     
 }
 
-function carregaListaDespesas() {
-    let despesas = Array()
-    despesas = bd.recuperarTodosRegistros()
-
+function carregaListaDespesas(despesas = Array(), filtro = false) {
+    if ( despesas.length == 0 && filtro == false ) {
+        despesas = bd.recuperarTodosRegistros()
+    }
+    
     let listaDespesas = document.getElementById('listaDespesas')
+    listaDespesas.innerHTML =''
 
     /*
     <tr>
@@ -153,6 +193,19 @@ function carregaListaDespesas() {
         linha.insertCell(1).innerHTML = d.tipo
         linha.insertCell(2).innerHTML = d.descricao
         linha.insertCell(3).innerHTML = d.valor
+        // Criar botão delete
+        let btn = document.createElement("button")
+        btn.className = 'btn btn-danger'
+        btn.innerHTML = '<i class="fas fa-times"></i>'
+        btn.id = `id_despesa_${d.id}`
+        btn.onclick = function () { 
+            // Remover despesa
+            let id = this.id.replace('id_despesa_', '')
+            bd.remover(id)
+            window.location.reload()
+        }
+        linha.insertCell(4).append(btn)
+        console.log(d)
    })
 }
 
@@ -166,5 +219,11 @@ function pesquisarDespesa() {
 
     let despesa = new Despesa(ano, mes, dia, tipo, descricao, valor)
 
-    bd.pesquisar(despesa)
+    let despesas = bd.pesquisar(despesa)
+
+    this.carregaListaDespesas(despesas, true)
 }
+
+
+
+
