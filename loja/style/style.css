@@ -5,12 +5,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 
 :root {
-    --font00: Verdana, Geneva, Tahoma, sans-serif;
     --font01: 'Inconsolata', monospace; 
     --font02: 'Sriracha', cursive;
     
-    --cor1: #0D1114;
-    --cor2: #202528;
+    --cor01: #0D1114;
+    --cor02: #202528;
 }
 
 * {
@@ -18,192 +17,17 @@
     padding: 0px;
 }
 
-/*______________________________________________________________________________________________________*/
-
-body {
-    background-color: aquamarine;
-}
-
-/*______________________________________________________________________________________________________*/
-
-header {
-    text-align: center;
-    width: 100vw;
-}
-
-/*______________________________________________________________________________________________________*/
-
-#nav a {
-    color: white;
-}
-
-nav {
-    width: 100vw;
-    background-color: var(--cor2);
-    box-shadow: 1px 2px 4px #10234aa4;
-}
-nav a {
-    text-decoration: none;
-    font-family: var(--font1);
-    font-weight: bold;
-    transition-duration: 1s;
-    margin-right: 20px;
-    margin-left: 20px;
-}
-nav a:hover {
-    background-color: var(--cor0);
-    text-decoration: underline;
-    font-weight: bold;
-    border-radius: 4px;
-}
-
-.divisor {
-    width: 2px;
-    background: white;
-    margin: 12px 16px;
-}
-
-/*______________________________________________________________________________________________________*/
-
-main {
-    background-color: var(--cor2);
-    text-align: center;
-    width: 100vw;
-    min-height: 80vh;    
-}
-
-/*______________________________________________________________________________________________________*/
-
-#galeria {
-    padding-top: 20px;
-    vertical-align: middle;
-    text-align: center;
-    color: white;
-    position: relative;
-    overflow: hidden;
-}
-
-#galeria img {
-    transition: 0.5s;
-    max-width: 100%;
-}
-
-#galeria:hover img {
-    transform: scale(1.2);
-}
-
-/*______________________________________________________________________________________________________*/
-
-footer {
+#body {
+    
     font-family: var(--font02);
-    color: var(--cor2);
-    background-color: var(--cor1);
-    text-align: center;
-    width: auto;
-    margin: 0px;
-    align-items: center;    /*centraliza horizontalmente*/
-    justify-content: center;    /*cetraliza verticalmente*/
+    background-color: aqua;
 }
 
-footer a {
-    color: var(--cor2);
-    text-decoration: none;
+/*______________________________________________________________________________________________________*/
+
+#cabecalho {
+    height: 790px;
 }
 
-footer a:hover {
-    color: var(--cor2);
-    text-decoration: underline;
-    font-weight: bold;
-}
+/*______________________________________________________________________________________________________*/
 
-#by {
-    padding: 2% 0%;
-}
-
-@media screen and (max-width: 767.98px) {
-    #capa {
-        width: 100vw;
-        height: 180px;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: cover;
-        background-image: url(../img/capa770.jpg)
-    }
-
-    #imagem {
-        width: 180px;
-        padding: 16px;
-    }
-
-    .carousel {
-        padding-top: 16px;
-    }
-
-    .carousel h1 {
-        font-size: 32px;
-    }
-    
-    }
-
-@media screen and (min-width: 768px) and (max-width: 991.98px) {
-    #capa {
-        width: 100vw;
-        height: 240px;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: cover;
-        background-image: url(../img/capa992.jpg)
-    }
-
-    #imagem {
-        width: 200px;
-        padding: 16px;
-    }
-
-    .carousel {
-        padding-top: 32px;
-    }
-    
-    }
-  
-@media screen and (min-width: 992px) and (max-width: 1199.98px) {
-    #capa {
-        width: 100vw;
-        height: 300px;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: cover;
-        background-image: url(../img/capa1200.jpg)
-    }
-
-    #imagem {
-        width: 260px;
-        padding: 16px;
-    }
-
-    .carousel {
-        padding-top: 50px;
-    }
-    
-    }
-
-@media screen and (min-width: 1200px) {
-    #capa {
-        width: 100vw;
-        height: 340px;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: cover;
-        background-image: url(../img/capa1920.jpg)
-    }
-    
-    #imagem {
-        width: 300px;
-        padding: 16px;
-    }
-
-    .carousel {
-        padding-top: 50px;
-    }
-    
-    }
