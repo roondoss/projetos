@@ -44,7 +44,7 @@ p {
 hr {
     background-color: var(--cor0);
     border-radius: 8px;
-    padding: 4px;
+    padding: 2px;
     margin: 8px 32px;
 }
 
@@ -68,7 +68,7 @@ header {
 }
 
 #navSec3 {
-    text-align: center;
+    text-align: right;
 }
 
 .navbar-light .navbar-toggler {
@@ -147,6 +147,19 @@ nav a:hover {
 
 /*______________________________________________________________________________________________________*/
 
+#storeImagem {
+    text-align: center;
+}
+
+#storeImagemCenter {
+    background-color: rgb(233, 233, 233);
+    text-align: center;
+    margin: 16px 2px;
+    padding: 16px 0px;
+    border: 2px solid whitesmoke;
+    border-radius: 16px;
+    box-shadow: 2px 2px 8px rgb(1, 172, 245);
+}
 
 /*______________________________________________________________________________________________________*/
 
@@ -249,7 +262,7 @@ nav a:hover {
 
 .rodape {
     background-image: url(../img/rodape.jpg);
-    background-position: center center;
+    background-position: center left;
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
@@ -266,10 +279,6 @@ nav a:hover {
 .roda2 {
     height: 50%;
     font-family: var(--font00);
-}
-
-.coluna {
-    
 }
 
 .roda2 ul {
