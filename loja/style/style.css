@@ -32,6 +32,11 @@ h1 {
     font-family: var(--font00) !important;
 }
 
+h2 {
+    font-family: var(--font02) !important;
+    font-weight: bolder;
+}
+
 h3, h6 {
     font-family: var(--font01)!important;
 }
@@ -39,6 +44,10 @@ h3, h6 {
 p {
     font-family: var(--font02);
     font-weight: lighter;
+}
+
+h4 {
+    font-family: var(--font01) !important;
 }
 
 hr {
@@ -152,9 +161,9 @@ nav a:hover {
 }
 
 #storeImagemCenter {
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(243, 243, 243);
     text-align: center;
-    margin: 16px 0px;
+    margin: 16px 0px 16px 32px;
     padding: 16px 0px;
     border: 2px solid whitesmoke;
     border-radius: 16px;
