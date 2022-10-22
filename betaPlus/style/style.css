@@ -36,7 +36,7 @@ h1 {
     font-family: var(--font0) !important;
     font-weight: bold;
     font-size: 4em;
-    color: var(--cor1) !important ;
+    color: var(--cor0) !important ;
 }
 
 h2 {
@@ -47,7 +47,7 @@ h2 {
 h3 {
     font-family: var(--font1) !important;
     font-weight: normal;
-    color: var(--cor2);
+    color: var(--cor4);
 }
 
 h5 {
@@ -58,7 +58,7 @@ h5 {
 h6 {
     font-family: var(--font1) !important;
     font-weight: lighter;
-    color: var(--cor2);
+    color: var(--cor4);
 }
 
 p {
@@ -123,7 +123,7 @@ nav a:hover {
     border-radius: 4px;
 }
 
-/*______________________________________________________________________________________________________*/
+/*__CABECALHO_______________________________________________________________________________________*/
 
 .cabecalho {
     background-image: url(../img/cabecalho.jpg);
@@ -141,7 +141,7 @@ nav a:hover {
 
 .cabe2 {
     height: 25%;
-    color: var(--cor2);
+    color: var(--cor0);
 }
 
 .cabe3 {
@@ -169,11 +169,34 @@ nav a:hover {
     height: 25%;
 }
 
+/*__FIM-CABECALHO_______________________________________________________________________________________*/
 
 
 
+/*__INICIO-HISTÓRIO______________________________________________________________________________________*/
 
+#historiaTexto {
+    text-align: center;
+    font-size: 2em;
+    color: var(--cor1);
+    font-weight: bold;
+    padding-top: 150px;
+}
 
+#historiaTexto p {
+    text-align: justify;
+    font-size: .5em;
+    color: var(--cor2);
+}
+
+#historiaImg {
+    text-align: center;
+    padding: 50px 0px;
+    border: 2px solid white;
+    border-radius: 16px;
+}
+
+/*__FIM-HISTÓRIA_______________________________________________________________________________________*/
 
 
 
