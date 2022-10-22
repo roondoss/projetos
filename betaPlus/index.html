@@ -1,63 +1,320 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
     <link rel="shortcut icon" href="img/logo.png" type="image/png">
-    <link rel="stylesheet" href="style/style.css">
-    <script src="script/script.js" defer></script>
-    <title>Beta Plus</title>
+
+    <!-- Atualização Automática -->
+    <meta http-equiv="refresh" content="3600">
+
+    <!-- Folhas CSS -->
+    <link rel="stylesheet" href="./style/style.css" media="all">
+    <link rel="stylesheet" href="./style/print.css" media="print">
+
+    <script src="https://kit.fontawesome.com/dcb2ad5954.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- JavaScript (Opcional) -->
+    <script src="./script/script.js" defer></script> <!-- Java Script -->
+
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" defer
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" defer
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" defer
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <!-- Tags Google -->
+    <meta name="keywords" content=" Condominio Residencial ">
+
+    <title> &nbsp Condomínio Residencial
+    </title>
 </head>
-<body>
-    Teste
+
+<body id="bodyLocal">
+    <header>
+
+        <section id="navSection" class="d-flex">
+            <div class="container align-self-center">
+                <div class="row">
+
+                    <div id="navSec1" class="col-md-2">
+                        <img src="img/logo.png" alt="Seu Condominio" width="80" height="50">
+                    </div>
+
+                    <div id="navSec2" class="col-md-8">
+                        <nav class="navbar navbar-expand-md navbar-light navbar-transparente">
+                            <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+                                <i class="fas fa-bars"></i>
+                            </button>
+
+                            <div class="collapse navbar-collapse" id="nav-principal">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item"><a href="#" class="nav-link">
+                                            <h6>Home</h6>
+                                        </a></li>
+                                    <li class="nav-item"><a href="#historiaTexto" class="nav-link" target="_blank">
+                                            <h6>Sobre</h6>
+                                        </a></li>
+                                    <li class="nav-item"><a href="#contato" class="nav-link" target="_blank">
+                                            <h6>Contato</h6>
+                                        </a></li>
+                                    <li class="nav-item"><a href="#galeria" class="nav-link" target="_blank">
+                                            <h6>Galeria de Fotos</h6>
+                                        </a></li>
+                                    <li id="navPhone" class="nav-item"><a href="https://wa.me/5571991921000"
+                                            class="nav-link" target="_blank">
+                                            <h6>71 9 9192 1000
+                                            </h6>
+                                        </a></li>
+                                </ul>
+                            </div>
+
+                            <div id="navSec3" class="col-md-2">
+                                <a href="login.html" id="login">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor"
+                                        class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z" />
+                                        <path fill-rule="evenodd"
+                                            d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z" />
+                                    </svg>
+                                    </i>
+                                </a>
+
+                            </div>
+                        </nav>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="cabecalho">
+
+            <section class="d-flex cabe1">
+                <div class="container align-self-center">
+                    <div class="row">
+
+                        <div class="col-md-12">
+                            <!-- Espaço em Branco -->
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="d-flex cabe2">
+                <div class="container align-self-center">
+                    <div class="row">
+
+                        <div class="col-md-12">
+                            <h3>Condomínio Residencial</h3>
+                            <h1>Seu Condominio</h1>
+                            <h6>Localização</h6>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="d-flex cabe3">
+                <div class="container align-self-center">
+                    <div class="row">
+
+                        <div class="col-md-4">
+                            <!-- Espaço em Branco -->
+                        </div>
+
+                        <div class="col-md-4">
+                            <a href="https://roondoss.my3cx.com.br:5001/LiveChat875022" target="_blank"
+                                id="btnCabecalho" class="btn btn-lg btn-custom">
+                                <i id="phone" class="fas fa-solid fa-phone"></i></a>
+                        </div>
+
+                        <div class="col-md-4">
+                            <!-- Espaço em Branco -->
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="d-flex cabe4">
+                <div class="container align-self-center">
+                    <div class="row">
+
+                        <div class="col-md-12">
+                            <!-- Espaço em Branco -->
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </section>
+
+    </header>
+
+
+    <main>
+
+
+
+    </main>
+
+
+
+
+    <footer>
+        <section class="rodape">
+
+            <section class="d-flex roda1">
+                <div class="container align-self-center">
+                    <div class="row">
+
+                        <div class="col-md-12">
+                            <h2>Atividades</h2>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="d-flex roda2">
+                <div class="container align-self-center">
+                    <div class="row">
+
+                        <div class=" coluna col-md-3">
+                            <h5>Bosque</h5>
+                            <ul>
+                                <li>Quiosques</li>
+                                <li>reservas</li>
+                            </ul>
+                        </div>
+
+                        <div class=" coluna col-md-3">
+                            <h5>Piscina</h5>
+                            <ul>
+                                <li>Horários</li>
+                                <li>Exames</li>
+                            </ul>
+                        </div>
+
+                        <div class=" coluna col-md-3">
+                            <h5>Quadras</h5>
+                            <ul>
+                                <li>Futebol Salão</li>
+                                <li>Voley Adaptado</li>
+                                <li>futebol society</li>
+                                <li>Tênis</li>
+                            </ul>
+                        </div>
+
+                        <div class=" coluna col-md-3">
+                            <h5>Academia</h5>
+                            <ul>
+                                <li>Musculação</li>
+                                <li>Pilates</li>
+                                <li>Dança</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="d-flex roda3">
+                <div class="container align-self-center">
+                    <div class="row">
+
+                        <div id="contato" class="col-md-3">
+                            <p>Contato: </p>
+                        </div>
+
+                        <div class="col-md-3 certificacao">
+                            <p>Secretaria <br>
+                                xx xxxx xxxx </p>
+                        </div>
+
+                        <div class="col-md-3 certificacao">
+                            <p>Portaria <br>
+                                xx xxxx xxxx </p>
+                        </div>
+
+                        <div class="col-md-3 certificacao">
+                            <a href="https://roondoss.my3cx.com.br:5001/meet/7001" target="_blank">
+                                <p>Sala de Reunião</p>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="d-flex roda4">
+                <div class="container align-self-center">
+                    <div class="row">
+                        <div id="by" class="col-md-4">
+                            <img src="img/ro.png" alt="Ronaldo Onorio" width="32px">
+                        </div>
+                        <div id="by" class="col-md-4">
+
+                            Powered: <a
+                                href="https://wa.me/5567998763544?text=Deseja%20criar%20um%20site%20criativo,%20clica%20ai%20vamos%20conversar.">By
+                                Ronaldo Onório</a>
+                        </div>
+                        <div id="by" class="col-md-4">
+                            <!--BRANCO-->
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </section>
+    </footer>
 
 
 
 
 
 
+    <!--INICIO-CHAT---------------------------------------------------------------------------------------------->
+    <call-us phonesystem-url="https://roondoss.my3cx.com.br:5001"
+        style="position:fixed;font-size:16px;line-height:17px;z-index: 99999;right: 20px; bottom: 20px;"
+        id="wp-live-chat-by-3CX" minimized="true" animation-style="noanimation" party="LiveChat875022"
+        minimized-style="bubbleright" allow-call="true" allow-video="false" allow-soundnotifications="true"
+        enable-mute="true" enable-onmobile="true" offline-enabled="true" enable="true" ignore-queueownership="false"
+        authentication="both" show-operator-actual-name="true" aknowledge-received="true" gdpr-enabled="false"
+        message-userinfo-format="both" message-dateformat="both" lang="browser" button-icon-type="default"
+        greeting-visibility="none" greeting-offline-visibility="none" chat-delay="2000" enable-direct-call="true"
+        enable-ga="false"></call-us>
+    <script defer src="https://downloads-global.3cx.com/downloads/livechatandtalk/v1/callus.js" id="tcx-callus-js"
+        charset="utf-8"></script>
+    <!--FIM-CHAT------------------------------------------------------------------------------------------------->
 
-
-<!--INICIO-CHAT---------------------------------------------------------------------------------------------->
-<call-us 
-phonesystem-url="https://roondoss.my3cx.com.br:5001" 
-style="position:fixed;font-size:16px;line-height:17px;z-index: 99999;right: 20px; bottom: 20px;" 
-id="wp-live-chat-by-3CX" 
-minimized="true" 
-animation-style="noanimation" 
-party="LiveChat875022" 
-minimized-style="bubbleright" 
-allow-call="true" 
-allow-video="false" 
-allow-soundnotifications="true" 
-enable-mute="true" 
-enable-onmobile="true" 
-offline-enabled="true" 
-enable="true" 
-ignore-queueownership="false" 
-authentication="both" 
-show-operator-actual-name="true" 
-aknowledge-received="true" 
-gdpr-enabled="false" 
-message-userinfo-format="both" 
-message-dateformat="both" 
-lang="browser" 
-button-icon-type="default" 
-greeting-visibility="none" 
-greeting-offline-visibility="none" 
-chat-delay="2000" 
-enable-direct-call="true" 
-enable-ga="false" 
-></call-us>
-<script defer src="https://downloads-global.3cx.com/downloads/livechatandtalk/v1/callus.js" id="tcx-callus-js" charset="utf-8"></script>
-<!--FIM-CHAT------------------------------------------------------------------------------------------------->
-
-<!--INICIO-WhatsApp------------------------------------------------------------------------------------------------->
-<section>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <a href="https://wa.me/5571991921000?text=Em%20que%20posso%20te%20ajudar?%20Clica%20no%20botão%20acima%20ou%20BAIXAR%20no%20botão%20abaixo."
-    style="position:fixed;
+    <!--INICIO-WhatsApp------------------------------------------------------------------------------------------------->
+    <section>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <a href="https://wa.me/5571991921000?text=Em%20que%20posso%20te%20ajudar?%20Clica%20no%20botão%20acima%20ou%20BAIXAR%20no%20botão%20abaixo."
+            style="position:fixed;
     width:60px;
     height:60px;
     bottom:24px;
@@ -68,12 +325,12 @@ enable-ga="false"
     text-align:center;
     font-size:30px;
     box-shadow: 0px 0px 4px #000;
-    z-index:1000;"
-    target="_blank">
-    <i style="margin-top:16px" class="fa fa-whatsapp"></i>
-    </a>
-  </section>
-  <!--FIM-WhatsApp------------------------------------------------------------------------------------------------->
+    z-index:1000;" target="_blank">
+            <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+        </a>
+    </section>
+    <!--FIM-WhatsApp------------------------------------------------------------------------------------------------->
 
 </body>
+
 </html>
