@@ -151,7 +151,7 @@ nav a:hover {
 #btnCabecalho:hover {
     background-color: white;
     color: #0596d4;
-    border: 4px solid #0596d4;
+    border: 2px solid #0596d4;
 }
 
 /*______________________________________________________________________________________________________*/
@@ -165,9 +165,9 @@ nav a:hover {
     text-align: center;
     margin: 16px 0px 16px 32px;
     padding: 16px 0px;
-    border: 2px solid whitesmoke;
+    border: 4px solid whitesmoke;
     border-radius: 16px;
-    box-shadow: 2px 2px 8px rgb(1, 172, 245);
+    box-shadow: 1px 1px 8px rgb(1, 172, 245);
 }
 
 /*______________________________________________________________________________________________________*/
