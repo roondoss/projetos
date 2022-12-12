@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*______________________________________________________________________________________________________*/
+
+main {
+    background-color: #5B7E7A;
+}
+
+/*______________________________________________________________________________________________________*/
+
+header {
+    text-align: center;
+}
+
+/*______________________________________________________________________________________________________*/
+
+.cabecalho {
+    background-color: #5B7E7A;
+    background-image: url(../img/cabecalho.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    text-align: center;
+    color: white;
+}
+
+/*______________________________________________________________________________________________________*/
+
+#descricao h1 {
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    font-weight: bold;
+    padding: 80px 0px;
+}
+
+#descricao ul {
+    font-size: 2.5em;
+}
+
+
+/*______________________________________________________________________________________________________*/
+
+#servicos {
+    text-align: center;
+}
+
+#servicos ul {
+    color: white;
+    font-family: var(--font02);
+    text-align: left;
+    list-style-type: '\2714\00a0\00a0';
+    list-style-position: inside;
+    columns: 2;
+    padding-left: 120px;
+}
+
+/*______________________________________________________________________________________________________*/
+
+#contato {
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    background-color: black;
+    padding: 32px;
+}
+
+#ligar {
+    text-align: left;
+}
+    
+#telefone {
+        text-align: center;
+        padding-bottom: 32px;
+}
+
+#telefone h2 {
+    font-size: 2em;
+}
+    
+#zap {
+        text-align: right;
+        
+}
+
+/*______________________________________________________________________________________________________*/
+
+
