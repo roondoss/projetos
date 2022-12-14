@@ -1,6 +1,11 @@
 @charset "UTF-8";
 
-#logo {
+* {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+}
+
+#navSec1 {
     display: none;
 }
 
@@ -8,6 +13,11 @@
     display: none;
 }
 
-#rodape {
+.rodape {
     display: none;
 }
+
+#botao {
+    display: none;
+}
+
