@@ -32,11 +32,13 @@ body {
 h1 {
     font-family: var(--font00) !important;
     text-align: center;
+    margin: 32px;
 }
 
 h3, h6 {
     font-family: var(--font01)!important;
     text-align: center;
+    
 }
 
 p {
@@ -121,7 +123,6 @@ nav a:hover {
 }
 
 .cabe2 h1 {
-    font-variant: small-caps;
     font-size: 4em;
 }
 
@@ -131,6 +132,14 @@ nav a:hover {
 
 .cabe4 {
     height: 25%;
+}
+
+/*______________________________________________________________________________________________________*/
+
+#contatos {
+    text-align: center;
+    width: 25%;
+    height: 100px;
 }
 
 /*______________________________________________________________________________________________________*/
