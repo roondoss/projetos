@@ -1,3 +1,4 @@
+
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
@@ -31,19 +32,15 @@ body {
 
 h1 {
     font-family: var(--font00) !important;
-    text-align: center;
 }
 
 h3, h6 {
     font-family: var(--font01)!important;
-    text-align: center;
 }
 
 p {
     font-family: var(--font02);
     font-weight: lighter;
-    text-align: justify;
-    padding: 32px;
 }
 
 hr {
@@ -133,8 +130,6 @@ nav a:hover {
     height: 25%;
 }
 
-/*______________________________________________________________________________________________________*/
-
 #btnCabecalho {
     background-color: #0596d4;
     width: 100px;
@@ -150,6 +145,187 @@ nav a:hover {
     background-color: white;
     color: #0596d4;
     border: 4px solid #0596d4;
+}
+
+/*______________________________________________________________________________________________________*/
+
+.linguagens {
+    text-align: center;
+}
+
+.linguagens h1 {
+    font-size: 2em;
+    color: #0596d4;
+    font-weight: bold;
+    padding: 50px;
+}
+
+.linguagens img {
+    padding: 50px;
+}
+
+/*______________________________________________________________________________________________________*/
+
+#projetos {
+    text-align: center;
+}
+
+#projetos h1 {
+    font-size: 2em;
+    color: #0596d4;
+    font-weight: bold;
+    padding: 50px;
+}
+
+#projetos ul {
+    color: var(--cor2);
+    font-family: var(--font02);
+    text-align: left;
+    list-style-type: '\2714\00a0\00a0';
+    list-style-position: inside;
+    columns: 3;
+    padding-left: 20px;
+}
+
+#projetos a {
+    color: black;
+}
+
+#projetos a:hover {
+    color: #0596d4;
+    font-weight: bold;
+}
+
+/*______________________________________________________________________________________________________*/
+
+#outrosProjetos {
+    text-align: center;
+}
+
+#outrosProjetos h1 {
+    font-size: 2em;
+    color: #0596d4;
+    font-weight: bold;
+    padding: 50px;
+}
+
+#outrosProjetos ul {
+    color: var(--cor2);
+    font-family: var(--font02);
+    text-align: left;
+    list-style-type: '\2714\00a0\00a0';
+    list-style-position: inside;
+    columns: 3;
+    padding-left: 20px;
+}
+
+#outrosProjetos a {
+    color: black;
+}
+
+#outrosProjetos a:hover {
+    color: #0596d4;
+    font-weight: bold;
+}
+
+/*______________________________________________________________________________________________________*/
+
+#clientes {
+    text-align: center;
+}
+
+#clientes h1 {
+    font-size: 2em;
+    color: #0596d4;
+    font-weight: bold;
+    padding: 50px;
+}
+
+#clientes ul {
+    color: var(--cor2);
+    font-family: var(--font02);
+    text-align: left;
+    list-style-type: '\2714\00a0\00a0';
+    list-style-position: inside;
+    columns: 3;
+    padding-left: 20px;
+}
+
+#clientes a {
+    color: black;
+}
+
+#clientes a:hover {
+    color: #0596d4;
+    font-weight: bold;
+}
+
+/*______________________________________________________________________________________________________*/
+
+#historiaTexto1 {
+    background-image: url(../img/pontos2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    font-size: 2em;
+    color: #0596d4;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+#historiaTexto1 p {
+    text-align: justify;
+    font-size: .5em;
+    color: #10234A;
+}
+
+#historiaTexto2 {
+    background-image: url(../img/pontos2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    font-size: 2em;
+    color: #0596d4;
+    font-weight: bold;
+}
+
+#historiaTexto2 p {
+    text-align: justify;
+    font-size: .5em;
+    color: #10234A;
+}
+
+#historiaImagem {
+    text-align: center;
+    padding: 50px 0px;
+}
+
+#historiaImagemImg {
+    border: 2px solid white;
+    border-radius: 16px;
+}
+
+/*______________________________________________________________________________________________________*/
+
+#galeriaTexto {
+    text-align: center;
+    font-size: 2em;
+    color: #0596d4;
+    font-weight: bold;
+    padding: 50px;
+}
+
+#galeriaImagem {
+    text-align: center;
+    margin: 8px;
+    border: 2px solid white;
+    border-radius: 16px;
+}
+
+#galeriaImagemCenter {
+    text-align: center;
 }
 
 /*______________________________________________________________________________________________________*/
