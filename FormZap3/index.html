@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Reservas</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+    <form action="" class="formulario">
+      <img src="logo.jpg" class="imgLogo" />
+
+      <h1 class="formulario__titulo">Instalação e Manutenção</h1>
+      <h3 class="formulario__subtitulo">Orçamento</h3>
+      <p class="formulario__parrafo">
+        Coneça os valores e datas disponíveis para realizar o trabalho.
+      </p>
+
+      <label for="cliente" class="formulario__label">Qual o seu Nome?</label>
+      <input
+        id="cliente"
+        type="text"
+        class="formulario__input"
+        placeholder="Nome Completo"
+      />
+
+      <label for="fecha" class="formulario__label"
+        >Data de realização do trabalho</label
+      >
+      <input
+        id="fecha"
+        type="date"
+        class="formulario__input"
+        pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}"
+      />
+
+      <label for="hora" class="formulario__label"
+        >Melhor Horário</label
+      >
+      <input id="hora" type="time" class="formulario__input" />
+
+      <label for="empleado" class="formulario__label"
+        >Instalador de preferencia</label
+      >
+      <select id="empleado" name="listaempleados" class="formulario__input">
+        <option>Instalador 1</option>
+        <option>Instalador 2</option>
+      </select>
+
+      <label for="servicio" class="formulario__label"
+        >Qual o serviço desejado ?</label
+      >
+      <select id="servicio" name="listaservicios" class="formulario__input">
+        <option>Instalação - $VALOR</option>
+        <option>Manutenção - $VALOR</option>
+        <option>Limpesa Preventiva - $VALOR</option>
+        <option>Limpesa Completa - $VALOR</option>
+        <option>Desinstalação - $VALOR</option>
+      </select>
+
+      <div id="respuesta"></div>
+
+      <button id="submit" class="formulario__submit">Enviar</button>
+    </form>
+    <script src="js/form.js"></script>
+  </body>
+</html>
