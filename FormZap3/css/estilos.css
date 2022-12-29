@@ -75,7 +75,7 @@ body {
   margin: 2px;
 }
 .formulario__submit {
-  background: rgba(0, 0, 0, 0.7);
+  background: #0A70B1;
   color: white;
   padding: 10px 20px;
   cursor: pointer;
