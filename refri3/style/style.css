@@ -216,6 +216,12 @@ header, .navbar {
   margin-top: 20px;
 }
 
+#contato {
+  text-align: center;
+  margin-top: 64px;
+  color: var(--cor4);
+}
+
 footer {
   color: rgb(96, 96, 98);
   background-color: rgb(210, 210, 210);
