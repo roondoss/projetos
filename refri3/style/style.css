@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+:root {
+    --font00: 'Oswald', sans-serif;
+    --font01: 'Mulish', sans-serif; 
+    --font02: 'Sriracha', cursive;
+    --cor0: #D5D9E5;
+    --cor1: #979EAC;
+    --cor2: #606062;
+    --cor3: #2973b8;
+    --cor4: #1D428A;
+    --cor5: #10234A;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*______________________________________________________________________________________________________*/
+
+body {
+  background-color: var(--cor0);
+}
+
+h1 {
+  font-family: var(--font0);
+}
+
+h3, h6 {
+  font-family: var(--font01);
+}
+
+p {
+  font-family: var(--font02);
+  font-weight: lighter;
+}
+
+hr {
+  background-color: var(--cor0);
+  border-radius: 8px;
+  padding: 4px;
+  margin: 8px 32px;
+}
+
+/*______________________________________________________________________________________________________*/
+
+/*______________________________________________________________________________________________________*/
+
+.row {
+  margin: 0;
+}
+
+.container {
+  padding: 70px 0;
+}
+
+p, li {
+  color: var(--cor3);
+  font-size: 14px;
+}
+
+/*______________________________________________________________________________________________________*/
+/* Barra de navegação */
+header, .navbar {
+  background-color: var(--cor0);
+}
+
+#nav-container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#logo {
+  width: 60px;
+  
+}
+
+.navbar-brand {
+  padding: 0;
+  color: var(--cor3);
+}
+
+.navbar-brand:hover {
+  color: var(--cor3);
+}
+
+#navbar-links a {
+  color: var(--cor3);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 1rem .8rem;
+}
+
+.nav-item.active {
+  border-bottom: 3px solid var(--cor3);
+}
+
+.cabecalho {
+  background-image: url(../img/cabecalho.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  text-align: center;
+  color: white;
+}
+
+.cabe1 {
+  height: 50%;
+}
+
+.cabe2 {
+  height: 50%;
+}
+
+.cabe2 h1 {
+  font-variant: small-caps;
+  font-size: 4em;
+}
+
+
+
