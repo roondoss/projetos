@@ -14,7 +14,7 @@ $( document ).ready(function() {
       step: function(state, circle) {
         circle.path.setAttribute('stroke', state.color);
   
-        var value = Math.round(circle.value() * 60); // Primeiro Circulo
+        var value = Math.round(circle.value() * 88); // Primeiro Circulo
         circle.setText(value);
   
       }
@@ -74,7 +74,7 @@ $( document ).ready(function() {
       step: function(state, circle) {
         circle.path.setAttribute('stroke', state.color);
   
-        var value = Math.round(circle.value() * 5423);  // Quarto Circulo
+        var value = Math.round(circle.value() * 508);  // Quarto Circulo
         circle.setText(value);
   
       }
