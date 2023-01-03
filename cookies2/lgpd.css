@@ -4,11 +4,12 @@
     right: 20px;
     bottom: 20px;
     padding: 20px;
-    background-color: #5180e0;
+    background-color: #5181e0c7;
     color: white;
     font-size: 15px;
     display: flex;
     justify-content: space-between;
+    border-radius: 16px;
 }
 
 .lgpd a {
@@ -21,4 +22,5 @@
     color: #fff;
     cursor: pointer;
     padding: 10px 30px;
+    border-radius: 8px;
 }

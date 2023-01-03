@@ -5,11 +5,12 @@ let lgpdHtml = `
 <link rel="stylesheet" href="lgpd.css">
 <div class="lgpd">
             <div class="lgpd-left">
-                Nós utilizamos cookies para melhorar a experiencia do usuário. <br>
-                para conferir os detalhes, leia nossa <a href="#">politica de privacidade.</a>
+            Utilizamos cookies para oferecer melhor experiência,
+            aprimorar o desempenho e personalizar o nosso conteúdo.
+            para saber mais, acesse a nossa  <a href="#">politica de privacidade.</a>
             </div>
             <div class="lgpd-right">
-                <button>OK</button>
+                <button>Entendi</button>
             </div>
         </div>
 
@@ -29,7 +30,7 @@ if(!lsContent) {
         let json = await result.json();
 
         if(json.error != '') {
-            let id = 'AUTORIZADO'  //DEVERIA SER JSON.ID
+            let id = 'COOKIES AUTORIZADOS'  //DEVERIA SER JSON.ID
             localStorage.setItem('lgpd', id);
         }
 
