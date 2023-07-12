@@ -2,11 +2,11 @@
 
 * {
     font-family: 'Courier New', Courier, monospace;
-    font-size: .5em;
+    font-size: 2em;
 }
 
 header > h1 {
-    font-size: 8em;
+    font-size: 10em;
 }
 
 h1, h2, h3, p, dd, dt, ul, li, a {
