@@ -52,8 +52,5 @@ hr {
 }
 
 footer::after {
-    content: 'Busco novos desafios e acredito que sua empresa possa ter interesse em minhas qualificações.Estou à disposição para uma entrevista pessoal para que possa descrever, com mais detalhes, minhas experiências.'
-    'Muito Obrigado pela atenção.        -'
-    'Projetos: https://roondoss.github.io/projetos/home/           -'
-    'Repositório: https://github.com/roondoss';
+    content: 'Projetos: https://roondoss.github.io/projetos/home/                Repositório: https://github.com/roondoss';
 }
