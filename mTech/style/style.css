@@ -294,6 +294,132 @@ body {
   font-size: 1rem;
 }
 
+/*______________________________________________________________________________________________________*/
+
+.rodape {
+  background-image: url(../img/rodape.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  text-align: center;
+  color: white;
+}
+
+.roda1 {
+  height: 16%;
+  background-color: rgba(255, 255, 255, 0.123);
+}
+
+
+.roda2 {
+  height: 50%;
+}
+
+.roda2 ul {
+  color: var(--cor0);
+  font-family: var(--font2);
+  text-align: left;
+  list-style-type: '\2714\00a0\00a0';
+  list-style-position: inside;
+  columns: 1;
+  padding-left: 20px;
+  
+}
+
+.roda3 {
+  height: 20%;
+  font-family: var(--font00);
+}
+
+.roda4 {
+  height: 14%;
+  background-color: rgba(255, 255, 255, 0.123);
+  font-family: var(--font02);
+  color: var(--cor0);
+}
+
+/*______________________________________________________________________________________________________*/
+
+@media screen and (max-width: 767.98px) {
+  .rodape {
+      background-image: url(../img/rodape.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      height: 1200px;
+      text-align: center;
+      color: white;
+  }
+
+  .roda1 {
+      height: 6%;
+  }
+  
+  
+  .roda2 {
+      height: 60%;
+  }
+  
+  .roda3 {
+      height: 24%;
+  }
+  
+  .roda4 {
+      height: 10%;
+  }
+
+  .certificacao {
+      padding: 16px;
+  }
+  
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  #navPhone {
+      display: none;
+  }
+
+  .cabe2 h1 {
+      font-variant: small-caps;
+      font-size: 6em;
+  }
+
+  #btnCabecalho {
+      background-color: #de7707;
+      width: 300px;
+      border-radius: 500px;
+      -webkit-border-radius: 500px;
+      -moz-border-radius: 500px;
+      text-transform: uppercase;
+      transition: background 0.4s, color 0.4s;
+      color: white;
+      margin-top: 80px;
+  }
+  
+  #btnCabecalho:hover {
+      background-color: white;
+      color: #de7707;
+      border: 4px solid #de7707;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .cabe2 h1 {
+      font-variant: small-caps;
+      font-size: 6em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .cabe2 h1 {
+      font-variant: small-caps;
+      font-size: 6em;
+  }
+}
+
+
 @media (max-width: 500px) {
   .cookies-content {
     grid-template-columns: 1fr;
