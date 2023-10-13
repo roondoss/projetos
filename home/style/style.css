@@ -403,12 +403,14 @@ nav a:hover {
 }
 
 /*______________________________________________________________________________________________________*/
-#btn3cx {
-margin-bottom: 50px;
+.btn3cx {
+    margin-bottom: 200px !important;
+    padding: 200px !important;
 }
 
-#btnzap {
-
+.btnzap {
+    margin-bottom: 200px !important;
+    padding: 200px !important;
 }
 
 /*______________________________________________________________________________________________________*/
