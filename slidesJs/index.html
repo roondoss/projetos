@@ -1,0 +1,58 @@
+<div class="swiper-width">
+      
+    <div class="swiper-area">
+
+        <div class="swiper-container">
+    
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="uploads/foto-1.jpg" alt="foto-1" /><span>Girassol</span></div>
+            <div class="swiper-slide"><img src="uploads/foto-2.jpg" alt="foto-2" /><span>Rosas Branca</span></div>
+            <div class="swiper-slide"><img src="uploads/foto-3.jpg" alt="foto-3" /><span>Rosas Vermelhas</span></div>
+            <div class="swiper-slide"><img src="uploads/foto-4.jpg" alt="foto-4" /><span>Margaridas</span></div>
+            <div class="swiper-slide"><img src="uploads/foto-5.jpg" alt="foto-5" /><span>Rosas</span></div>
+          </div>
+    
+          <!-- Add Pagination -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+    
+        </div><!--swiper-container-->
+
+    </div><!--swiper-area-->
+
+</div>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.js'></script>
+<script>
+var swiper = new Swiper('.swiper-container', {
+  nextButton: '.swiper-button-next',
+  prevButton: '.swiper-button-prev',
+  slidesOffsetBefore: 0,
+  speed: 800,
+  spaceBetween: '-3%',
+  slidesPerView: 4,
+  centeredSlides: true,
+  paginationClickable: true,
+  effect: 'coverflow',
+  coverflow: {
+    rotate: 0,
+    stretch: 0,
+    depth: 50,
+    modifier: 3,
+    slideShadows : false
+  },
+  loop: true,
+  simulateTouch: true,
+  mousewheelControl: false
+});
+$(document).ready(function(){
+  
+  $('.swiper-wrapper .swiper-slide:not(.swiper-slide-active)').on('click', function(e){
+    e.preventDefault();
+    swiper.slideTo($(this).index());
+    return false;
+  });
+});
+</script>
