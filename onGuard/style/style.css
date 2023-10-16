@@ -104,6 +104,7 @@ nav a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
+    background-attachment: fixed;
     text-align: center;
     color: white;
 }
@@ -359,6 +360,7 @@ nav a:hover {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     height: 400px;
     text-align: center;
     color: white;
