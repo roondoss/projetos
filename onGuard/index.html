@@ -2,77 +2,106 @@
 <html lang="pt-BR">
 
 <head>
+
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
   <link rel="shortcut icon" href="img/icon.png" type="image/png">
-  <!-- Tags Google -->
-  <meta name="keywords" content=" Informática ">
-  <!------------------------------------------------------------------------------------------->
+
   <!-- Atualização Automática -->
   <meta http-equiv="refresh" content="3600">
+
   <!-- Folhas CSS -->
   <link rel="stylesheet" href="./style/style.css" media="all">
-  <link rel="stylesheet" href="./style/styleForm.css" media="all">
   <link rel="stylesheet" href="./style/print.css" media="print">
-  <!------------------------------------------------------------------------------------------->
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <!------------------------------------------------------------------------------------------->
-  <!-- Script -->
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
-    </script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-    </script>
-  <script src="./script/script.js" defer>
-  </script>
-  <script src="./script/scriptForm.js" defer>
-  </script>
-  <!------------------------------------------------------------------------------------------->
-  <!-- Biblioteca de Icones -->
-  <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous">
-  </script>
-  <!------------------------------------------------------------------------------------------->
-  <!-- Progress Bar -->
-  <script src="script/progressbar.min.js">
-  </script>
-  <!------------------------------------------------------------------------------------------->
-  <!-- Parallax -->
-  <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js">
-  </script>
-  <!------------------------------------------------------------------------------------------->
-  <title> OnGuard </title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- JavaScript (Opcional) -->
+  <script src="./script/script.js" defer></script> <!-- Java Script -->
+
+  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" defer
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" defer
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" defer
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+  <!-- Tags Google -->
+  <meta name="keywords" content=" Base ">
+
+  <title> OnGuard
+  </title>
+
 </head>
+
 
 <body>
   <header>
 
-    <div class="container" id="nav-container">
-      <!-- add essa class -->
-      <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
-        <a class="navbar-brand" href="index.html">
-          <img id="logo" src="img/Logo.png" alt="MultiTech">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
-          aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link" id="home-menu" href="#">Home</span></a>
-            <a class="nav-item nav-link" id="about-menu" href="#sobre">Sobre</a>
-            <a class="nav-item nav-link" id="services-menu" href="#servicos">Serviços</a>
-            <a class="nav-item nav-link" id="contact-menu" href="#contato">Orçamento</a>
+    <section id="navSection" class="d-flex">
+      <div class="container align-self-center">
+        <div class="row">
+
+          <div id="navSec1" class="col-md-2">
+            <img src="img/logo.png" alt="OnGuard" width="32">
           </div>
+
+          <div id="navSec2" class="col-md-9">
+            <nav class="navbar navbar-expand-md navbar-light navbar-transparente">
+              <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+                <i class="fas fa-bars"></i>
+              </button>
+
+              <div class="collapse navbar-collapse" id="nav-principal">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item"><a href="#" class="nav-link">
+                      <h6>Home</h6>
+                    </a></li>
+                  <li class="nav-item"><a href="#sobre" class="nav-link" target="_blank">
+                      <h6>Sobre</h6>
+                    </a></li>
+                  <li class="nav-item"><a href="#servicos" class="nav-link" target="_blank">
+                      <h6>Serviços</h6>
+                    </a></li>
+                  <li class="nav-item"><a href="#orcamento" class="nav-link" target="_blank">
+                      <h6>Orçamento</h6>
+                    </a></li>
+                  <li id="navPhone" class="nav-item"><a
+                      href="https://wa.me/5518997783983?text=PRTF%20--%20olá%20tudo%20bem?" class="nav-link"
+                      target="_blank">
+                      <h6>
+                        <!-- Espaço em Branco -->&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                      </h6>
+                    </a></li>
+                  <li id="navPhone" class="nav-item"><a
+                      href="https://wa.me/5567998763544?text=PRTF%20--%20olá%20tudo%20bem?" class="nav-link"
+                      target="_blank">
+                      <h6>+55 67 9 9876 3544</h6>
+                    </a></li>
+                </ul>
+              </div>
+
+              <div id="navSec3" class="col-md-1">
+                <!-- EM BRANCO -->
+              </div>
+            </nav>
+          </div>
+
         </div>
-      </nav>
-    </div>
+      </div>
+    </section>
 
     <section class="cabecalho">
 
@@ -81,7 +110,7 @@
           <div class="row">
 
             <div class="col-md-12">
-              Soluções em Segurança
+              <!-- Espaço em Branco -->
             </div>
 
           </div>
@@ -93,7 +122,33 @@
           <div class="row">
 
             <div class="col-md-12">
+              <h3><!-- Espaço em Branco --></h3>
               <h1>OnGuard</h1>
+              <h6><!-- Espaço em Branco --></h6>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="d-flex cabe3">
+        <div class="container align-self-center">
+          <div class="row">
+
+            <div class="col-md-12">
+              <h2>Portaria e Segurança Eletrônica</h2>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="d-flex cabe4">
+        <div class="container align-self-center">
+          <div class="row">
+
+            <div class="col-md-12">
+              <!-- Espaço em Branco -->
             </div>
 
           </div>
@@ -103,11 +158,13 @@
     </section>
 
   </header>
-
+  <!--CORPO----------------------------------------------------------------------------------------------------------------------------------->
   <main>
 
-    <h2 class="main-title" id="sobre"><!-- Espaço em Branco --></h2>
 
+    <div class="gradiente01"> . </div>
+
+    <hr>
     <!-- Sobre ----------------------------------------------------------------------------------------------->
     <div id="about-area">
       <div class="container">
@@ -223,9 +280,14 @@
       </form>
 
     </div>
+    <hr>
+
+    <div class="gradiente02"> . </div>
 
 
   </main>
+
+  <!--CORPO----------------------------------------------------------------------------------------------------------------------------------->
 
   <footer>
 
@@ -236,7 +298,7 @@
           <div class="row">
 
             <div class="col-md-12">
-              <h2>Soluções em Segurança</h2>
+              <!-- Em Branco-->
             </div>
 
           </div>
@@ -247,39 +309,48 @@
         <div class="container align-self-center">
           <div class="row">
 
-            <div class=" coluna col-md-3">
-              <h5>xxxxxxxxxxxxxxxx</h5>
+            <div class=" coluna col-md-2">
+              <h5><!-- Em Branco--></h5>
               <ul>
-                <li>xxxxxxxxxxxxxxxx</li>
-                <li>xxxxxxxxxxxxxxxx</li>
+                <li><!-- Em Branco--></li>
+
               </ul>
             </div>
 
-            <div class=" coluna col-md-3">
-              <h5>xxxxxxxxxxxxxxxx</h5>
+            <div class=" coluna col-md-2">
+              <h5><!-- Em Branco--></h5>
               <ul>
-                <li>xxxxxxxxxxxxxxxx</li>
-                <li>xxxxxxxxxxxxxxxx</li>
+                <li><!-- Em Branco--></li>
               </ul>
             </div>
 
-            <div class=" coluna col-md-3">
-              <h5>xxxxxxxxxxxxxxxx</h5>
+            <div class=" coluna col-md-2">
+              <h5><!-- Em Branco--></h5>
               <ul>
-                <li>xxxxxxxxxxxxxxxx</li>
-                <li>xxxxxxxxxxxxxxxx</li>
-                <li>xxxxxxxxxxxxxxxx</li>
-                <li>xxxxxxxxxxxxxxxx</li>
+                <li><!-- Em Branco--></li>
               </ul>
             </div>
 
-            <div class=" coluna col-md-3">
-              <h5>xxxxxxxxxxxxxxxx</h5>
+            <div class=" coluna col-md-2">
+              <h5><!-- Em Branco--></h5>
               <ul>
-                <li>xxxxxxxxxxxxxxxx</li>
-                <li>xxxxxxxxxxxxxxxx</li>
-                <li>xxxxxxxxxxxxxxxx</li>
+                <li><!-- Em Branco--></li>
               </ul>
+            </div>
+
+            <div class=" coluna col-md-2">
+              <h5><!-- Em Branco--></h5>
+              <ul>
+                <li><!-- Em Branco--></li>
+              </ul>
+            </div>
+
+            <div class=" coluna col-md-2">
+              <h5><!-- Em Branco--></h5>
+              <ul>
+                <li><!-- Em Branco--></li>
+              </ul>
+
             </div>
 
           </div>
@@ -290,23 +361,20 @@
         <div class="container align-self-center">
           <div class="row">
 
-            <div id="contato" class="col-md-3">
-              <p>Contato: </p>
+            <div class="col-md-3">
+              <!-- Em Branco-->
             </div>
 
-            <div class="col-md-3 certificacao">
-              <p>xxxxxxxxxxxxxxxx <br>
-                xx xxxx xxxx </p>
+            <div class="col-md-3">
+              <!-- Em Branco-->
             </div>
 
-            <div class="col-md-3 certificacao">
-              <p>xxxxxxxxxxxxxxxx <br>
-                xx xxxx xxxx </p>
+            <div class="col-md-3">
+              <!-- Em Branco-->
             </div>
 
-            <div class="col-md-3 certificacao">
-              <p>xxxxxxxxxxxxxxxx</p>
-              </a>
+            <div class="col-md-3">
+              <!-- Em Branco-->
             </div>
 
           </div>
@@ -317,17 +385,11 @@
       <section class="d-flex roda4">
         <div class="container align-self-center">
           <div class="row">
-            <div id="by" class="col-md-4">
-              <!--BRANCO-->
-            </div>
-            <div id="by" class="col-md-4 by">
 
-              Powered: <a
-                href="https://wa.me/5567998763544?text=Deseja%20criar%20um%20site%20criativo,%20clica%20ai,%20vamos%20conversar.">By
-                Ronaldo Onório</a>
-            </div>
-            <div id="by" class="col-md-4">
-              <!--BRANCO-->
+            <div id="by" class="col-md-12 by">
+              <a
+                href="https://wa.me/5567998763544?text=Deseja%20criar%20um%20site%20criativo,%20clica%20ai,%20vamos%20conversar.">
+                By Ronaldo Onório</a>
             </div>
 
           </div>
@@ -344,36 +406,22 @@
 
     </section>
 
-    <section>
-      <!-- WHATSAPP -->
+    <section class="btnzap">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-      <a href="https://wa.me/5567999656131?text=Olá%20preciso%20de%20mais%20informações."
-        style="position:fixed;
-        width:60px;
-        height:60px;
-        bottom:24px;
-        left:40px;
-        background-color:#0596d4;
-        color:#FFF;
-        border-radius:50px;
-        text-align:center;
-        font-size:30px;
-        box-shadow: 0px 0px 4px #000;
-        z-index:1000;" target="_blank">
-        <i style="margin-top:16px" class="fa fa-whatsapp"></i>
-      </a>
+      <a href="https://wa.me/5567998763544?text=PRTF%20--%20olá%20tudo%20bem?" style="position:fixed;
+      width:60px;
+      height:60px;
+      bottom:24px;
+      left:40px;
+      background-color:#0596d4;
+      color:#FFF;
+      border-radius:50px;
+      text-align:center;
+      font-size:30px;
+      box-shadow: 0px 0px 4px #000;
+      z-index:1000;" target="_blank">
+        <i style="margin-top:16px" class="fa fa-whatsapp"></i> </a>
     </section>
-
-    <div class="cookies-container">
-      <div class="cookies-content">
-        <p>Permito o uso de cookies para:</p>
-        <div class="cookies-pref">
-          <label><input type="checkbox" checked data-function="analytics">Análise de Uso</label>
-          <label><input type="checkbox" checked data-function="marketing">Marketing</label>
-        </div>
-        <button class="cookies-save">Salvar e Continuar</button>
-      </div>
-    </div>
 
   </footer>
 
