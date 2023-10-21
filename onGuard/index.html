@@ -2,117 +2,77 @@
 <html lang="pt-BR">
 
 <head>
-
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4G3EFSK072"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'G-4G3EFSK072');
-  </script>
-
-
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
-  <link rel="shortcut icon" href="img/logo.png" type="image/png">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/icon.png" type="image/png">
+  <!-- Tags Google -->
+  <meta name="keywords" content=" Informática ">
+  <!------------------------------------------------------------------------------------------->
   <!-- Atualização Automática -->
   <meta http-equiv="refresh" content="3600">
-
   <!-- Folhas CSS -->
   <link rel="stylesheet" href="./style/style.css" media="all">
+  <link rel="stylesheet" href="./style/styleForm.css" media="all">
   <link rel="stylesheet" href="./style/print.css" media="print">
-
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-  <!-- JavaScript (Opcional) -->
-  <script src="./script/script.js" defer></script> <!-- Java Script -->
-
-  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" defer
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" defer
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" defer
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
-
-  <!-- Tags Google -->
-  <meta name="keywords" content=" Segurança Eletrônica ">
-
-  <title>  Soluções em Segurança </title>
-
+  <!------------------------------------------------------------------------------------------->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!------------------------------------------------------------------------------------------->
+  <!-- Script -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+  <script src="./script/script.js" defer>
+  </script>
+  <script src="./script/scriptForm.js" defer>
+  </script>
+  <!------------------------------------------------------------------------------------------->
+  <!-- Biblioteca de Icones -->
+  <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous">
+  </script>
+  <!------------------------------------------------------------------------------------------->
+  <!-- Progress Bar -->
+  <script src="script/progressbar.min.js">
+  </script>
+  <!------------------------------------------------------------------------------------------->
+  <!-- Parallax -->
+  <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js">
+  </script>
+  <!------------------------------------------------------------------------------------------->
+  <title> OnGuard </title>
 </head>
-
 
 <body>
   <header>
 
-    <section id="navSection" class="d-flex">
-      <div class="container align-self-center">
-        <div class="row">
-
-          <div id="navSec1" class="col-md-2">
-            <img src="../assets/std/logo.png" alt="Ronaldo Onorio" width="32">
+    <div class="container" id="nav-container">
+      <!-- add essa class -->
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <a class="navbar-brand" href="index.html">
+          <img id="logo" src="img/Logo.png" alt="MultiTech">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
+          aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" id="home-menu" href="#">Home</span></a>
+            <a class="nav-item nav-link" id="about-menu" href="#sobre">Sobre</a>
+            <a class="nav-item nav-link" id="services-menu" href="#servicos">Serviços</a>
+            <a class="nav-item nav-link" id="contact-menu" href="#contato">Orçamento</a>
           </div>
-
-          <div id="navSec2" class="col-md-9">
-            <nav class="navbar navbar-expand-md navbar-light navbar-transparente">
-              <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
-                <i class="fas fa-bars"></i>
-              </button>
-
-              <div class="collapse navbar-collapse" id="nav-principal">
-                <ul class="navbar-nav ml-auto">
-                  <li class="nav-item"><a href="#projetos" class="nav-link">
-                      <h6>Projetos</h6>
-                    </a></li>
-                  <li class="nav-item"><a href="https://github.com/roondoss" class="nav-link" target="_blank">
-                      <h6>Repositório</h6>
-                    </a></li>
-                  <li class="nav-item"><a href="../cv/index.html" class="nav-link" target="_blank">
-                      <h6>Currículo</h6>
-                    </a></li>
-                  <li class="nav-item"><a href="https://www.linkedin.com/in/ronaldoonorio/" class="nav-link"
-                      target="_blank">
-                      <h6>LinKedin</h6>
-                    </a></li>
-                  <li id="navPhone" class="nav-item"><a
-                      href="https://wa.me/5518997783983?text=PRTF%20--%20olá%20tudo%20bem?" class="nav-link"
-                      target="_blank">
-                      <h6>
-                        <!-- Espaço em Branco -->&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                      </h6>
-                    </a></li>
-                  <li id="navPhone" class="nav-item"><a
-                      href="https://wa.me/5567998763544?text=PRTF%20--%20olá%20tudo%20bem?" class="nav-link"
-                      target="_blank">
-                      <h6>+55 67 9 9876 3544</h6>
-                    </a></li>
-                </ul>
-              </div>
-
-              <div id="navSec3" class="col-md-1">
-                <!-- EM BRANCO -->
-              </div>
-            </nav>
-          </div>
-
         </div>
-      </div>
-    </section>
+      </nav>
+    </div>
 
     <section class="cabecalho">
 
@@ -121,7 +81,7 @@
           <div class="row">
 
             <div class="col-md-12">
-              <!-- Espaço em Branco -->
+              Soluções em Segurança
             </div>
 
           </div>
@@ -133,40 +93,7 @@
           <div class="row">
 
             <div class="col-md-12">
-              <h1>Portaria e Segurança Eletrônica</h1>
-              <!-- Espaço em Branco -->
-            </div>
-
-          </div>
-        </div>
-      </section>
-
-      <section class="d-flex cabe3">
-        <div class="container align-self-center">
-          <div class="row">
-
-            <div class="col-md-4">
-                <h1>OnGuard</h1>
-            </div>
-
-            <div class="col-md-4">
-              <!-- Espaço em Branco -->
-            </div>
-
-            <div class="col-md-4">
-              <!-- Espaço em Branco -->
-            </div>
-
-          </div>
-        </div>
-      </section>
-
-      <section class="d-flex cabe4">
-        <div class="container align-self-center">
-          <div class="row">
-
-            <div class="col-md-12">
-              <!-- Espaço em Branco -->
+              <h1>OnGuard</h1>
             </div>
 
           </div>
@@ -179,13 +106,123 @@
 
   <main>
 
-    
+    <h2 class="main-title" id="sobre"><!-- Espaço em Branco --></h2>
 
-    <div class="gradiente"> . </div>
+    <!-- Sobre ----------------------------------------------------------------------------------------------->
+    <div id="about-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="main-title" id="sobre">OnGuard</h2>
+          </div>
+          <div class="col-md-4">
+            <img class="img-fluid" src="img/sobre.jpg" alt="Sobre a MultiTech">
+          </div>
+          <div class="col-md-8">
+            <h3 class="about-title">Excelência em soluções de segurança</h3>
+            <p>Historia da Empresa</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed imperdiet ipsum,
+              a ultrices neque. Nulla maximus ac urna sit amet mollis. Nulla facilisi. Aenean rutrum
+              faucibus nulla, quis consequat est maximus eu. Pellentesque habitant morbi tristique
+              senectus et netus et malesuada fames ac turpis egestas. Etiam vitae convallis est,
+              nec aliquam ante. Cras fermentum neque justo, quis rhoncus turpis egestas semper. Donec
+              et porta odio. Nam vitae dictum arcu, nec ultricies elit. Phasellus sapien augue, tincidunt
+              lacinia felis vitae, commodo pharetra tortor. Aliquam aliquam, libero non vestibulum dapibus,
+              purus tortor aliquam turpis, ut fermentum ante orci sit amet neque. Suspendisse pretium lorem
+              et turpis lobortis, in malesuada ante interdum. Nam sodales vitae enim vitae lacinia. Nulla urna
+              velit, dictum at odio a, placerat consectetur tortor.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    
+    <!-- Serviços ------------------------------------------------------------------------------------>
 
-    <div class="gradiente2"> . </div>
+    <div id="services-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h3 class="main-title" id="servicos">Nossos Serviços</h3>
+          </div>
+          <div class="col-md-4 service-box">
+            <img src="img/porteiro.jpg" alt="">
+            <h4>Porteiro e Alarme</h4>
+            <p>xxxx</p>
+          </div>
+          <div class="col-md-4 service-box">
+            <img src="img/camera.jpg" alt="">
+            <h4>Camera de Segurança</h4>
+            <p>xxxx</p>
+          </div>
+          <div class="col-md-4 service-box">
+            <img src="img/concertina.jpg" alt="">
+            <h4>Concertina</h4>
+            <p>xxxx</p>
+          </div>
+          <div class="col-md-4 service-box">
+            <img src="img/cerca.jpg" alt="">
+            <h4>Cerca Elétrica</h4>
+            <p>xxxx</p>
+          </div>
+          <div class="col-md-4 service-box">
+            <img src="img/portao.jpg" alt="">
+            <h4>Portão Eletrônico</h4>
+            <p>xxxx</p>
+          </div>
+          <div class="col-md-4 service-box">
+            <img src="img/acesso.jpg" alt="">
+            <h4>Controle de Acesso</h4>
+            <p>xxxx</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div>
+
+      <h2 id="contato">Solicite um Orçamento Sem Compromisso</h2>
+
+      <form action="" class="formulario" id="contato">
+        <p class="formulario__parrafo">
+          Conheça os valores e datas disponíveis para realizar o trabalho.
+        </p>
+
+        <label for="cliente" class="formulario__label">Qual o seu Nome?</label>
+        <input id="cliente" type="text" class="formulario__input" placeholder="Nome Completo" />
+
+        <label for="fecha" class="formulario__label">Data de realização do trabalho</label>
+        <input id="fecha" type="date" class="formulario__input" pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}" />
+
+        <label for="hora" class="formulario__label">Melhor Horário</label>
+        <input id="hora" type="time" class="formulario__input" />
+
+        <label for="empleado" class="formulario__label">Instalador de preferencia</label>
+        <select id="empleado" name="listaempleados" class="formulario__input">
+          <option>Thiago</option>
+          <option>Instalador 2</option>
+          <option>Instalador 3</option>
+          <option>Instalador 4</option>
+        </select>
+
+        <label for="servicio" class="formulario__label">Qual o serviço desejado ?</label>
+        <select id="servicio" name="listaservicios" class="formulario__input">
+          <option>Alarme</option>
+          <option>Cameras</option>
+          <option>Concertina</option>
+          <option>Cerca Elétrica</option>
+          <option>Portão Eletrônico</option>
+          <option>Controle de Acesso</option>
+        </select>
+
+        <div id="respuesta"></div>
+
+        <button id="submit" class="formulario__submit">Solicitar</button>
+      </form>
+
+    </div>
 
 
   </main>
@@ -199,7 +236,7 @@
           <div class="row">
 
             <div class="col-md-12">
-              <h1>HABILIDADES</h1>
+              <h2>Soluções em Segurança</h2>
             </div>
 
           </div>
@@ -210,65 +247,39 @@
         <div class="container align-self-center">
           <div class="row">
 
-            <div class=" coluna col-md-2">
-              <h5>Infra</h5>
+            <div class=" coluna col-md-3">
+              <h5>xxxxxxxxxxxxxxxx</h5>
               <ul>
-                <li>Furukawa</li>
-                <li>Cisco</li>
-                <li>Dell</li>
-                <li>HP</li>
+                <li>xxxxxxxxxxxxxxxx</li>
+                <li>xxxxxxxxxxxxxxxx</li>
               </ul>
             </div>
 
-            <div class=" coluna col-md-2">
-              <h5>Dev</h5>
+            <div class=" coluna col-md-3">
+              <h5>xxxxxxxxxxxxxxxx</h5>
               <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>Bootstrap</li>
-                <li>Angular</li>
-                <li>JS</li>
-                <li>SQL</li>
-                <li>Python</li>
+                <li>xxxxxxxxxxxxxxxx</li>
+                <li>xxxxxxxxxxxxxxxx</li>
               </ul>
             </div>
 
-            <div class=" coluna col-md-2">
-              <h5>Gestão</h5>
+            <div class=" coluna col-md-3">
+              <h5>xxxxxxxxxxxxxxxx</h5>
               <ul>
-                <li>Scrum</li>
-                <li>Kanban</li>
-                <li>LGPD</li>
+                <li>xxxxxxxxxxxxxxxx</li>
+                <li>xxxxxxxxxxxxxxxx</li>
+                <li>xxxxxxxxxxxxxxxx</li>
+                <li>xxxxxxxxxxxxxxxx</li>
               </ul>
             </div>
 
-            <div class=" coluna col-md-2">
-              <h5>Design</h5>
+            <div class=" coluna col-md-3">
+              <h5>xxxxxxxxxxxxxxxx</h5>
               <ul>
-                <li>UX - UI</li>
-                <li>Figma</li>
-                <li>Corel</li>
-                <li>Photoshop</li>
-                <li>Illustrator</li>
+                <li>xxxxxxxxxxxxxxxx</li>
+                <li>xxxxxxxxxxxxxxxx</li>
+                <li>xxxxxxxxxxxxxxxx</li>
               </ul>
-            </div>
-
-            <div class=" coluna col-md-2">
-              <h5>Telecom</h5>
-              <ul>
-                <li>Quescom</li>
-                <li>iQsim</li>
-                <li>3CX</li>
-              </ul>
-            </div>
-
-            <div class=" coluna col-md-2">
-              <h5>Dados</h5>
-              <ul>
-                <li>Excel Avancado</li>
-                <li>Power Bi</li>
-              </ul>
-
             </div>
 
           </div>
@@ -279,20 +290,23 @@
         <div class="container align-self-center">
           <div class="row">
 
-            <div class="col-md-3">
-              <h5>Certificações</h5>
+            <div id="contato" class="col-md-3">
+              <p>Contato: </p>
             </div>
 
             <div class="col-md-3 certificacao">
-              <img src="../assets/std/cb.png" alt="Certificação Básica">
+              <p>xxxxxxxxxxxxxxxx <br>
+                xx xxxx xxxx </p>
             </div>
 
             <div class="col-md-3 certificacao">
-              <img src="../assets/std/ci.png" alt="Certificação Intermediária">
+              <p>xxxxxxxxxxxxxxxx <br>
+                xx xxxx xxxx </p>
             </div>
 
             <div class="col-md-3 certificacao">
-              <img src="../assets/std/ca.png" alt="Certificação Avançada">
+              <p>xxxxxxxxxxxxxxxx</p>
+              </a>
             </div>
 
           </div>
@@ -303,9 +317,17 @@
       <section class="d-flex roda4">
         <div class="container align-self-center">
           <div class="row">
+            <div id="by" class="col-md-4">
+              <!--BRANCO-->
+            </div>
+            <div id="by" class="col-md-4 by">
 
-            <div id="by" class="col-md-12 by">
-              Powered: By RooNDoSS
+              Powered: <a
+                href="https://wa.me/5567998763544?text=Deseja%20criar%20um%20site%20criativo,%20clica%20ai,%20vamos%20conversar.">By
+                Ronaldo Onório</a>
+            </div>
+            <div id="by" class="col-md-4">
+              <!--BRANCO-->
             </div>
 
           </div>
@@ -315,29 +337,43 @@
     </section>
 
     <section class="btn3cx">
-      
+
       <call-us-selector phonesystem-url="https://roondoss.my3cx.com.br:5001" party="LiveChat228245"></call-us-selector>
       <script defer src="https://downloads-global.3cx.com/downloads/livechatandtalk/v1/callus.js" id="tcx-callus-js"
         charset="utf-8"></script>
 
     </section>
 
-    <section class="btnzap">
+    <section>
+      <!-- WHATSAPP -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-      <a href="https://wa.me/5567998763544?text=PRTF%20--%20olá%20tudo%20bem?" style="position:fixed;
-      width:60px;
-      height:60px;
-      bottom:24px;
-      left:40px;
-      background-color:#0596d4;
-      color:#FFF;
-      border-radius:50px;
-      text-align:center;
-      font-size:30px;
-      box-shadow: 0px 0px 4px #000;
-      z-index:1000;" target="_blank">
-        <i style="margin-top:16px" class="fa fa-whatsapp"></i> </a>
+      <a href="https://wa.me/5567999656131?text=Olá%20preciso%20de%20mais%20informações."
+        style="position:fixed;
+        width:60px;
+        height:60px;
+        bottom:24px;
+        left:40px;
+        background-color:#0596d4;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        font-size:30px;
+        box-shadow: 0px 0px 4px #000;
+        z-index:1000;" target="_blank">
+        <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+      </a>
     </section>
+
+    <div class="cookies-container">
+      <div class="cookies-content">
+        <p>Permito o uso de cookies para:</p>
+        <div class="cookies-pref">
+          <label><input type="checkbox" checked data-function="analytics">Análise de Uso</label>
+          <label><input type="checkbox" checked data-function="marketing">Marketing</label>
+        </div>
+        <button class="cookies-save">Salvar e Continuar</button>
+      </div>
+    </div>
 
   </footer>
 

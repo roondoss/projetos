@@ -101,6 +101,7 @@ nav a:hover {
 .cabecalho {
     background-image: url(../img/cabecalho.jpg);
     background-position: center center;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
@@ -357,6 +358,7 @@ nav a:hover {
 .rodape {
     background-image: url(../img/rodape.jpg);
     background-position: center center;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
