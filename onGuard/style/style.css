@@ -236,7 +236,20 @@ nav a:hover {
 
 /*______________________________________________________________________________________________________*/
 
+
 @media screen and (max-width: 767.98px) {
+    
+    .cabecalho {
+        background-image: url(../img/cabecalhoPh.jpg);
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+        text-align: center;
+        color: white;
+    }
+
     .rodape {
         background-image: url(../img/rodape.jpg);
         background-position: center center;
