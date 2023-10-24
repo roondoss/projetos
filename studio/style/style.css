@@ -148,119 +148,6 @@ nav a:hover {
 
 /*______________________________________________________________________________________________________*/
 
-.linguagens {
-    text-align: center;
-}
-
-.linguagens h1 {
-    font-size: 2em;
-    color: #0596d4;
-    font-weight: bold;
-    padding: 50px;
-}
-
-.linguagens img {
-    padding: 50px;
-}
-
-/*______________________________________________________________________________________________________*/
-
-#projetos {
-    text-align: center;
-}
-
-#projetos h1 {
-    font-size: 2em;
-    color: #0596d4;
-    font-weight: bold;
-    padding: 50px;
-}
-
-#projetos ul {
-    color: var(--cor2);
-    font-family: var(--font02);
-    text-align: left;
-    list-style-type: '\2714\00a0\00a0';
-    list-style-position: inside;
-    columns: 3;
-    padding-left: 20px;
-}
-
-#projetos a {
-    color: black;
-}
-
-#projetos a:hover {
-    color: #0596d4;
-    font-weight: bold;
-}
-
-/*______________________________________________________________________________________________________*/
-
-#outrosProjetos {
-    text-align: center;
-}
-
-#outrosProjetos h1 {
-    font-size: 2em;
-    color: #0596d4;
-    font-weight: bold;
-    padding: 50px;
-}
-
-#outrosProjetos ul {
-    color: var(--cor2);
-    font-family: var(--font02);
-    text-align: left;
-    list-style-type: '\2714\00a0\00a0';
-    list-style-position: inside;
-    columns: 3;
-    padding-left: 20px;
-}
-
-#outrosProjetos a {
-    color: black;
-}
-
-#outrosProjetos a:hover {
-    color: #0596d4;
-    font-weight: bold;
-}
-
-/*______________________________________________________________________________________________________*/
-
-#clientes {
-    text-align: center;
-}
-
-#clientes h1 {
-    font-size: 2em;
-    color: #0596d4;
-    font-weight: bold;
-    padding: 50px;
-}
-
-#clientes ul {
-    color: var(--cor2);
-    font-family: var(--font02);
-    text-align: left;
-    list-style-type: '\2714\00a0\00a0';
-    list-style-position: inside;
-    columns: 3;
-    padding-left: 20px;
-}
-
-#clientes a {
-    color: black;
-}
-
-#clientes a:hover {
-    color: #0596d4;
-    font-weight: bold;
-}
-
-/*______________________________________________________________________________________________________*/
-
 #historiaTexto1 {
     background-image: url(../img/pontos2.png);
     background-repeat: no-repeat;
@@ -268,7 +155,7 @@ nav a:hover {
     background-size: cover;
     text-align: center;
     font-size: 2em;
-    color: #0596d4;
+    color: #7B447B;
     font-weight: bold;
     padding-top: 50px;
 }
@@ -276,7 +163,7 @@ nav a:hover {
 #historiaTexto1 p {
     text-align: center;
     font-size: .5em;
-    color: #10234A;
+    color: #7B447B;
 }
 
 #historiaTexto2 {
@@ -286,14 +173,14 @@ nav a:hover {
     background-size: cover;
     text-align: center;
     font-size: 2em;
-    color: #0596d4;
+    color: #7B447B;
     font-weight: bold;
 }
 
 #historiaTexto2 p {
     text-align: justify;
     font-size: .5em;
-    color: #10234A;
+    color: #7B447B;
 }
 
 #historiaImagem {
@@ -311,7 +198,7 @@ nav a:hover {
 #galeriaTexto {
     text-align: center;
     font-size: 2em;
-    color: #0596d4;
+    color: #7B447B;
     font-weight: bold;
     padding: 50px;
 }
@@ -331,24 +218,24 @@ nav a:hover {
 
 .gradiente {
     background: linear-gradient(
-        90deg,rgba(0,169,0,1) 0,
-              rgba(0,169,0,1) 3%,
-              rgba(34,221,18,1) 28%,
-              rgba(19,199,121,1) 50%,
-              rgba(1,172,245,1) 76%,
-              rgba(0,120,218,1) 97%,
-              rgba(0,120,218,1) 100%);
+        90deg,#AEDF70 0,
+              #889B59 3%,
+              #7B447B 28%,
+              #AE7CBB 50%,
+              #D2A8E7 76%,
+              #E2C0F2 97%,
+              #E4DAF3 100%);
 }
 
 .gradiente2 {
     background: linear-gradient(
-        90deg,rgba(0,120,218,1) 0,
-              rgba(0,120,218,1) 3%,
-              rgba(1,172,245,1) 28%,
-              rgba(19,199,121,1) 50%,
-              rgba(34,221,18,1) 76%,
-              rgba(0,169,0,1) 97%,
-              rgba(0,169,0,1) 100%);
+        90deg,#E4DAF3 0,
+              #E2C0F2 3%,
+              #D2A8E7 28%,
+              #AE7CBB 50%,
+              #7B447B 76%,
+              #889B59 97%,
+              #AEDF70 100%);
 
 }
 
