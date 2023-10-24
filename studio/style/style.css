@@ -218,24 +218,24 @@ nav a:hover {
 
 .gradiente {
     background: linear-gradient(
-        90deg,#AEDF70 0,
-              #889B59 3%,
-              #7B447B 28%,
-              #AE7CBB 50%,
-              #D2A8E7 76%,
-              #E2C0F2 97%,
-              #E4DAF3 100%);
+        90deg,#4A1353 0,
+              #A373C5 3%,
+              #D27073 28%,
+              #D08584 50%,
+              #162907 76%,
+              #698443 97%,
+              #C3C092 100%);
 }
 
 .gradiente2 {
     background: linear-gradient(
-        90deg,#E4DAF3 0,
-              #E2C0F2 3%,
-              #D2A8E7 28%,
-              #AE7CBB 50%,
-              #7B447B 76%,
-              #889B59 97%,
-              #AEDF70 100%);
+        90deg,#C3C092 0,
+              #698443 3%,
+              #162907 28%,
+              #D08584 50%,
+              #D27073 76%,
+              #A373C5 97%,
+              #4A1353 100%);
 
 }
 
