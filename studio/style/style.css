@@ -103,7 +103,7 @@ nav a:hover {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
+    height: 800px;
     text-align: center;
     color: white;
 }
@@ -302,8 +302,19 @@ nav a:hover {
 /*______________________________________________________________________________________________________*/
 
 @media screen and (max-width: 767.98px) {
+    
+    .cabecalho {
+        background-image: url(../img/cabecalhoPh.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 800px;
+        text-align: center;
+        color: #7B447B;
+    }
+    
     .rodape {
-        background-image: url(../img/rodape.jpg);
+        background-image: url(../img/rodapePh.jpg);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
