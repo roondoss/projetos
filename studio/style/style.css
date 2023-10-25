@@ -119,6 +119,7 @@ nav a:hover {
 .cabe2 h1 {
     font-variant: small-caps;
     font-size: 4em;
+    text-shadow: black 0.1em 0.1em 0.10em
 }
 
 .cabe3 {
@@ -310,7 +311,6 @@ nav a:hover {
         background-size: cover;
         height: 800px;
         text-align: center;
-        color: #7B447B;
     }
     
     .rodape {
