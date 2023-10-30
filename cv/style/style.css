@@ -131,7 +131,7 @@ body {
 }
 
 main {
-    
+
     background-color: rgba(255, 255, 255, 0.459);
     border-radius: 10px 10px 10px 10px;
     max-width: 1280px;
@@ -172,7 +172,7 @@ a {
 }
 
 a:hover {
-    
+
     font-weight: bold;
 }
 
@@ -202,7 +202,7 @@ hr {
 
 #contato {
     text-align: center;
-    
+
 }
 
 /*------------------------------------------------------------------------------------------------------*/
@@ -227,38 +227,38 @@ hr {
     text-align: justify;
 }
 
-#resumo > h2 {
+#resumo>h2 {
     text-align: center;
 }
 
 /*------------------------------------------------------------------------------------------------------*/
 
-#historico > h2 {
+#historico>h2 {
     text-align: center;
 }
 
 /*------------------------------------------------------------------------------------------------------*/
 
-#graduacao > h2 {
+#graduacao>h2 {
     text-align: center;
 }
 
 /*------------------------------------------------------------------------------------------------------*/
 
-#tecnico > h2 {
+#tecnico>h2 {
     text-align: center;
 }
 
 /*------------------------------------------------------------------------------------------------------*/
 
-#cursoCer > a {
+#cursoCer>a {
     color: var(--cor2);
     text-decoration: none;
     font-weight: normal;
 }
 
 #cursoCer a:hover {
-    
+
     font-weight: bold;
 }
 
@@ -266,22 +266,22 @@ hr {
     content: '\00a0\2197';
 }
 
-#cursoCer > h2 {
+#cursoCer>h2 {
     text-align: center;
 }
 
-#cursoCer > ul {
+#cursoCer>ul {
     list-style-type: '\2714\00a0\00a0';
     list-style-position: inside;
 }
 
 /*------------------------------------------------------------------------------------------------------*/
 
-#cursoCom > h2 {
+#cursoCom>h2 {
     text-align: center;
 }
 
-#cursoCom > ul {
+#cursoCom>ul {
     list-style-type: '\2714\00a0\00a0';
     list-style-position: inside;
 }
@@ -314,20 +314,14 @@ footer {
 
 
 @media screen and (max-width: 767.98px) {
-.barra {
-    display: none;
-}    
-    
+    .barra {
+        display: none;
+    }
+
 }
 
-@media screen and (min-width: 768px) and (max-width: 991.98px) {
-   
-}
+@media screen and (min-width: 768px) and (max-width: 991.98px) {}
 
-@media screen and (min-width: 992px) and (max-width: 1199.98px) {
-   
-}
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {}
 
-@media screen and (min-width: 1200px) {
-   
-}
+@media screen and (min-width: 1200px) {}
