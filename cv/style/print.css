@@ -43,6 +43,10 @@ hr {
     margin-bottom: 20px;
 }
 
+#botao {
+    display: none;
+}
+
 #btn3cx {
     display: none;
 }
