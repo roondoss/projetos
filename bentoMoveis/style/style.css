@@ -103,7 +103,7 @@ nav a:hover {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
+    height: 800px;
     text-align: center;
     color: white;
 }
@@ -114,6 +114,7 @@ nav a:hover {
 
 .cabe2 {
     height: 25%;
+    text-shadow: -2px 2px #0596d4;
 }
 
 .cabe2 h1 {
@@ -123,149 +124,17 @@ nav a:hover {
 
 .cabe3 {
     height: 25%;
+    text-shadow: -1px 1px #0596d4;
 }
 
 .cabe4 {
     height: 25%;
 }
 
-#btnCabecalho {
-    background-color: #0596d4;
-    width: 100px;
-    border-radius: 500px;
-    -webkit-border-radius: 500px;
-    -moz-border-radius: 500px;
-    text-transform: uppercase;
-    transition: background 0.4s, color 0.4s;
-    color: white;
-}
-
-#btnCabecalho:hover {
-    background-color: white;
-    color: #0596d4;
-    border: 4px solid #0596d4;
-}
-
 /*______________________________________________________________________________________________________*/
 
-.linguagens {
-    text-align: center;
-}
-
-.linguagens h1 {
-    font-size: 2em;
-    color: #0596d4;
-    font-weight: bold;
-    padding: 50px;
-}
-
-.linguagens img {
-    padding: 50px;
-}
-
-/*______________________________________________________________________________________________________*/
-
-#projetos {
-    text-align: center;
-}
-
-#projetos h1 {
-    font-size: 2em;
-    color: #0596d4;
-    font-weight: bold;
-    padding: 50px;
-}
-
-#projetos ul {
-    color: var(--cor2);
-    font-family: var(--font02);
-    text-align: left;
-    list-style-type: '\2714\00a0\00a0';
-    list-style-position: inside;
-    columns: 3;
-    padding-left: 20px;
-}
-
-#projetos a {
-    color: black;
-}
-
-#projetos a:hover {
-    color: #0596d4;
-    font-weight: bold;
-}
-
-/*______________________________________________________________________________________________________*/
-
-#outrosProjetos {
-    text-align: center;
-}
-
-#outrosProjetos h1 {
-    font-size: 2em;
-    color: #0596d4;
-    font-weight: bold;
-    padding: 50px;
-}
-
-#outrosProjetos ul {
-    color: var(--cor2);
-    font-family: var(--font02);
-    text-align: left;
-    list-style-type: '\2714\00a0\00a0';
-    list-style-position: inside;
-    columns: 3;
-    padding-left: 20px;
-}
-
-#outrosProjetos a {
-    color: black;
-}
-
-#outrosProjetos a:hover {
-    color: #0596d4;
-    font-weight: bold;
-}
-
-/*______________________________________________________________________________________________________*/
-
-#clientes {
-    text-align: center;
-}
-
-#clientes h1 {
-    font-size: 2em;
-    color: #0596d4;
-    font-weight: bold;
-    padding: 50px;
-}
-
-#clientes ul {
-    color: var(--cor2);
-    font-family: var(--font02);
-    text-align: left;
-    list-style-type: '\2714\00a0\00a0';
-    list-style-position: inside;
-    columns: 3;
-    padding-left: 20px;
-}
-
-#clientes a {
-    color: black;
-}
-
-#clientes a:hover {
-    color: #0596d4;
-    font-weight: bold;
-}
-
-/*______________________________________________________________________________________________________*/
 
 #historiaTexto1 {
-    background-image: url(../img/pontos2.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
     text-align: center;
     font-size: 2em;
     color: #0596d4;
@@ -280,10 +149,6 @@ nav a:hover {
 }
 
 #historiaTexto2 {
-    background-image: url(../img/pontos2.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
     text-align: center;
     font-size: 2em;
     color: #0596d4;
@@ -329,7 +194,7 @@ nav a:hover {
 
 /*______________________________________________________________________________________________________*/
 
-.gradiente {
+.gradiente01 {
     background: linear-gradient(
         90deg,rgba(0,169,0,1) 0,
               rgba(0,169,0,1) 3%,
@@ -340,7 +205,7 @@ nav a:hover {
               rgba(0,120,218,1) 100%);
 }
 
-.gradiente2 {
+.gradiente02 {
     background: linear-gradient(
         90deg,rgba(0,120,218,1) 0,
               rgba(0,120,218,1) 3%,
@@ -373,10 +238,6 @@ nav a:hover {
 .roda2 {
     height: 50%;
     font-family: var(--font00);
-}
-
-.coluna {
-    
 }
 
 .roda2 ul {
