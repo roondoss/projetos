@@ -25,6 +25,10 @@ hr {
     margin: 8px 0px 16px 0px;
 }
 
+#barra {
+    display: none;
+}
+
 #contatoLink {
     display: none;
 }
@@ -34,20 +38,16 @@ hr {
     padding: 0px;
 }
 
-#fLink {
-    display: none;
-}
-
-#fPrint {
-    display: none;
-}
-
-#fBy {
+#By {
     padding: 32px 0px 0px 0px;
     margin-bottom: 20px;
 }
 
-#botao {
+#btn3cx {
+    display: none;
+}
+
+#btnZap {
     display: none;
 }
 
