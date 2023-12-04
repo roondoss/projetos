@@ -210,6 +210,7 @@ nav a:hover {
 .roda2 {
     height: 50%;
     font-family: var(--font00);
+    padding-top: 40px;
 }
 
 .roda2 ul {
