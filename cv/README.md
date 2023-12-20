@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://roondoss.github.io/projetos/home/">
-    <img src="../assets/imgProjetos/logo.png" alt="Ronaldo Onorio" width="80" height="80">
+    <img src="../assets/logo.png" alt="Ronaldo Onorio" width="80" height="80">
   </a>
   <h1 align="center">Ronaldo onório</h1>
 </p>
