@@ -27,6 +27,7 @@
 
 body {
     background-color: var(--cor0);
+    overflow-x: hidden;
 }
 
 h1 {
