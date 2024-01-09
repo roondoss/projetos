@@ -374,11 +374,9 @@ nav a:hover {
 .roda2 {
     height: 50%;
     font-family: var(--font00);
+    margin-top: 8px;
 }
 
-.coluna {
-    
-}
 
 .roda2 ul {
     color: var(--cor0);

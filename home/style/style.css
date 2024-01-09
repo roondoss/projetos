@@ -362,7 +362,7 @@ nav a:hover {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
+    height: 600px;
     text-align: center;
     color: white;
 }
@@ -376,7 +376,7 @@ nav a:hover {
 .roda2 {
     height: 50%;
     font-family: var(--font00);
-    margin-top: 32px;
+    padding-top: 32px;
 }
 
 .roda2 ul {
@@ -423,6 +423,7 @@ nav a:hover {
     
     .roda2 {
         height: 60%;
+        padding-top: 8px;
     }
     
     .roda3 {
@@ -431,11 +432,11 @@ nav a:hover {
     
     .roda4 {
         height: 4%;
-        background-color: #1B1F23;
+        background-color: #1b1f2371;
     }
 
     .certificacao {
-        padding: 16px;
+        padding: 8px;
     }
     
 }
