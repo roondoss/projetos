@@ -29,10 +29,6 @@
 
 /*______________________________________________________________________________________________________*/
 
-body, html, main {
-    background-color: var(--cor0);
-}
-
 h1 {
     font-family: var(--font00) !important;
     text-align: center;
@@ -60,6 +56,10 @@ hr {
 }
 
 /*______________________________________________________________________________________________________*/
+
+body {
+    overflow-x: hidden;
+}
 
 header {
     width: 100vw;
@@ -195,6 +195,8 @@ nav a:hover {
               rgba(1,172,245,1) 76%,
               rgba(0,120,218,1) 97%,
               rgba(0,120,218,1) 100%);
+
+              margin-bottom: 64px;
 }
 
 .gradiente2 {
@@ -207,6 +209,30 @@ nav a:hover {
               rgba(0,169,0,1) 97%,
               rgba(0,169,0,1) 100%);
 
+}
+
+/*______________________________________________________________________________________________________*/
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.scroolDiv {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.titulo {
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.historia {
+    display: flex;
+    max-width: 1000px;
+    align-content: center;
+    align-items: center;
 }
 
 /*______________________________________________________________________________________________________*/
@@ -230,6 +256,7 @@ nav a:hover {
 .roda2 {
     height: 50%;
     font-family: var(--font00);
+    margin-top: 16px;
 }
 
 .roda2 ul {
@@ -255,9 +282,20 @@ nav a:hover {
     color: var(--cor0);
 }
 
-/*______________________________________________________________________________________________________*/
 
-@media screen and (max-width: 767.98px) {
+/*______________________________________________________________________________________________________*/
+@media screen and (max-width: 768px) {/*  Phone  */
+    .cabecalho {
+        background-image: url(../img/cabecalhoPh.png);
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 600px;
+        text-align: center;
+        color: white;
+    }
+    
     .rodape {
         background-image: url(../img/rodape.jpg);
         background-position: center center;
@@ -289,39 +327,39 @@ nav a:hover {
     .certificacao {
         padding: 16px;
     }
-    
-}
-
-/*______________________________________________________________________________________________________*/
-
-@media screen and (min-width: 768px) and (max-width: 991.98px) {
     #navPhone {
         display: none;
     }
-
+    
     .cabe2 h1 {
         font-variant: small-caps;
         font-size: 6em;
     }
-
-}
-
-/*______________________________________________________________________________________________________*/
-
-@media screen and (min-width: 992px) and (max-width: 1199.98px) {
-    .cabe2 h1 {
-        font-variant: small-caps;
-        font-size: 6em;
+    
+    #btnCabecalho {
+        margin-top: 64px;
     }
 }
 
 /*______________________________________________________________________________________________________*/
-
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 1024px) {/*  Tablet  */
     .cabe2 h1 {
         font-variant: small-caps;
         font-size: 6em;
     }
+}
+
+/*______________________________________________________________________________________________________*/
+@media screen and (max-width: 1440px) {/*  PC  */
+.cabe2 h1 {
+    font-variant: small-caps;
+    font-size: 6em;
+}
+}
+
+/*______________________________________________________________________________________________________*/
+@media screen and (min-width: 1440px) {/*  TV  */
+
 }
 
 /*______________________________________________________________________________________________________*/
