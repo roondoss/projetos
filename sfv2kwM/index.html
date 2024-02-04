@@ -16,7 +16,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
-  <link rel="shortcut icon" href="../assets/logo.png" type="image/png">
+  <link rel="shortcut icon" href="img/std/icon.png" type="image/png">
 
   <!-- Atualização Automática -->
   <meta http-equiv="refresh" content="3600">
@@ -24,6 +24,7 @@
   <!-- Folhas CSS -->
   <link rel="stylesheet" href="./style/style.css" media="all">
   <link rel="stylesheet" href="./style/print.css" media="print">
+  <link rel="stylesheet" href="./style/styleForm.css" media="all">
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
@@ -34,8 +35,14 @@
     integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-  <!-- JavaScript -->
-  <script src="./script/script.js" defer></script>
+  <!-- JavaScript (Opcional) -->
+  <script src="./script/script.js" defer></script> <!-- Java Script -->
+
+  <!-- Formulario -->
+  <script src="./script/scriptForm.js" defer> </script>
+
+  <!-- Progress Bar -->
+  <script src="script/progressbar.min.js"> </script>
 
   <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" defer
@@ -48,17 +55,11 @@
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
 
-  <!-- Bootstrap 5 -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"
-    defer></script>
-
   <!-- Tags Google -->
-  <meta name="keywords" content=" Portfólio ">
+  <meta name="keywords" content=" Base ">
 
-  <title> Energia Solar </title>
+  <title> Energia Solar
+  </title>
 
 </head>
 
@@ -95,15 +96,13 @@
                       target="_blank">
                       <h6>LinKedin</h6>
                     </a></li>
-                  <li id="navPhone" class="nav-item"><a
-                      href="https://wa.me/5518997783983?text=PRTF%20--%20olá%20tudo%20bem?" class="nav-link"
-                      target="_blank">
+                  <li id="navPhone" class="nav-item">
                       <h6>
                         <!-- Espaço em Branco -->&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
                       </h6>
-                    </a></li>
+                    </li>
                   <li id="navPhone" class="nav-item"><a
-                      href="https://wa.me/5567998763544?text=PRTF%20--%20olá%20tudo%20bem?" class="nav-link"
+                      href="https://wa.me/5567998763544?text=Olá%20tudo%20bem?" class="nav-link"
                       target="_blank">
                       <h6>+55 67 9 9876 3544</h6>
                     </a></li>
@@ -140,7 +139,7 @@
 
             <div class="col-md-12">
               <h3>Projeto</h3>
-              <h1>Sistema Fotovoltaico</h1>
+              <h1>Micro Inversor</h1>
             </div>
 
           </div>
@@ -156,7 +155,9 @@
             </div>
 
             <div class="col-md-4">
-              <!-- Espaço em Branco -->
+              <a href="https://roondoss.my3cx.com.br:5001/LiveChat228245" target="_blank" id="btnCabecalho"
+                class="btn btn-lg btn-custom">
+                <i id="phone" class="fas fa-solid fa-phone"></i></a>
             </div>
 
             <div class="col-md-4">
@@ -183,39 +184,12 @@
 
   </header>
 
+  </header>
+
   <main>
 
-
-    <section>
-      <section class="d-flex">
-        <div class="container align-self-center">
-          <div class="row">
-            <div id="historiaTexto1" class="col-md-6">
-              <h1>Sistema</h1>
-              <h5>Residencial</h5>
-              <p>  Inversor -> 3000 W com 7 Módulos  </p>
-            </div>
-            <div id="historiaImagem" class="col-md-6">
-              <img id="historiaImagemImg" src="img/historia.jpg" alt="História">
-            </div>
-          </div>
-        </div>
-      </section>
-    </section>
-
-    <section>
-      <section class="d-flex">
-        <div class="container align-self-center">
-          <div class="row">
-            <div id="historiaTexto2" class="col-md-12">
-              <p> <!--Em Branco--> </p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </section>
-
-    <div class="gradiente"> . </div>
+    
+    <section class="gradienteH01"></section>
 
     <section id="galeriaTexto">
       <section class="d-flex">
@@ -223,6 +197,7 @@
           <div class="row">
             <div class="col-md-12">
               <h1>Montagem e Instalação</h1>
+              <h5>2 KW 4 Módulos</h5>
             </div>
           </div>
         </div>
@@ -289,128 +264,7 @@
       </section>
     </section>
 
-    <section>
-      <section class="d-flex">
-        <div class="container align-self-center">
-          <div class="row">
-            <div id="galeriaImagemCenter" class="col-md-4">
-              <picture>
-                <source media="(max-width: 700px)" srcset="img/projeto/7.jpg" width="360">
-                <source media="(max-width: 900px)" srcset="img/projeto/7.jpg" width="220">
-                <img id="galeriaImagem" src="img/projeto/7.jpg" alt="Solar" width="360">
-              </picture>
-            </div>
-            <div id="galeriaImagemCenter" class="col-md-4">
-              <picture>
-                <source media="(max-width: 700px)" srcset="img/projeto/8.jpg" width="360">
-                <source media="(max-width: 900px)" srcset="img/projeto/8.jpg" width="220">
-                <img id="galeriaImagem" src="img/projeto/8.jpg" alt="Solar" width="360">
-              </picture>
-            </div>
-            <div id="galeriaImagemCenter" class="col-md-4">
-              <picture>
-                <source media="(max-width: 700px)" srcset="img/projeto/9.jpg" width="360">
-                <source media="(max-width: 900px)" srcset="img/projeto/9.jpg" width="220">
-                <img id="galeriaImagem" src="img/projeto/9.jpg" alt="Solar" width="360">
-              </picture>
-            </div>
-          </div>
-        </div>
-      </section>
-    </section>
-
-    <section>
-      <section class="d-flex">
-        <div class="container align-self-center">
-          <div class="row">
-            <div id="galeriaImagemCenter" class="col-md-4">
-              <picture>
-                <source media="(max-width: 700px)" srcset="img/projeto/10.jpg" width="360">
-                <source media="(max-width: 900px)" srcset="img/projeto/10.jpg" width="220">
-                <img id="galeriaImagem" src="img/projeto/10.jpg" alt="Solar" width="360">
-              </picture>
-            </div>
-            <div id="galeriaImagemCenter" class="col-md-4">
-              <picture>
-                <source media="(max-width: 700px)" srcset="img/projeto/11.jpg" width="360">
-                <source media="(max-width: 900px)" srcset="img/projeto/11.jpg" width="220">
-                <img id="galeriaImagem" src="img/projeto/11.jpg" alt="Solar" width="360">
-              </picture>
-            </div>
-            <div id="galeriaImagemCenter" class="col-md-4">
-              <picture>
-                <source media="(max-width: 700px)" srcset="img/projeto/12.jpg" width="360">
-                <source media="(max-width: 900px)" srcset="img/projeto/12.jpg" width="220">
-                <img id="galeriaImagem" src="img/projeto/12.jpg" alt="Solar" width="360">
-              </picture>
-            </div>
-          </div>
-        </div>
-      </section>
-    </section>
-
-    <section>
-      <section class="d-flex">
-        <div class="container align-self-center">
-          <div class="row">
-            <div id="galeriaImagemCenter" class="col-md-4">
-              <picture>
-                <source media="(max-width: 700px)" srcset="img/projeto/13.jpg" width="360">
-                <source media="(max-width: 900px)" srcset="img/projeto/13.jpg" width="220">
-                <img id="galeriaImagem" src="img/projeto/13.jpg" alt="Solar" width="360">
-              </picture>
-            </div>
-            <div id="galeriaImagemCenter" class="col-md-4">
-              <picture>
-                <source media="(max-width: 700px)" srcset="img/projeto/14.jpg" width="360">
-                <source media="(max-width: 900px)" srcset="img/projeto/14.jpg" width="220">
-                <img id="galeriaImagem" src="img/projeto/14.jpg" alt="Solar" width="360">
-              </picture>
-            </div>
-            <div id="galeriaImagemCenter" class="col-md-4">
-              <picture>
-                <source media="(max-width: 700px)" srcset="img/projeto/15.jpg" width="360">
-                <source media="(max-width: 900px)" srcset="img/projeto/15.jpg" width="220">
-                <img id="galeriaImagem" src="img/projeto/15.jpg" alt="Solar" width="360">
-              </picture>
-            </div>
-          </div>
-        </div>
-      </section>
-    </section>
-
-    <section>
-      <section class="d-flex">
-        <div class="container align-self-center">
-          <div class="row">
-            <div id="galeriaImagemCenter" class="col-md-4">
-              <picture>
-                <source media="(max-width: 700px)" srcset="img/projeto/16.jpg" width="360">
-                <source media="(max-width: 900px)" srcset="img/projeto/16.jpg" width="220">
-                <img id="galeriaImagem" src="img/projeto/16.jpg" alt="Solar" width="360">
-              </picture>
-            </div>
-            <div id="galeriaImagemCenter" class="col-md-4">
-              <picture>
-                <source media="(max-width: 700px)" srcset="img/projeto/17.jpg" width="360">
-                <source media="(max-width: 900px)" srcset="img/projeto/17.jpg" width="220">
-                <img id="galeriaImagem" src="img/projeto/17.jpg" alt="Solar" width="360">
-              </picture>
-            </div>
-            <div id="galeriaImagemCenter" class="col-md-4">
-              <picture>
-                <source media="(max-width: 700px)" srcset="img/projeto/18.jpg" width="360">
-                <source media="(max-width: 900px)" srcset="img/projeto/18.jpg" width="220">
-                <img id="galeriaImagem" src="img/projeto/18.jpg" alt="Solar" width="360">
-              </picture>
-            </div>
-          </div>
-        </div>
-      </section>
-    </section>
-
-
-    <div class="gradiente2"> . </div>
+    <section class="gradienteH02"></section>
 
 
   </main>
@@ -438,10 +292,12 @@
             <div class=" coluna col-md-2">
               <h5>Infra</h5>
               <ul>
-                <li>Furukawa</li>
                 <li>Cisco</li>
+                <li>DrayTek</li>
                 <li>Dell</li>
                 <li>HP</li>
+                <li>Furukawa</li>
+                <li>Intelbras</li>
               </ul>
             </div>
 
@@ -480,9 +336,9 @@
             <div class=" coluna col-md-2">
               <h5>Telecom</h5>
               <ul>
+                <li>3CX</li>
                 <li>Quescom</li>
                 <li>iQsim</li>
-                <li>3CX</li>
               </ul>
             </div>
 
@@ -504,19 +360,21 @@
           <div class="row">
 
             <div class="col-md-3">
+              <br>
               <h5>Certificações</h5>
+              
             </div>
 
             <div class="col-md-3 certificacao">
-              <img src="../assets/cb.png" alt="Certificação Básica">
+              <img src="img/std/cb.png" alt="Certificação Básica">
             </div>
 
             <div class="col-md-3 certificacao">
-              <img src="../assets/ci.png" alt="Certificação Intermediária">
+              <img src="img/std/ci.png" alt="Certificação Intermediária">
             </div>
 
             <div class="col-md-3 certificacao">
-              <img src="../assets/ca.png" alt="Certificação Avançada">
+              <img src="img/std/ca.png" alt="Certificação Avançada">
             </div>
 
           </div>
@@ -528,7 +386,7 @@
         <div class="container align-self-center">
           <div class="row">
 
-            <div id="by" class="col-md-12">
+            <div id="by" class="col-md-12 by">
               Powered: By RooNDoSS
             </div>
 
@@ -539,14 +397,14 @@
     </section>
 
     <section class="btn3cx">
-
+      
       <call-us-selector phonesystem-url="https://roondoss.my3cx.com.br:5001" party="LiveChat228245"></call-us-selector>
       <script defer src="https://downloads-global.3cx.com/downloads/livechatandtalk/v1/callus.js" id="tcx-callus-js"
         charset="utf-8"></script>
 
     </section>
 
-    <section class="btnZap">
+    <section class="btnzap">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
       <a href="https://wa.me/5567998763544?text=PRTF%20--%20olá%20tudo%20bem?" style="position:fixed;
       width:60px;
@@ -560,8 +418,7 @@
       font-size:30px;
       box-shadow: 0px 0px 4px #000;
       z-index:1000;" target="_blank">
-        <i style="margin-top:16px" class="fa fa-whatsapp"></i>
-      </a>
+        <i style="margin-top:16px" class="fa fa-whatsapp"></i> </a>
     </section>
 
   </footer>
