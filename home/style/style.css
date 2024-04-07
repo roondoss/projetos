@@ -305,6 +305,7 @@ nav a:hover {
 }
 
 #historiaImagemImg {
+    padding-top: 80px;
     border: 2px solid white;
     border-radius: 16px;
 }
