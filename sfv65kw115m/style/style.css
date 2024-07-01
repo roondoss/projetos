@@ -283,6 +283,10 @@ nav a:hover {
     padding-top: 56.25%;
     background-color: black;
     overflow: hidden;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    border: 8px solid #0cbdab;
+    border-radius: 32px;
 }
 
 .clip video {
