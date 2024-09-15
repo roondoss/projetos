@@ -302,6 +302,10 @@ nav a:hover {
 #historiaImagem {
     text-align: center;
     padding: 50px 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #historiaImagemImg {
