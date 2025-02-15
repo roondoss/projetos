@@ -153,6 +153,22 @@ nav a:hover {
 
 /*______________________________________________________________________________________________________*/
 
+.planilha {
+    
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    width: 80%;
+    height: 400px;
+    margin: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+}
+
+/*______________________________________________________________________________________________________*/
+
 .gradienteH01 {
     background: linear-gradient(
         90deg,rgba(0,169,0,1) 0,
