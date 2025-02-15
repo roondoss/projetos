@@ -234,9 +234,9 @@ nav a:hover {
     color: var(--cor0);
     font-family: var(--font01);
     text-align: left;
-    list-style-type: '\2714\00a0\00a0';
-    list-style-position: inside;
-    columns: 1;
+    /*list-style-type: '\2714\00a0\00a0';*/
+    /*list-style-position: inside;*/
+    /*columns: 1;*/
     padding-left: 20px;
     
 }
