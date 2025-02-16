@@ -157,6 +157,7 @@ nav a:hover {
     
     display: flex;
     text-align: center;
+    align-content: center;
     width: 90%;
     height: 500px;
     margin: 32px;
