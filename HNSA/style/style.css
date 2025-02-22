@@ -38,7 +38,8 @@ h1 {
 
 h2 {
     font-family: var(--font00) !important;
-    text-align: center;
+    text-align: center ;
+    color: #10234A !important;
 }
 
 h3, h6 {
