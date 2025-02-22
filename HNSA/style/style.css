@@ -32,6 +32,13 @@ body {
 
 h1 {
     font-family: var(--font00) !important;
+    text-align: center;
+    
+}
+
+h2 {
+    font-family: var(--font00) !important;
+    text-align: center;
 }
 
 h3, h6 {
@@ -152,6 +159,10 @@ nav a:hover {
 }
 
 /*______________________________________________________________________________________________________*/
+
+.higienizacao {
+    margin-top: 32px;
+}
 
 .planilha {
     
