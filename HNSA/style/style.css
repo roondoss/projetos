@@ -165,6 +165,10 @@ nav a:hover {
     margin-top: 32px;
 }
 
+.manutencao {
+    padding-left: 32px;
+}
+
 .planilha {
     
     display: flex;
