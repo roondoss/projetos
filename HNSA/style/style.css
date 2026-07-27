@@ -161,6 +161,17 @@ nav a:hover {
 
 /*______________________________________________________________________________________________________*/
 
+.preventiva {
+    
+    display: flex;
+    text-align: center;
+    align-content: center;
+    width: 90%;
+    height: 2000px;
+    margin: 32px;
+}
+
+
 .higienizacao {
     margin-top: 32px;
 }
