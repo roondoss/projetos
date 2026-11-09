@@ -6,7 +6,7 @@
 </p>
 
 <strong>Projetos</strong>
-<p>Projetos pessoais e de clientes.</p>
+<p>Projetos realizados ao logo da minha vida profissional.</p>
 
 <sub> Contatos.
 </sub>
